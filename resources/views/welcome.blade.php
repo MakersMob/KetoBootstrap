@@ -5,7 +5,7 @@
   <div class="container">
     <div class="row">
         <div class="col-12">
-            <h1 class="billboard">Helping you <strong>conquer</strong> all aspects of <strong>keto</strong>.</h1>
+            <h1 class="billboard">Start off the right way with the Keto Diet</h1>
         </div>
     </div>
   </div>
