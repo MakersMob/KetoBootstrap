@@ -1,4 +1,4 @@
-@extends('layouts.app', ['title' => 'Build the Online Business of Your Dreams'])
+@extends('layouts.app', ['title' => 'Helping You Bootstrap the Keto Diet'])
 
 @section('content')
 <section class="welcome">
