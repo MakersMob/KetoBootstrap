@@ -1,0 +1,448 @@
+.article {
+	padding: 2rem 0;
+	background-color: $white;
+	a {
+		&:hover {
+			border-color: $white;
+		}
+		&.button {
+			border-bottom: none;
+		}
+	}
+	h1 {
+		font-size: 2rem;
+	}
+	h2 {
+		font-size: 1.5rem;
+	}
+	@include media-breakpoint-up(lg) {
+		padding: 4rem 0;
+		h1 {
+			font-size: 4rem;
+			margin-bottom: 0;
+			line-height: 1;
+		}
+		h2 {
+			font-size: 3rem;
+		}
+	}
+	.recipe-list {
+		li {
+			span.macros {
+				font-size: rem-calc(16);
+				color: $dark-gray;
+			}
+			padding-bottom: rem-calc(10);
+			margin-bottom: rem-calc(10);
+			border-bottom: 1px solid $smoke;
+		}
+	}
+	table td ul {
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+	}
+
+	.post {
+		h2, h3 {
+			border: none;
+			text-align: left;
+			font-weight: $font-weight-bold;
+		}
+
+		.journal-entry {
+			padding-bottom: 1rem;
+			margin-bottom: 1rem;
+			border-bottom: 1px solid $light-gray;
+			h3 {
+				font-size: rem-calc(18);
+				text-transform: uppercase;
+			}
+		}
+	}
+
+	p, li {
+		
+	}
+	p, h2, h3, h4, ul, ol {
+		
+	}
+
+	h2, h3 {
+		line-height: 1;
+	}
+
+	.article-box {
+		padding-bottom: 1rem;
+		margin-bottom: 2rem;
+		border-bottom: 1px solid $light-gray;
+	}
+
+	strong {
+		background-color: $yellow;
+	}
+
+	.articles-list {
+		max-width: 100%;
+		li {
+			float: left;
+			margin-bottom: 2rem;
+		}
+		a span {
+			font-size: rem-calc(24);
+			font-weight: $font-weight-bold;
+		}
+	}
+
+	.article-box {
+		
+		border: 1px solid $medium-gray;
+		background-color: $white;
+		height: 320px;
+		padding: rem-calc(10);
+		margin-bottom: 1rem;
+		img {
+			max-width: 36px;
+			max-height: 36px;
+			border-radius: 1000px;
+			margin-bottom: 10px;
+		}
+		&:hover {
+			border-color: $blue;
+		}
+		h3 {
+			font-size: 1rem;
+			border-bottom: 3px double $smoke;
+			padding-bottom: rem-calc(10);
+			margin-top: 0;
+			text-align: left;
+		}
+		h3 a {
+			border-bottom: none;
+			&:hover {
+				color: $oil;
+			}
+		}
+		p {
+			font-size: rem-calc(16);
+		}
+	}
+
+	
+
+	div.video {
+		text-align: center;
+		margin-bottom: 1rem;
+		embed, iframe {
+			
+		}
+	}
+
+	.caption {
+		font-style: italic;
+		font-size: rem-calc(16);
+		margin-top: 0;
+		text-align: center;
+	}
+
+	blockquote {
+		border-width: 3px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 1.5rem;
+		padding-bottom: 1px;
+		font-style: italic;
+		color: rgba($oil, 0.8);
+	}
+	.pull-quote {
+		border: 3px double $light-gray;
+		padding: 1rem 1rem 0;
+	}
+	.pull-quote p {
+		font-size: rem-calc(24);
+		text-align: center;
+	}
+
+	iframe {
+		margin-bottom: 1rem;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+
+	.sidebar {
+		h2, h3, h4 {
+			margin-bottom: rem-calc(10);
+			border: none;
+			text-align: left;
+		}
+		h3 {
+			color: $slate;
+			font-size: rem-calc(28);
+		}
+		p {
+			font-size: rem-calc(16);
+		}
+		img {
+			border: 1px solid $smoke;
+			padding: 5px;
+			margin-bottom: 0;
+		}
+		.meal-box {
+			h3 a {
+				display: block;
+				padding: 1rem;
+				background: linear-gradient(to left, rgba($blue, 0.75) 10%, rgba($blue, 0.75) 90%), url('https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2017/01/10051928/mediterranean-lunch-on-table-in-kitchen.jpg') fixed center no-repeat;
+				background-size: cover;
+				color: $white;
+				text-decoration: none;
+				border: 1px solid $yellow;
+				&:hover {
+					color: $yellow;
+				}
+			}
+		}
+		.challenge-list {
+			border-top: 1px solid $medium-gray;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			li {
+				border-left: 1px solid $medium-gray;
+				border-right: 1px solid $medium-gray;
+				border-bottom: 1px solid $medium-gray;
+				padding: rem-calc(10) rem-calc(10);
+				a {
+					display: block;
+					text-decoration: none;
+					border-bottom: none;
+					&:hover {
+						color: $red;
+					}
+				}
+			}
+			li.active a {
+				color: $red;
+				font-weight: $font-weight-bold;
+			}
+		}
+	}
+	.sidebar.left {
+		border-left: none;
+		border-right: 1px solid $smoke;
+	}
+	.nolink a {
+			border-bottom: none;
+			text-decoration: none;
+		}
+	.callout {
+		background-color: $smoke;
+		.button {
+			border: 2px solid $white;
+			text-decoration: none;
+		}
+	}
+	.callout.upsell {
+		margin-bottom: 2rem;
+	}
+	.gallery {
+		div.image {
+			img {
+				background-color: $white;
+				padding: rem-calc(5);
+			}
+		}
+	}
+
+	.testimonial {
+		background-color: $yellow-light;
+		padding: 1rem 1rem 0;
+		border: 1px solid $light-gray;
+		border-radius: 5px;
+		p, li {
+			font-size: rem-calc(16);
+		}
+		margin-bottom: 1rem;
+		span.avatar {
+			margin-right: 1rem;
+			margin-bottom: 1rem;
+		}
+		span.avatar img {
+			border-radius: 1000px;
+			max-width: 48px;
+		}
+		a.button {
+			text-decoration: none;
+		}
+		h3 {
+			border: none;
+			text-align: left;
+		}
+	}
+	
+
+	span.orange {
+		color: $orange;
+	}
+}
+.articles-list {
+	max-width: 100%;
+	li {
+		float: left;
+		margin-bottom: 2rem;
+		width: 19%;
+		margin-right: 1%;
+	}
+	a span {
+		font-size: rem-calc(24);
+		font-weight: $font-weight-bold;
+	}
+}
+.article.post, .content.post {
+	h2 {
+		margin-top: 2rem;
+	}
+
+	h3 {
+		margin-bottom: 1rem;
+		margin-top: 2rem;
+	}
+	.card-body {
+		h2, h3 {
+			margin-top: 0;
+		}
+	}
+
+	a {
+		text-decoration: underline;
+		color: $pink;
+		&:hover {
+			color: $blue4;
+		}
+		&.btn {
+			text-decoration: none;
+			color: $white;
+		}
+		&.btn:hover {
+			color: $oil;
+			background-color: $pink;
+		}
+	}
+}
+.library {
+	background-color: $smoke;
+	h3 {
+		text-align: left;
+	}
+}
+.update-box {
+	padding: 1rem;
+	margin-bottom: 1rem;
+	background-color: $yellow-light;
+	p {
+		margin-bottom: 0;
+	}
+}
+.sales-break {
+	padding: 2rem 0;
+	background: linear-gradient(to left, rgba($blue, 0.75) 10%, rgba($blue, 0.75) 90%), url('https://s3-us-west-2.amazonaws.com/ketodash-master/wp-content/uploads/2017/01/19053031/customers.jpg') repeat;
+	color: $white;
+	div.image img {
+		padding: 3px;
+		border: 1px solid $white;
+		background-color: $white;
+		margin-bottom: 2rem;
+	}
+	h1 {
+		font-size: 2rem;
+	}
+	h2 {
+		font-size: 1.5rem;
+	}
+	@include media-breakpoint-up(lg) {
+		padding: 4rem 0;
+		h1 {
+			font-size: 4rem;
+			margin-bottom: 0;
+			line-height: 1;
+		}
+		h2 {
+			font-size: 3rem;
+		}
+	}
+		h2 {
+			color: $white;
+			border: none;
+			padding: 0;
+			margin: 0 0 1rem;
+		}
+		h3 { 
+			margin: 0 0 1rem;
+			border: none;
+			color: $white;
+			&.subheader {
+				
+				line-height: 1.2;
+				}}
+		p, li {
+			font-weight: $font-weight-bold;
+			font-size: rem-calc(24);
+		}
+	.card-body p {
+		color: $oil;
+		font-weight: $font-weight-normal;
+		font-size: rem-calc(20);
+	}
+	.card-body h3 {
+		color: $oil;
+		margin-bottom: rem-calc(10);
+	}
+		li {
+			margin-bottom: 1rem;
+		}
+		ul {
+			list-style-type: none;
+			margin-bottom: 2rem;
+		}
+		li:before {
+		  position: absolute;
+		  margin-left: -1.3em;
+		  font-weight: bold;
+		  content: "\2713";
+		  color: $yellow;
+		}
+		li.tick:before {
+		  content: "\2713";
+		  color: $yellow;
+		}
+		li {
+			line-height: 1.2;
+		}
+	}
+.slate {
+	background-color: $slate;
+	padding: 1rem 0 2rem;
+	h2 {
+		border: none;
+		color: $white;
+		em {
+			color: $yellow;
+		}
+	}
+	.callout {
+		max-width: 38rem;
+		margin-left: auto;
+		margin-right: auto;
+		li {
+			margin-left: 1rem;
+		}
+	}
+	.articles-list a {
+		border: none;
+	}
+	.articles-list img {
+		border: 5px solid $white;
+		&:hover {
+			border-color: $yellow;
+		}
+	}
+}

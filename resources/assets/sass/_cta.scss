@@ -1,0 +1,124 @@
+.cta-top {
+	background-color: $orange;
+	color: $white;
+	padding-top: 1rem;
+	a {
+		color: $yellow;
+		text-decoration: underline;
+	}
+	p {
+		font-weight: $font-weight-bold;
+	}
+}
+
+.cta {
+	padding: 4rem 0;
+	background-color: $ice;
+	color: $white;
+	text-align: center;
+
+	h2 {
+		line-height: 1.2;
+		color: $white;
+		margin-bottom: 2rem;
+		font-weight: $font-weight-bold;
+	}
+	h3 {
+		color: $white;
+		border-bottom: 1px solid rgba($white, 0.5);
+	}
+	h3.subheader {
+		color: $white;
+	}
+	em {
+		color: $yellow;
+		font-size: 2.5rem;
+	}
+	.callout {
+		margin-bottom: 0;
+		border: none;
+		.button {
+			background-color: $blue !important;
+			border: 1px solid $white;
+		}
+	}
+
+	.button {
+		border: 3px solid $white;
+		background-color: $blue;
+		&:hover {
+			background-color: $orange;
+		}
+	}
+	img {
+		padding: 5px;
+		background-color: $white;
+		border: 1px solid $smoke;
+	}
+}
+
+.cta-keto {
+	background-color: $ice;
+	padding: 4rem 0;
+	.card-block {
+		h2, h3, p {
+			color: $slate;
+		}
+	}
+	h2 {
+		padding-bottom: 0.5rem;
+		margin-bottom: 0.5rem;
+		border-bottom: 3px double rgba($oil, 0.25);
+	}
+	h1 {
+		font-size: 2rem;
+	}
+	h2 {
+		font-size: 1.5rem;
+	}
+	@include media-breakpoint-up(lg) {
+		h1 {
+			font-size: 4rem;
+			margin-bottom: 0;
+			line-height: 1;
+		}
+		h2 {
+			font-size: 3rem;
+		}
+	}
+	.pink {
+		color: $pink;
+	}
+	.card {
+		p, h2, h3, label {
+			color: $oil;
+		}
+		strong {
+			background-color: $yellow;
+		}
+	}
+	img {
+		border: 3px solid $white;
+	}
+	ul
+	{
+	   padding-left: 20px;
+	   text-indent: 2px;
+	   list-style: none;
+	   list-style-position: outside;
+	}
+	li:before {
+		content: '✔';   
+	    margin-left: -1rem;
+	    margin-right: rem-calc(10);
+	    color: $pink;
+	}
+	li {
+		font-weight: $font-weight-bold;
+		font-size: rem-calc(22);
+	}
+
+	h2 {
+		line-height: 1.2;
+	}
+}

@@ -1,0 +1,52 @@
+.welcome {
+	background: linear-gradient(rgba($ocean, 0.25), rgba($ocean, 0.25)), url('https://s3-us-west-2.amazonaws.com/billionaireblogclub-master/blog/wp-content/uploads/2018/08/08211740/hiker-1149898_1280.jpg');  /* fallback for old browsers */
+	background-size: cover;
+	border-bottom: 1px solid rgba($space, 0.25);
+	padding: 4rem 0 3rem;
+	color: $white;
+	margin-top: 2rem;
+	h3.preheader {
+		padding: 0.5rem 0;
+		margin-bottom: 0.5rem;
+		border-bottom: 3px double rgba($white, 0.25);
+		font-weight: 100;
+		font-size: 1.5rem;
+		a {
+			color: $yellow;
+		}
+		span.me {
+			color: $yellow;
+			font-weight: 700;
+		}
+	}
+	h2 {
+		font-weight: 500;
+		font-size: 2rem;
+	}
+	a.btn-primary {
+		background-color: $color3;
+		color: $primary;
+		&:hover {
+			background-color: $color5;
+			color: $space;
+		}
+	}
+	h1 {
+		font-size: 4rem;
+		span {
+			color: $yellow;
+			border-bottom: 3px solid $yellow;
+		}
+		&.billboard {
+			font-size: 4rem;
+			font-weight: 700;
+			strong {				
+				color: $yellow;
+			}
+		}
+	}
+}
+
+.welcome.home {
+	padding: 2rem 0;
+}

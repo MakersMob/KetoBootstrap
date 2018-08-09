@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/keto-diet', function () {
+	return view('keto');
+});
+
+Route::get('/join', function () {
+	return view('join');
+});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

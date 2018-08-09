@@ -1,0 +1,36 @@
+.navbar {
+	background-color: $white;
+	.navbar-brand {
+		font-weight: 700;
+		font-size: 1.5rem;
+		border-right: 1px solid rgba($white, 0.25);
+		padding-right: 1rem;
+		&:hover {
+			color: $orange !important;
+		}
+		img {
+			max-width: 2rem;
+			vertical-align: -9px;
+		}
+	}
+	li.nav-item a.nav-link {
+		font-size: 1rem;
+		font-weight: 300;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		margin-top: 2px;
+		&:hover {
+			color: $orange !important;
+		}
+		&.active {
+			color: $orange !important;
+			font-weight: 500;
+		}
+	}
+}
+.navbar-dark .navbar-toggler {
+	border: none;
+}
+.navbar .navbar-dark {
+	background: $space;
+}

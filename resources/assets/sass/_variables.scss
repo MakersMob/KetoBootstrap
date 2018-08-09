@@ -1,8 +1,107 @@
+$color1: rgba(78, 89, 140, 1);
+$color2: rgba(255, 255, 255, 1);
+$color3: rgba(249, 203, 64, 1);
+$color4: rgba(142, 184, 229, 1);
+$color5: rgba(124, 153, 180, 1);
 
+$yellow:  #FFD56C !default;
+$yellow-light: #ffffe0;
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #FF715B !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+$white:   #fff    !default;
+$smoke:   #eee    !default;
+$space:   #474954 !default;
+$rose:    #F2CCC3 !default;
+$black:   #333    !default;
+$sky:     #93CBE9 !default;
+$night:   #021828 !default;
+$ocean:   #083859 !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+
+$cream:  #FCFBE3 !default;
+$oil:    #343838 !default;
+$teal:   #5bc0de !default;
+$pink:   #FF0054 !default;
+$light-gray: #e6e6e6;
+$medium-gray: #BCBABE;
+$dark-gray: #8a8a8a;
+$indigo:  #6610f2 !default;
+$orange: #FF6600;
+$slate: #556270;
+$peach: #D8C4AC;
+$creme: #D8D4C6;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+
+$ice: #EEFCFF;
+$smoke: #F2F2F2;
+$yellow: #FFD56C;
+$yellow-light: #ffffe0;
+
+$green:  #5cb85c !default;
+$green1: #A8DBA8;
+$green2: #79BD9A;
+$green3: $green;
+
+$red1: #FFB3B3;
+$red2: #FF6666;
+$red3: #FF4040;
+
+$red: $red3;
+
+$blue1: #34F1F0;
+$blue2: #00B4CC;
+$blue3: #CCEBF1;
+$blue4: #1A5477;
+$blue5: #004569;
+
+$blue: $blue3;
+$blue-dark: #577987;
+
+$midnight: #191836 !default;
+
+$purple1: #613d7c !default;
+$purple2: #666072 !default;
+$purple3: #504D66 !default;
+$purple4: #49435B !default;
+$purple5: #433E54 !default;
+$purple6: #BCB1C4 !default;
+$purple7: #9281A0 !default;
+
+$primary: $color1;
 // Body
 $body-bg: #f5f8fa;
 
 // Typography
 $font-family-sans-serif: "proxima-nova-condensed", sans-serif;
-$font-size-base: 0.9rem;
+$font-size-base: 1.4rem;
 $line-height-base: 1.6;
+
+$font-weight-light: 300 !default;
+$font-weight-normal: 500 !default;
+$font-weight-bold: 900 !default;
+
+$headings-font-weight:        900 !default;
+
+$border-radius: 0.25rem;
+
+
+$navbar-padding-y:                  0 !default;
+$navbar-dark-color:                 rgba($white, 1) !default;
+$navbar-dark-hover-color:           rgba($white, .75) !default;
+$navbar-dark-active-color:          $white !default;
