@@ -5,8 +5,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<h1>Ketogenic Diet: Beginner&rsquo;s Guide to Keto and Weight Loss</h1>
-				<h2 class="subheader">Understanding the Keto Diet So You Can Succeed</h2>
+				<h1 class="linewrap"><span>Ketogenic Diet: Beginner&rsquo;s Guide to Keto and Weight Loss</span></h1>
+				<h2 class="linewrap"><span>Understanding the Keto Diet So You Can Succeed With Your Weight Loss Journey</span></h2>
 			</div>
 		</div>
 	</div>
@@ -14,8 +14,8 @@
 <section class="content post">
 	<div class="container">
 		<div class="row">
-			<div class="col-12 col-lg-8">
-				<p>The ketogenic diet is a low carb, moderate protein, and high fat diet which puts the body into a metabolic state known as ketosis.</p>
+			<div class="col-12">
+				<p><strong>The ketogenic diet is a low carb, moderate protein, and high fat diet which puts the body into a metabolic state known as ketosis.</strong></p>
 
 				<p>When you're body is in a state of ketosis, the liver produced ketones which become the main energy source for the body.</p>
 

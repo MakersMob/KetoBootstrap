@@ -5,15 +5,13 @@
 @endsection
 
 @section('content')
-<section class="welcome">
+<section class="welcome weight-loss">
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="text-center">
-                    <h1>Learn How to Lose Weight Quickly and Easily by Eating Great Food and Being Supported by Others</h1>
-                    <h2 class="subheader"><span class="yellow">Lose 10-21 Lbs in 4 Weeks</span> Eating Great Recipes, Tracking Your Progress, and <span class="yellow">Getting 1-on-1 Support</span> from People That Want You to Succeed</h2>
-                    <p class="text-center" style="margin-top: 2rem;"><a href="#payment-form" class="btn btn-lg btn-primary">Get Started for Just $47. Pay Once, Be Happy Forever.</a></p>
-                </div>
+                <h1 class="linewrap"><span>Learn How to Lose Weight Quickly and Easily by Eating Great Food and Being Supported by Others</span></h1>
+                <h2 class="linewrap"><span>Lose 10-21 Lbs in 4 Weeks Eating Great Recipes, Tracking Your Progress, and Getting 1-on-1 Support from People That Want You to Succeed</span></h2>
+                <p class="" style="margin-top: 2rem;"><a href="#payment-form" class="btn btn-lg btn-primary">Get Started for Just $47. Pay Once, Be Happy Forever.</a></p>
             </div>
         </div>
     </div>
@@ -21,10 +19,10 @@
 <section class="cta-keto">
     <div class="container">
         <div class="row">
-            <div class="col-12 text-center">
+            <div class="col-12">
                 <h2 class="">In just 4 weeks, you can lose 10-21 lbs, drop 2-4 inches from your waistline, increase muscle tone, and more.</h2>
                 <p class="large">The Keto Bootstrap System follows the principles of the Ketogenic Diet and takes all of the guesswork out of having to figure out what to do on your own. No more lonely and confusing diets.</p>
-                <p class="text-center" style="margin-bottom: 0;"><a href="#payment-form" class="btn btn-lg btn-primary">Start Your Weight Loss Journey Today</a></p>
+                <p class="" style="margin-bottom: 0;"><a href="#payment-form" class="btn btn-lg btn-primary">Start Your Weight Loss Journey Today</a></p>
             </div>
         </div>
     </div>
@@ -410,8 +408,6 @@
                         <p>Comes with 20 bonus keto-friendly recipes that will help you experience keto to its fullest.</p>
                         <h3 class="text-center">Sign Up For Keto Bootstrap and Get the Manual For Free...</h3>
                         <p class="text-center"><a href="#payment-form" class="btn btn-lg btn-primary warning expanded">Get Started for  $47</a></p>
-                        <h3 class="text-center">...Or Purchase It Separately for $19</h3>
-                        <p class="text-center"><a href="weight-loss-manual" class="btn btn-lg btn-success warning expanded">Purchase for $19</a></p>
                     </div>
                 </div>
             </div>
@@ -434,7 +430,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-8 post">
-                <p>If you have a question that isn&rsquo;t answered below you can send an email to <a mailto="elisa@ketodash.com">elisa@ketodash.com</a> and I will respond as soon as possible.</p>    
+                <p>If you have a question that isn&rsquo;t answered below you can send an email to <strong><a mailto="info@ketobootstrap.com">info@ketobootstrap.com</a></strong> and I will respond as soon as possible.</p>    
                 <h3>Questions?</h3>
                 <p><strong>What if I can&rsquo;t make it to the gym?</strong><br>The beauty of the ketogenic diet is that it switches your body to be a fat-burner instead of a sugar-burner. That means everything that you do that requires energy (which is everything that you do!), your body will burn fat to get that energy instead of relying on sugar.</p>
                 <p>While the best results happen when you mix the ketogenic diet with some form of exercise, exercise is not necessary to start seeing results.</p>
@@ -480,7 +476,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-8">
-                <h2 class="text-center">Get Started Today with a One-Time Payment of  $47</h2>
+                <h2 class="text-center" style="border-bottom: none;">Get Started Today with a One-Time Payment of  $47</h2>
                 <div class="card">
                     <div class="card-body">
                         {!! Form::open(['url' => 'payment', 'class' => 'callout', 'id' => 'payment-form']) !!}
@@ -509,12 +505,11 @@
                             </div>
                             <h4 style="">Payment Information</h4>
                             <div class="form-group">
-                                <label for="card">Card</label>
                                 <div id="card-element"></div>
                                 <div id="card-errors"></div>
                             </div>
                             <input type="hidden" name="product" value="general">
-                            <button type="submit" class="btn btn-lg btn-primary btn-block">Start the Keto Bootstrap System Today for Just  $47</button>
+                            <button type="submit" class="btn btn-lg btn-primary btn-block">Start the Keto Bootstrap System Today for Just $47</button>
                             <p style="margin-top: 1rem;" class="text-center"><strong>Please do not submit the form more than once.</strong></p>
                         {!! Form::close() !!}
                     </div>
@@ -531,13 +526,7 @@
     // This identifies your website in the createToken call below
     var stripe = Stripe('{{ env('STRIPE_KEY') }}');
     var elements = stripe.elements({
-        fonts: [
-            {
-                family: 'Overpass',
-                src: 'url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3ZBw1xU1rKptJj_0jans920.woff2) format("woff2")',
-                unicodeRange: 'U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215',
-            }
-        ]
+
     });
 
     var card = elements.create('card', {

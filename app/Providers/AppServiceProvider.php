@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace KetoBootstrap\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

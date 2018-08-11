@@ -312,6 +312,10 @@
 		}
 	}
 
+	p, li {
+		max-width: 45rem;
+	}
+
 	a {
 		text-decoration: underline;
 		color: $pink;
@@ -326,6 +330,9 @@
 			color: $oil;
 			background-color: $pink;
 		}
+	}
+	strong {
+		background-color: $yellow;
 	}
 }
 .library {
@@ -345,7 +352,6 @@
 .sales-break {
 	padding: 2rem 0;
 	background: linear-gradient(to left, rgba($blue, 0.75) 10%, rgba($blue, 0.75) 90%), url('https://s3-us-west-2.amazonaws.com/ketodash-master/wp-content/uploads/2017/01/19053031/customers.jpg') repeat;
-	color: $white;
 	div.image img {
 		padding: 3px;
 		border: 1px solid $white;
@@ -370,7 +376,6 @@
 		}
 	}
 		h2 {
-			color: $white;
 			border: none;
 			padding: 0;
 			margin: 0 0 1rem;

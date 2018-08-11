@@ -64,7 +64,7 @@ $red3: #FF4040;
 
 $red: $red3;
 
-$blue1: #34F1F0;
+$blue1: #02779E;
 $blue2: #00B4CC;
 $blue3: #CCEBF1;
 $blue4: #1A5477;
@@ -83,7 +83,7 @@ $purple5: #433E54 !default;
 $purple6: #BCB1C4 !default;
 $purple7: #9281A0 !default;
 
-$primary: $color1;
+$primary: $blue1;
 // Body
 $body-bg: #f5f8fa;
 
@@ -100,7 +100,7 @@ $headings-font-weight:        900 !default;
 
 $border-radius: 0.25rem;
 
-
+$navbar-nav-link-padding-x:         .75rem !default;
 $navbar-padding-y:                  0 !default;
 $navbar-dark-color:                 rgba($white, 1) !default;
 $navbar-dark-hover-color:           rgba($white, .75) !default;

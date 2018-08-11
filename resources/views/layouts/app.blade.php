@@ -15,10 +15,11 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    @yield('headScripts')
 </head>
 <body>
     <div id="app">
-        <nav class="navbar fixed-top navbar-expand-md navbar-light">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <img src="https://s3-us-west-2.amazonaws.com/ketodash-master/blog/wp-content/uploads/2018/08/09032004/logo-64.png" alt="Dare to Conquer"> Keto Bootstrap
@@ -30,12 +31,40 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link @if(Request::is('join*')) active @endif" href="/join">28-Day Weight Loss Challenge</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link @if(Request::is('keto-diet*')) active @endif" href="/keto-diet">Keto Diet Guide</a>
-                        </li>
+                        @guest
+                            <li class="nav-item">
+                                <a class="nav-link @if(Request::is('keto-diet*')) active @endif" href="/keto-diet">Diet Guide</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link @if(Request::is('keto-shopping-list*')) active @endif" href="/keto-shopping-list">Shopping List</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link @if(Request::is('keto-meal-plan*')) active @endif" href="/keto-meal-plan">7-Day Meal Plan</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link @if(Request::is('recipe*')) active @endif" href="/recipes">Recipes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link @if(Request::is('join*')) active @endif" href="/join">Join the Challenge</a>
+                            </li>
+                        @else
+                            <li class="nav-item">
+                                <a class="nav-link @if(Request::is('bootcamp*')) active @endif" href="/bootcamp">Bootcamp</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle @if(Request::is('challenge*')) active @endif" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" href="#">Challenges</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="/challenge/weightloss">Weight Loss</a>
+                                    <a class="dropdown-item" href="/challenge/workout">Workout</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link @if(Request::is('recipe*')) active @endif" href="/recipes">Recipes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link @if(Request::is('meal-plan*')) active @endif" href="/meal-plan">Meal Plans</a>
+                            </li>
+                        @endguest
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -85,5 +114,6 @@
             </div>
         </footer>
     </div>
+    @yield('footScripts')
 </body>
 </html>

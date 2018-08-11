@@ -97,6 +97,9 @@
 			color: $yellow;
 		}
 	}
+	#card-element {
+		border: 1px solid $smoke;
+	}
 }
 .content.gap {
 	margin-top: 3rem;
@@ -158,7 +161,7 @@ p.large {
 .smoke {
 	background-color: $smoke;
 	.card-header {
-		background-color: $blue;
+		background-color: $blue1;
 		color: $white;
 		a {
 			color: $yellow;

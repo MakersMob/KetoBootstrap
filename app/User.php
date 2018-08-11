@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace KetoBootstrap;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -15,7 +15,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'password', 'goals', 'current_weight', 'goal_weight', 'challenge', 'protein', 'carbs', 'fat', 'height', 'age', 'gender', 'join_price',
     ];
 
     /**
@@ -26,4 +26,29 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    public function journals()
+    {
+        return $this->hasMany('KetoBootstrap\Journal');
+    }
+
+    /*public function weights()
+    {
+        return $this->hasMany('KetoBootstrap\Weight');
+    }
+
+    public function updates()
+    {
+        return $this->hasMany('KetoBootstrap\Update');
+    }
+
+    public function challenges()
+    {
+        return $this->hasMany('KetoBootstrap\Challenge');
+    }
+
+    public function macros()
+    {
+        return $this->hasMany('KetoBootstrap\Macro');
+    }*/
 }
