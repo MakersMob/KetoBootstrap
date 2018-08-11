@@ -2,13 +2,14 @@
 
 namespace KetoBootstrap;
 
+use Laravel\Scout\Searchable;
 use Illuminate\Database\Eloquent\Model;
 use KetoBootstrap\Services\Markdowner;
 use Cviebrock\EloquentSluggable\Sluggable;
 
 class Recipe extends Model
 {
-    use Sluggable;
+    use Sluggable, Searchable;
 
     protected $fillable = [
 		'name', 'description', 'calories', 'protein', 'fat', 'carbs', 'slug', 'servings', 'serving_description', 'pinterest', 'image', 'source'
@@ -16,7 +17,7 @@ class Recipe extends Model
 
     public function ingredients()
     {
-        return $this->belongsToMany('KetoBootstrap\Ingredient')->withPivot('amount');
+        return $this->belongsToMany('KetoBootstrap\Ingredient')->withPivot('amount', 'item');
     }
 
     public function instructions()

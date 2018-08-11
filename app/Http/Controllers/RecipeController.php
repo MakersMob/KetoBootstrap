@@ -15,7 +15,7 @@ class RecipeController extends Controller
      */
     public function index(Request $request)
     {
-        $recipes = Recipe::get();
+        $recipes = Recipe::orderBy('id', 'DESC')->get();
         $tags = Tag::orderBy('tag', 'ASC')->get();
         
         return view('recipe.index', compact('recipes', 'tags'));
@@ -53,6 +53,14 @@ class RecipeController extends Controller
             'image' => $request->image,
         ]);
 
+        $tags = explode(",", $request->tags);
+
+        foreach($tags as $tag) {
+            $t = Tag::firstOrCreate(['tag' => strtolower(trim($tag))]);
+
+            $recipe->tags()->attach($t->id);
+        }
+
         return redirect('recipe/'.$recipe->slug);
     }
 
@@ -64,7 +72,7 @@ class RecipeController extends Controller
      */
     public function show($id)
     {
-        $recipe = Recipe::where('slug', $id)->firstOrFail();
+        $recipe = Recipe::with('ingredients', 'instructions')->where('slug', $id)->firstOrFail();
 
         $r = Recipe::get();
 

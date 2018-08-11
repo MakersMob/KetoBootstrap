@@ -25,7 +25,7 @@ class InstructionController extends Controller
      */
     public function create()
     {
-        $recipes = Recipe::get();
+        $recipes = Recipe::orderBy('id', 'DESC')->get();
 
         return view('instruction.create', compact('recipes'));
     }

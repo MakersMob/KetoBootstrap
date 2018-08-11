@@ -5,13 +5,32 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<h1 class="linewrap"><span>300+ Keto, Delicious, &amp; Low-Carb Recipes from Around the Web</span></h1>
+				<h1 class="linewrap"><span>300+ Keto, Delicious, &amp; Low-Carb Recipes</span></h1>
 				<h2 class="linewrap"><span>Keto Recipes for Breakfast, Lunch, Dinner, Dessert &amp; Snacks</span></h2>
 			</div>
 		</div>
 	</div>
 </section>
 <section class="content">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				{!! Form::open(['url' => 'recipesearch', 'class' => 'form-inline']) !!}
+					<div class="form-row">
+						<div class="col-9 form-group">
+							<label class="sr-only" for="search">Search Recipes</label>
+							<input style="width: 100%" type="text" class="form-control col-12" id="search" name="search" placeholder="Search for a recipe">
+						</div>
+						<div class="col-3 form-group">
+							<button type="submit" class="btn btn-primary">Search</button>
+						</div>
+					</div>
+				{!! Form::close() !!}
+			</div>
+		</div>
+	</div>
+</section>
+<section class="content smoke">
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-lg-8">

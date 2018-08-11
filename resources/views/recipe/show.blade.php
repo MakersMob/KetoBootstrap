@@ -18,15 +18,20 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-lg-6">
-				<p><strong>Categories @foreach($recipe->tags as $tag) | <a href="/tag/{{ $tag->slug }}">{{ ucwords($tag->tag) }}</a>@endforeach</strong></p>
+				<ul class="tags">
+					@foreach($recipe->tags as $tag)
+						<li><a href="/tag/{{ $tag->slug }}">{{ ucwords($tag->tag) }}</a></li>
+					@endforeach
+				</ul>
+				<div class="clearfix"></div>
 				@if($recipe->source)
 					<p><em>Original recipe can be found <a href="{{ $recipe->source }}" rel="nofollow">here</a>.</em></p>
 				@endif
 				<div class="d-print-none">{!! $recipe->description !!}</div>
 				<h4>Ingredients</h4>
-				<ul>
+				<ul class="list-unstyled ingredient-list">
 					@foreach($recipe->ingredients as $ingredient)
-						<li><a href="/ingredient/{{ $ingredient->slug }}">{{ $ingredient->pivot->amount }} {{ $ingredient->name }}</a></li>
+						<li>@if($ingredient->pivot->item)[{{$ingredient->pivot->item}}] @endif<a href="/ingredient/{{ $ingredient->slug }}">{{ $ingredient->pivot->amount }} {{ $ingredient->name }}</a></li>
 					@endforeach
 				</ul>
 				@unless(Auth::guest())
@@ -66,7 +71,7 @@
 				@if(Auth::guest())
 					<div class="card smoke d-print-none">
 						<div class="card-body">
-							<h3 class="text-center">Ready to Lose 10-21 lbs in the Next 28 Days? Of Course You Are!</h3>
+							<h3 class="">Ready to Lose 10-21 lbs in the Next 28 Days? Of Course You Are!</h3>
 							<p><img src="https://s3-us-west-2.amazonaws.com/ketodash-master/blog/wp-content/uploads/2018/02/07074540/angel.png" alt="Debi losing weight"></p>
 							<p>If you're really serious about losing weight and want to create a new lifestyle for yourself then the <a href="https://ketodash.com/?utm_source=ketodash_recipe_footer&utm_medium=recipe">28-Day Weight Loss Challenge</a> is for you.</p>
 
@@ -79,7 +84,7 @@
 
 							<p>Sounds too good to be true, right? Well it isn't and we are happy to teach you all about it with the <a href="https://ketodash.com/?utm_source=ketodash_recipe_footer&utm_medium=recipe">28-Day Weight Loss Challenge</a>.</p>
 
-							<p><a href="https://ketodash.com/?utm_source=ketodash_recipe_footer&utm_medium=recipe" class="btn btn-lg btn-primary btn-block">Check Out the 28-Day Weight Loss Challenge Now</a></p>
+							<p><a href="https://ketodash.com/?utm_source=ketodash_recipe_footer&utm_medium=recipe" class="btn btn-lg btn-primary btn-block">Start the 28-Day Weight Loss Challenge Now</a></p>
 						</div>
 					</div>
 				@endif

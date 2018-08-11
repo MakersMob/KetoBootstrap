@@ -16,7 +16,7 @@ class Ingredient extends Model
 
     public function recipes()
     {
-    	return $this->belongsToMany('KetoBootstrap\Recipe')->withPivot('amount');
+    	return $this->belongsToMany('KetoBootstrap\Recipe')->withPivot('amount', 'item');
     }
 
     public function setDescriptionAttribute($value)

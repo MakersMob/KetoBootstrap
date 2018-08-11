@@ -10643,17 +10643,6 @@ a.text-dark:focus {
   padding: 2rem 0;
 }
 
-.content h1,
-.content h2,
-.content h3,
-.content h4 {
-  font-weight: 900;
-}
-
-.content #map {
-  height: 100%;
-}
-
 .content .biz-box {
   background-color: #fff;
   padding: 1rem;
@@ -10682,12 +10671,14 @@ a.text-dark:focus {
   background-color: #FF6600;
   color: #fff;
   padding: 0.3125rem 0.625rem;
-  font-weight: 900;
+  font-weight: 500;
+  font-size: 16px;
   border-radius: 0.25rem;
 }
 
 .content ul.tags li a:hover {
   background-color: #343838;
+  text-decoration: none;
 }
 
 .content .card.bizinfo {
@@ -10755,6 +10746,15 @@ a.text-dark:focus {
 
 .content #card-element {
   border: 1px solid #F2F2F2;
+}
+
+.content ul.ingredient-list li {
+  border-bottom: 1px solid #F2F2F2;
+  padding: 5px 0;
+}
+
+.content td {
+  font-size: 16px;
 }
 
 .content.gap {

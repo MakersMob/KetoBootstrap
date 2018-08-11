@@ -1,11 +1,5 @@
 .content {
 	padding: 2rem 0;
-	h1, h2, h3, h4 {
-		font-weight: $font-weight-bold;
-	}
-	#map {
-		height: 100%;
-	}
 	.biz-box {
 		background-color: $white;
 		padding: 1rem;
@@ -29,10 +23,12 @@
 				background-color: $orange;
 				color: $white;
 				padding: rem-calc(5) rem-calc(10);
-				font-weight: $font-weight-bold;
+				font-weight: 500;
+				font-size: 16px;
 				border-radius: $border-radius;
 				&:hover {
 					background-color: $oil;
+					text-decoration: none;
 				}
 			}
 		}
@@ -99,6 +95,14 @@
 	}
 	#card-element {
 		border: 1px solid $smoke;
+	}
+
+	ul.ingredient-list li {
+		border-bottom: 1px solid $smoke;
+		padding: 5px 0;
+	}
+	td {
+		font-size: 16px;
 	}
 }
 .content.gap {

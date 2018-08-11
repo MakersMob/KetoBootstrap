@@ -54,4 +54,5 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::resource('instruction', 'InstructionController');
 	Route::get('recipetag/create', 'RecipeTagController@create');
 	Route::post('recipetag', 'RecipeTagController@store');
+	Route::post('recipesearch', 'RecipeSearchController@show');
 });

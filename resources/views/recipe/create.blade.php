@@ -62,6 +62,10 @@
 								<label for="image">Image</label>
 								<input class="form-control" type="text" name="image" id="image">
 							</div>
+							<div class="form-group">
+								<label for="tags">Tags</label>
+								<input class="form-control" type="text" name="tags" id="tags">
+							</div>
 							<button type="submit" class="btn btn-primary btn-block">Add Recipe</button>
 						{!! Form::close() !!}
 					</div>
