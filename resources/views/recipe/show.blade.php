@@ -17,9 +17,9 @@
 <section class="content">
 	<div class="container">
 		<div class="row">
-			<div class="col-12 col-lg-6">
+			<div class="col-12 col-lg-6 d-print-none">
 				@unless(count($recipe->tags) < 1)
-				<ul class="tags">
+				<ul class="tags ">
 					@foreach($recipe->tags as $tag)
 						<li><a href="/{{ $tag->slug }}-keto-recipes">{{ ucwords($tag->tag) }}</a></li>
 					@endforeach
