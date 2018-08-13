@@ -10854,7 +10854,7 @@ table tr.smoke {
 }
 
 .smoke ul.ingredient-list li {
-  border-bottom: 1px solid rgba(71, 73, 84, 0.5);
+  border-bottom: 1px solid rgba(71, 73, 84, 0.25);
   padding: 5px 0;
 }
 
