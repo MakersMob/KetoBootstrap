@@ -26,7 +26,7 @@
 						</tr>
 					</thead>
 					<tbody>
-						@foreach($recipes as $recipe)
+						@foreach($ingredient->recipes as $recipe)
 							<tr>
 								<td><a title="{{$recipe->name}}" href="/recipe/{{$recipe->slug}}">{{$recipe->name}}</a></td>
 								<td>{{$recipe->calories }}</td>
