@@ -51,7 +51,6 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle @if(Request::is('challenge*')) active @endif" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" href="#">Challenges</a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="/challenge/bootcamp">Bootcamp</a>
                                     <a class="dropdown-item" href="/challenge/28-day-weight-loss-challenge">Weight Loss</a>
                                     <a class="dropdown-item" href="/challenge/28-day-workout-challenge">Workout</a>
                                 </div>
