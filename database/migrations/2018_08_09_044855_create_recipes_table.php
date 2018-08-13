@@ -35,6 +35,7 @@ class CreateRecipesTable extends Migration
             $table->foreign('recipe_id')->references('id')->on('recipes');
             $table->integer('user_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users');
+            $table->string('category')->default('general');
         });
     }
 

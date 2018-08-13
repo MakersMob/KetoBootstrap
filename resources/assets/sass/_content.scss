@@ -174,8 +174,9 @@ p.large {
 	.recipe-box, .card-body {
 		background-color: $white;
 	}
-	table {
+	table, .card-body {
 		border: 3px solid $blue;
+		background-color: $white;
 	}
 }
 .card.smoke {

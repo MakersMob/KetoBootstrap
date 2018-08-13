@@ -1,7 +1,5 @@
 .welcome {
 	background-color: $smoke;
-	border-top: 1px solid rgba($space, 0.1);
-	border-bottom: 1px solid rgba($space, 0.1);
 	padding: 2rem 0 .75rem;
 	color: $white;
 	margin-top: 2rem;
@@ -16,14 +14,14 @@
 			}
 		}
 		&.linewrap {
-			line-height: 1.2; 
+			line-height: 1.3; 
 			padding: 2px 0; 
 			margin: 10px auto;
 			span {
 				background-color: $blue1;
 				color: #fff; 
 				display: inline;
-				padding: 0.2rem 0.45rem;
+				padding: 0.6rem 0.45rem 0;
 				  
 				/* Needs prefixing */
 				box-decoration-break: clone;
@@ -42,7 +40,7 @@
 				background-color: $orange;
 				color: $white; 
 				display: inline;
-				padding: 0.45rem;
+				padding: 0.45rem 0.45rem 0.25rem;
 				  
 				/* Needs prefixing */
 				box-decoration-break: clone;

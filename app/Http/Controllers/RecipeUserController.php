@@ -4,24 +4,16 @@ namespace KetoBootstrap\Http\Controllers;
 
 use Illuminate\Http\Request;
 use KetoBootstrap\Recipe;
-use KetoBootstrap\Tag;
+use Auth;
 
-class RecipeTagController extends Controller
+class RecipeUserController extends Controller
 {
-	public function create()
-	{
-		$recipes = Recipe::get();
-
-		$tags = Tag::get();
-
-		return view('recipetag.create', compact('recipes', 'tags'));
-	}
-
     public function store(Request $request)
     {
+    	$user = Auth::user();
     	$recipe = Recipe::find($request->recipe);
 
-    	$recipe->tags()->attach($request->tags);
+    	$user->recipes()->attach($request->recipe);
 
     	return redirect('recipe/'.$recipe->slug);
     }

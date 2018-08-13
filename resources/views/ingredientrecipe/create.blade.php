@@ -53,6 +53,10 @@
 									</div>
 								</div>
 							</div>
+							<div class="form-group">
+								<label for="item">Item</label>
+								<input class="form-control" type="text" name="item" id="item">
+							</div>
 							<button type="submit" class="btn btn-primary btn-block">Create Ingredient</button>
 						{!! Form::close() !!}
 					</div>

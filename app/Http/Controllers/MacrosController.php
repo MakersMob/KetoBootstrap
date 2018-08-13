@@ -13,7 +13,7 @@ class MacrosController extends Controller
      */
     public function index()
     {
-        //
+        return view('macros.index');
     }
 
     /**
@@ -45,7 +45,7 @@ class MacrosController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('macros.show');
     }
 
     /**

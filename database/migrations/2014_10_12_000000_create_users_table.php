@@ -18,7 +18,32 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('password');
+            $table->decimal('height', 4, 1)->default(0.0);
+            $table->integer('age')->default(0);
+            $table->string('gender', 10)->nullable();
+            $table->integer('calories')->default(0);
+            $table->decimal('protein', 5, 1)->default(0.0);
+            $table->decimal('carbs', 5, 1)->default(0.0);
+            $table->decimal('fat', 5, 1)->default(0.0);
+            $table->decimal('current_weight', 5, 1)->default(0.0);
+            $table->decimal('goal_weight', 5, 1)->default(0.0);
+            $table->string('stripe_id')->nullable();
+            $table->string('card_brand')->nullable();
+            $table->string('card_last_four')->nullable();
+            $table->timestamp('trial_ends_at')->nullable();
             $table->rememberToken();
+            $table->timestamps();
+        });
+
+        Schema::create('subscriptions', function ($table) {
+            $table->increments('id');
+            $table->unsignedInteger('user_id');
+            $table->string('name');
+            $table->string('stripe_id');
+            $table->string('stripe_plan');
+            $table->integer('quantity');
+            $table->timestamp('trial_ends_at')->nullable();
+            $table->timestamp('ends_at')->nullable();
             $table->timestamps();
         });
     }
@@ -30,6 +55,7 @@ class CreateUsersTable extends Migration
      */
     public function down()
     {
+        Schema::dropIfExists('subscriptions');
         Schema::dropIfExists('users');
     }
 }

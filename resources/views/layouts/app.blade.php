@@ -48,14 +48,12 @@
                                 <a class="nav-link @if(Request::is('join*')) active @endif" href="/join">Join the Challenge</a>
                             </li>
                         @else
-                            <li class="nav-item">
-                                <a class="nav-link @if(Request::is('bootcamp*')) active @endif" href="/bootcamp">Bootcamp</a>
-                            </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle @if(Request::is('challenge*')) active @endif" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" href="#">Challenges</a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="/challenge/weightloss">Weight Loss</a>
-                                    <a class="dropdown-item" href="/challenge/workout">Workout</a>
+                                    <a class="dropdown-item" href="/challenge/bootcamp">Bootcamp</a>
+                                    <a class="dropdown-item" href="/challenge/28-day-weight-loss-challenge">Weight Loss</a>
+                                    <a class="dropdown-item" href="/challenge/28-day-workout-challenge">Workout</a>
                                 </div>
                             </li>
                             <li class="nav-item">
@@ -64,6 +62,12 @@
                             <li class="nav-item">
                                 <a class="nav-link @if(Request::is('meal-plan*')) active @endif" href="/meal-plan">Meal Plans</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link @if(Request::is('macros*')) active @endif" href="/macros">Macros</a>
+                            </li>
+                            <!--<li class="nav-item">
+                                <a class="nav-link @if(Request::is('wins*')) active @endif" href="/wins">#wins</a>
+                            </li>-->
                         @endguest
                     </ul>
 
@@ -108,7 +112,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <p>&copy; Makers Mob LLC.</p>
+                        <p>&copy; Makers Mob LLC. | <a href="/keto-diet">Ketogenic Diet Guide</a> | <a href="/keto-shopping-list">Keto Shopping List</a></p>
                     </div>
                 </div>
             </div>

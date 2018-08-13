@@ -4,10 +4,11 @@ namespace KetoBootstrap;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Laravel\Cashier\Billable;
 
 class User extends Authenticatable
 {
-    use Notifiable;
+    use Notifiable, Billable;
 
     /**
      * The attributes that are mass assignable.
@@ -32,6 +33,16 @@ class User extends Authenticatable
         return $this->hasMany('KetoBootstrap\Journal');
     }
 
+    public function wins()
+    {
+        return $this->hasMany('KetoBootstrap\Win');
+    }
+
+    public function recipes()
+    {
+        return $this->belongsToMany('KetoBootstrap\Recipe')->withPivot('category');
+    }
+
     /*public function weights()
     {
         return $this->hasMany('KetoBootstrap\Weight');
@@ -40,15 +51,10 @@ class User extends Authenticatable
     public function updates()
     {
         return $this->hasMany('KetoBootstrap\Update');
-    }
+    }*/
 
     public function challenges()
     {
-        return $this->hasMany('KetoBootstrap\Challenge');
+        return $this->belongsToMany('KetoBootstrap\Challenge')->withPivot('complete', 'completed_on')->withTimestamps();
     }
-
-    public function macros()
-    {
-        return $this->hasMany('KetoBootstrap\Macro');
-    }*/
 }

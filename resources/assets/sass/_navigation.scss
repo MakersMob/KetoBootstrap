@@ -27,10 +27,17 @@
 			font-weight: 500;
 		}
 	}
+	.dropdown-item {
+		font-size: 1rem;
+	}
 }
 .navbar-dark .navbar-toggler {
 	border: none;
 }
 .navbar .navbar-dark {
 	background: $space;
+}
+
+.navbar-light .navbar-toggler {
+	border: none;
 }

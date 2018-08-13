@@ -35,6 +35,11 @@ class Recipe extends Model
         return $this->belongsToMany('KetoBootstrap\MealPlan')->withPivot('day', 'week', 'meal', 'servings');
     }
 
+    public function users()
+    {
+        return $this->belongsToMany('KetoBootstrap\User')->withPivot('category');
+    }
+
 	public function setDescriptionAttribute($value)
     {
     	$markdown = new Markdowner();

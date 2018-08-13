@@ -18,11 +18,13 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-lg-6">
+				@unless(count($recipe->tags) < 1)
 				<ul class="tags">
 					@foreach($recipe->tags as $tag)
 						<li><a href="/tag/{{ $tag->slug }}">{{ ucwords($tag->tag) }}</a></li>
 					@endforeach
 				</ul>
+				@endunless
 				<div class="clearfix"></div>
 				@if($recipe->source)
 					<p><em>Original recipe can be found <a href="{{ $recipe->source }}" rel="nofollow">here</a>.</em></p>

@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateJournalsTable extends Migration
+class CreateChallengePurchasesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,11 @@ class CreateJournalsTable extends Migration
      */
     public function up()
     {
-        Schema::create('journals', function (Blueprint $table) {
+        Schema::create('challenge_purchases', function (Blueprint $table) {
             $table->increments('id');
-            $table->text('entry');
-            $table->date('entry_date');
-            $table->boolean('public')->default('0');
+            $table->integer('amount')->default(0);
+            $table->integer('challenge_id')->unsigned();
+            $table->foreign('challenge_id')->references('id')->on('challenges');
             $table->integer('user_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users');
             $table->timestamps();
@@ -31,6 +31,6 @@ class CreateJournalsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('journals');
+        Schema::dropIfExists('challenge_purchases');
     }
 }

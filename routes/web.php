@@ -38,11 +38,17 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/recipes', 'RecipeController@index');
 Route::resource('recipe', 'RecipeController');
+Route::get('calculator', 'CalculatorController@index');
+Route::post('calculator', 'CalculatorController@store');
 
 Route::group(['middleware' => 'auth'], function () {
 	Route::resource('bootcamp', 'BootcampController');
-	Route::resource('challenge/workout', 'WorkoutController');
-	Route::resource('challenge/weightloss', 'WeightlossController');
+	Route::get('challenge/{id}/start', 'ChallengeUserController@store');
+	Route::get('challenge/{id}/restart', 'ChallengeUserController@update');
+	Route::get('challenge/{id}/stop', 'ChallengeUserController@destroy');
+	Route::resource('challenge', 'ChallengeController');
+	Route::resource('challengeday', 'ChallengeDayController');
+	Route::resource('challengeuser', 'ChallengeUserController');
 	Route::resource('journal', 'JournalController');
 	Route::resource('meal-plan', 'MealPlanController');
 	Route::get('mealplanrecipe/create', 'MealPlanRecipeController@create');
@@ -52,7 +58,8 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::get('ingredientrecipe/create', 'IngredientRecipeController@create');
 	Route::post('ingredientrecipe', 'IngredientRecipeController@store');
 	Route::resource('instruction', 'InstructionController');
-	Route::get('recipetag/create', 'RecipeTagController@create');
-	Route::post('recipetag', 'RecipeTagController@store');
 	Route::post('recipesearch', 'RecipeSearchController@show');
+	Route::post('recipeuser', 'RecipeUserController@store');
+	Route::resource('macros', 'MacrosController');
+	Route::resource('wins', 'WinController');
 });

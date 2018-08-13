@@ -17,6 +17,7 @@ $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 $white:   #fff    !default;
 $smoke:   #eee    !default;
+$smoke:   #f5f8fa !default;
 $space:   #474954 !default;
 $rose:    #F2CCC3 !default;
 $black:   #333    !default;
@@ -85,7 +86,7 @@ $purple7: #9281A0 !default;
 
 $primary: $blue1;
 // Body
-$body-bg: #f5f8fa;
+$body-bg: $white;
 
 // Typography
 $font-family-sans-serif: "proxima-nova-condensed", sans-serif;

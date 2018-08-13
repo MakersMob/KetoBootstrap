@@ -3,8 +3,9 @@
 namespace KetoBootstrap\Http\Controllers;
 
 use Illuminate\Http\Request;
+use KetoBootstrap\Challenge;
 
-class WeightlossController extends Controller
+class ChallengeController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +14,7 @@ class WeightlossController extends Controller
      */
     public function index()
     {
-        return view('challenge.weightloss.index');
+        //
     }
 
     /**
@@ -23,7 +24,7 @@ class WeightlossController extends Controller
      */
     public function create()
     {
-        //
+        return view('challenge.create');
     }
 
     /**
@@ -34,7 +35,17 @@ class WeightlossController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $challenge = Challenge::create([
+            'name' => $request->name,
+            'video' => $request->video,
+            'description' => $request->description,
+            'days' => $request->days,
+            'start_email_form' => $request->start_email_form,
+            'restart_email_form' => $request->restart_email_form,
+            'stop_email_form' => $request->stop_email_form
+        ]);
+
+        return redirect('challenge/'.$challenge->slug);
     }
 
     /**
@@ -45,7 +56,9 @@ class WeightlossController extends Controller
      */
     public function show($id)
     {
-        //
+        $challenge = Challenge::where('slug', $id)->first();
+
+        return view('challenge.show', compact('challenge'));
     }
 
     /**

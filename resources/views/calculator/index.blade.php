@@ -10,47 +10,13 @@
 		</div>
 	</div>
 </section>
-<section class="content">
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<h5>How Often Should I Calculate My Macros?</h5>
-				<p>A good rule of thumb to follow is that with every 10 lbs. lost, you should recalculate your macros. Of course, you can do this whenever you want but it is not something you want to do daily. You want at least a week with your macro calculations before making adjustments.</p>
-				<p>If you don't give them time then you will not know the effect they are having on you.</p>
-			</div>
-		</div>
-	</div>
-</section>
 <section class="content smoke">
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-lg-6">
-				<table class="table">
-					<tr>
-						<td>Calories</td>
-						<td>{{ Auth::user()->calories }}</td>
-					</td>
-					<tr>
-						<td>Fat</td>
-						<td>{{ Auth::user()->fat }}g</td>
-					</td>
-					<tr>
-						<td>Protein</td>
-						<td>{{ Auth::user()->protein }}g</td>
-					</td>
-					<tr>
-						<td>Carbs</td>
-						<td>{{ Auth::user()->carbs }}g</td>
-					</td>
-				</table>
-				<p class="" style="line-height: 1.2;"><small><strong>These macro numbers are from your latest macros calculation.</strong> You can always come back to this page to view your macros.</small></p>
-			</div>
-			<div class="col-12 col-lg-6">
 				<div class="card">
 					<div class="card-body">
 						{!! Form::open(['url' => 'calculator']) !!}
-							<h6>Vitals</h6>
-							<hr>
 							<div class="form-group">
 								<div class="form-check form-check-inline">
 								  <input class="form-check-input" type="radio" name="gender" id="inlineRadio1" value="female">
@@ -61,23 +27,18 @@
 								  <label class="form-check-label" for="inlineRadio2">Male</label>
 								</div>
 							</div>
-							<div class="form-row">
-								<div class="form-group col-lg-4">
-									<label for="weight">Weight in lbs.</label>
-									<input class="form-control" type="number" name="weight" id="weight">
-								</div>
-								<div class="form-group col-lg-4">
-									<label for="height">Height total inches</label>
-									<input class="form-control" type="number" name="height" id="height">
-								</div>
-								<div class="form-group col-lg-4">
-									<label for="age">Age</label>
-									<input class="form-control" type="number" name="age" id="age">
-								</div>
+							<div class="form-group">
+								<label for="weight">Weight in lbs.</label>
+								<input class="form-control" type="number" name="weight" id="weight">
 							</div>
-							<hr>
-							<h6>Exercise Level</h6>
-							<hr>
+							<div class="form-group">
+								<label for="height">Height total inches</label>
+								<input class="form-control" type="number" name="height" id="height">
+							</div>
+							<div class="form-group">
+								<label for="age">Age</label>
+								<input class="form-control" type="number" name="age" id="age">
+							</div>
 							<div class="form-group">
 								<div class="form-check">
 								  <input class="form-check-input" type="radio" name="exercise" id="exampleRadios1" value="1.2" checked>
@@ -110,9 +71,6 @@
 								  </label>
 								</div>
 							</div>
-							<hr>
-							<h6>Do You Want to Lose Weight or Gain Lean Muscle?</h6>
-							<hr>
 							<div class="form-group">
 								<div class="form-check form-check-inline">
 								  <input class="form-check-input" type="radio" name="goal" id="inlineRadio1" value="deficit">
@@ -124,11 +82,8 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="calorie_change">Caloric % Change</label>
+								<label for="calorie_change">Calorie Change</label>
 								<input class="form-control" type="number" name="calorie_change" id="calorie_change">
-								<small id="passwordHelpBlock" class="form-text text-muted">
-								  You do not want to exceed 20%. While you may want to do more it is not considered healthy. If you are unsure start with 5%.
-								</small>
 							</div>
 							<button type="submit" class="btn btn-primary btn-block">Calculate Your Macros</button>
 						{!! Form::close() !!}

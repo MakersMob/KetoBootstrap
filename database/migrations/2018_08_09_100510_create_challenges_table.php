@@ -1,4 +1,4 @@
-<?php
+ <?php
 
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
@@ -15,11 +15,14 @@ class CreateChallengesTable extends Migration
     {
         Schema::create('challenges', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('slug')->nullable();
             $table->string('name');
+            $table->integer('days')->default(7);
             $table->string('video')->nullable();
             $table->text('description');
-            $table->string('slug')->nullable();
-            $table->integer('level')->default('1');
+            $table->text('start_email_form')->nullable();
+            $table->text('restart_email_form')->nullable();
+            $table->text('stop_email_form')->nullable();
             $table->timestamps();
         });
 
@@ -29,7 +32,7 @@ class CreateChallengesTable extends Migration
             $table->integer('challenge_id')->unsigned();
             $table->foreign('challenge_id')->references('id')->on('challenges');
             $table->boolean('complete')->default(0);
-            $table->date('completed_on')->nullable();
+            $table->timestamp('completed_on')->nullable();
             $table->timestamps();
         });
     }

@@ -23,7 +23,7 @@ class IngredientRecipeController extends Controller
 
     	$amount = $request->amount.' '.$request->measurement;
 
-    	$recipe->ingredients()->attach($ingredient->id, ['amount' => $amount]);
+    	$recipe->ingredients()->attach($ingredient->id, ['amount' => $amount, 'item' => $request->item]);
 
     	return redirect('recipe/'.$recipe->slug);
     }

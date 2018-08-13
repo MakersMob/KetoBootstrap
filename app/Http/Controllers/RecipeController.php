@@ -72,7 +72,9 @@ class RecipeController extends Controller
      */
     public function show($id)
     {
-        $recipe = Recipe::with('ingredients', 'instructions')->where('slug', $id)->firstOrFail();
+        $recipe = Recipe::with(['ingredients' => function ($query) {
+            $query->orderBy('item', 'ASC');
+        }], 'instructions')->where('slug', $id)->firstOrFail();
 
         $r = Recipe::get();
 
