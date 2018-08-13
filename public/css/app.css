@@ -10853,6 +10853,11 @@ table tr.smoke {
   background-color: #fff;
 }
 
+.smoke ul.ingredient-list li {
+  border-bottom: 1px solid rgba(71, 73, 84, 0.5);
+  padding: 5px 0;
+}
+
 .card.smoke .card-body {
   background-color: #F2F2F2;
 }
