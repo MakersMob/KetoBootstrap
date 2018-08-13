@@ -10,7 +10,7 @@ class IngredientRecipeController extends Controller
 {
     public function create()
     {
-    	$recipes = Recipe::orderBy('name', 'ASC')->get();
+    	$recipes = Recipe::orderBy('id', 'DESC')->get();
     	$ingredients = Ingredient::orderBy('name', 'ASC')->get();
 
     	return view('ingredientrecipe.create', compact('recipes', 'ingredients'));
