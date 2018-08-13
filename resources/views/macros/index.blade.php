@@ -82,7 +82,7 @@
 								<div class="form-check">
 								  <input class="form-check-input" type="radio" name="exercise" id="exampleRadios1" value="1.2" checked>
 								  <label class="form-check-label" for="exampleRadios1">
-								    No Exercise to 1-3 Week Days of Low-Intensity
+								    No Exercise to 1-3 Days a Week of Low-Intensity
 								  </label>
 								</div>
 								<div class="form-check">
@@ -106,7 +106,7 @@
 								<div class="form-check">
 								  <input class="form-check-input" type="radio" name="exercise" id="exampleRadios2" value="1.725">
 								  <label class="form-check-label" for="exampleRadios2">
-								    5 or More Days of HIIT Training
+								    5 or More Days a Week of HIIT Training
 								  </label>
 								</div>
 							</div>
