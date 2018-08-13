@@ -82,31 +82,31 @@
 								<div class="form-check">
 								  <input class="form-check-input" type="radio" name="exercise" id="exampleRadios1" value="1.2" checked>
 								  <label class="form-check-label" for="exampleRadios1">
-								    Little to no exercise
+								    No Exercise to 1-3 Week Days of Low-Intensity Exercise
 								  </label>
 								</div>
 								<div class="form-check">
 								  <input class="form-check-input" type="radio" name="exercise" id="exampleRadios2" value="1.375">
 								  <label class="form-check-label" for="exampleRadios2">
-								    Light exercise 1-3 days per week
+								    1-3 Days a Week of Medium to High-Intensity Exercise
+								  </label>
+								</div>
+								<div class="form-check">
+								  <input class="form-check-input" type="radio" name="exercise" id="exampleRadios2" value="1.375">
+								  <label class="form-check-label" for="exampleRadios2">
+								    4 or More Days a Week of Low-Intensity 
 								  </label>
 								</div>
 								<div class="form-check">
 								  <input class="form-check-input" type="radio" name="exercise" id="exampleRadios2" value="1.55">
 								  <label class="form-check-label" for="exampleRadios2">
-								    Moderate exercise 3-5 days per week
+								    4 or More Days a Week of Medium-to-High Intensity
 								  </label>
 								</div>
 								<div class="form-check">
 								  <input class="form-check-input" type="radio" name="exercise" id="exampleRadios2" value="1.725">
 								  <label class="form-check-label" for="exampleRadios2">
-								    Hard exercise 6-7 days per week
-								  </label>
-								</div>
-								<div class="form-check">
-								  <input class="form-check-input" type="radio" name="exercise" id="exampleRadios2" value="option2">
-								  <label class="form-check-label" for="exampleRadios2">
-								    Very intense exercise
+								    5 or More Days of HIIT Training
 								  </label>
 								</div>
 							</div>
