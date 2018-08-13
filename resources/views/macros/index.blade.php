@@ -127,7 +127,7 @@
 								<label for="calorie_change">Caloric % Change</label>
 								<input class="form-control" type="number" name="calorie_change" id="calorie_change">
 								<small id="passwordHelpBlock" class="form-text text-muted">
-								  You do not want to exceed 20%. While you may want to do more it is not considered healthy. If you are unsure start with 5%.
+								  5-10% is a small deficit. 10-20% is a moderate deficit. 20-30% is a large deficit. <strong>Do not exceed 30%.</strong>
 								</small>
 							</div>
 							<button type="submit" class="btn btn-primary btn-block">Calculate Your Macros</button>
