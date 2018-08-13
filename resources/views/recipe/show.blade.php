@@ -107,13 +107,15 @@
 					</thead>
 					<tbody>
 						@foreach($recipes as $rec)
-							<tr>
-								<td><a title="{{$rec->name}}" href="/recipe/{{$rec->slug}}">{{$rec->name}}</a></td>
-								<td>{{$rec->calories }}</td>
-								<td>{{$rec->protein}}</td>
-								<td>{{$rec->fat}}</td>
-								<td>{{$rec->carbs}}</td>
-							</tr>
+							@unless($rec->id == $recipe->id)
+								<tr>
+									<td><a title="{{$rec->name}}" href="/recipe/{{$rec->slug}}">{{$rec->name}}</a></td>
+									<td>{{$rec->calories }}</td>
+									<td>{{$rec->protein}}</td>
+									<td>{{$rec->fat}}</td>
+									<td>{{$rec->carbs}}</td>
+								</tr>
+							@endunless
 						@endforeach
 					</tbody>
 				</table>
