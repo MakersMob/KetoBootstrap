@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app', ['title' => $tag->tag.' Keto Recipes'])
 
 @section('content')
 <section class="welcome food">
