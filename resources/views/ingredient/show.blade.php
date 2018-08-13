@@ -11,20 +11,32 @@
 		</div>
 	</div>
 </section>
-<section class="content smoke">
+<section class="content">
 	<div class="container">
 		<div class="row" data-equalizer>
-			<div class="col-12 col-lg-8 post">
-				<ul>
-					@foreach($ingredient->recipes as $recipe)
-						<li><a href="/recipe/{{$recipe->slug}}">{{$recipe->name}}</a></li>
-					@endforeach
-				</ul>
-			</div>
-			<div class="col-12 col-lg-4">
-				<div class="sidebar">
-					
-				</div>
+			<div class="col-12">
+				<table class="table">
+					<thead>
+						<tr>
+							<td>Recipe</td>
+							<td>Calories</td>
+							<td>Protein</td>
+							<td>Fat</td>
+							<td>Net Carbs</td>
+						</tr>
+					</thead>
+					<tbody>
+						@foreach($recipes as $recipe)
+							<tr>
+								<td><a title="{{$recipe->name}}" href="/recipe/{{$recipe->slug}}">{{$recipe->name}}</a></td>
+								<td>{{$recipe->calories }}</td>
+								<td>{{$recipe->protein}}</td>
+								<td>{{$recipe->fat}}</td>
+								<td>{{$recipe->carbs}}</td>
+							</tr>
+						@endforeach
+					</tbody>
+				</table>
 			</div>
 		</div>
 	</div>
