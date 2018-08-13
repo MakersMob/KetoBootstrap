@@ -21,9 +21,7 @@ class IngredientRecipeController extends Controller
     	$recipe = Recipe::find($request->recipe);
     	$ingredient = Ingredient::find($request->ingredient);
 
-    	$amount = $request->amount.' '.$request->measurement;
-
-    	$recipe->ingredients()->attach($ingredient->id, ['amount' => $amount, 'item' => $request->item]);
+    	$recipe->ingredients()->attach($ingredient->id, ['amount' => $request->amount, 'measurement' => $request->measurement, 'item' => $request->item]);
 
     	return redirect('recipe/'.$recipe->slug);
     }

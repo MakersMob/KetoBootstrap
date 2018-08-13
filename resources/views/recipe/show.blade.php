@@ -33,7 +33,7 @@
 				<h4>Ingredients</h4>
 				<ul class="list-unstyled ingredient-list">
 					@foreach($recipe->ingredients as $ingredient)
-						<li>@if($ingredient->pivot->item)[{{$ingredient->pivot->item}}] @endif<a href="/ingredient/{{ $ingredient->slug }}">{{ $ingredient->pivot->amount }} {{ $ingredient->name }}</a></li>
+						<li>@if($ingredient->pivot->item)[{{$ingredient->pivot->item}}] @endif<a href="/ingredient/{{ $ingredient->slug }}">{{ $ingredient->pivot->amount }} {{ $ingredient->measurement }} {{ $ingredient->name }}</a></li>
 					@endforeach
 				</ul>
 				@unless(Auth::guest())
