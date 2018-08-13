@@ -90,7 +90,7 @@
     <p class="text-center"><a href="/">Sign up today for the 28-Day Weight Loss Challenge</a> and get your first macro calculations done free!</p>    
 </section>
 @endguest
-<section class="content smoke d-print-none">
+<section class="content d-print-none">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
