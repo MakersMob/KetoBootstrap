@@ -45,12 +45,12 @@
 										<label for="link">Measurement</label>
 										<select class="form-control" name="measurement" id="measurement">
 											<option value=""></option>
-											<option value="cup">Cup</option>
+											<option value="cup">cup</option>
 											<option value="g">g</option>
 											<option value="oz">oz</option>
-											<option value="pounds">Pounds</option>
-											<option value="slices">Slices</option>
-											<option value="Tbsp">Tbsp</option>
+											<option value="lbs">lbs</option>
+											<option value="slices">slices</option>
+											<option value="tbsp">tbsp</option>
 											<option value="tsp">tsp</option>
 										</select>
 									</div>
