@@ -48,6 +48,7 @@
 											<option value="cup">Cup</option>
 											<option value="g">g</option>
 											<option value="oz">oz</option>
+											<option value="pounds">Pounds</option>
 											<option value="slices">Slices</option>
 											<option value="Tbsp">Tbsp</option>
 											<option value="tsp">tsp</option>
