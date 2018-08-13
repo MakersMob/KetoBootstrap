@@ -53,6 +53,7 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::resource('meal-plan', 'MealPlanController');
 	Route::get('mealplanrecipe/create', 'MealPlanRecipeController@create');
 	Route::post('mealplanrecipe', 'MealPlanRecipeController@store');
+	Route::get('{id}-keto-recipes', 'TagController@show');
 	Route::resource('tag', 'TagController');
 	Route::resource('ingredient', 'IngredientController');
 	Route::get('ingredientrecipe/create', 'IngredientRecipeController@create');
