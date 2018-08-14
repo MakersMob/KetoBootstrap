@@ -49,6 +49,7 @@
 											<option value="g">g</option>
 											<option value="oz">oz</option>
 											<option value="lbs">lbs</option>
+											<option value="links">links</option>
 											<option value="slices">slices</option>
 											<option value="tbsp">tbsp</option>
 											<option value="tsp">tsp</option>
