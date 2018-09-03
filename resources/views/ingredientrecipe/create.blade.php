@@ -48,6 +48,7 @@
 											<option value="clove">clove</option>
 											<option value="cup">cup</option>
 											<option value="g">g</option>
+											<option value="head">head</option>
 											<option value="oz">oz</option>
 											<option value="large">large</option>
 											<option value="lbs">lbs</option>

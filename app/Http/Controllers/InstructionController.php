@@ -40,8 +40,7 @@ class InstructionController extends Controller
     {
         $instruction = Instruction::create([
             'recipe_id' => $request->recipe,
-            'description' => $request->description,
-            'image' => 'google',
+            'description' => $request->description
         ]);
 
         $recipe = Recipe::find($request->recipe);
