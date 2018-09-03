@@ -57,6 +57,7 @@
 											<option value="packets">packets</option>
 											<option value="slices">slices</option>
 											<option value="small">small</option>
+											<option value="square">square</option>
 											<option value="tbsp">tbsp</option>
 											<option value="tsp">tsp</option>
 										</select>
