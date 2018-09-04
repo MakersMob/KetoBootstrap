@@ -47,6 +47,7 @@
 											<option value=""></option>
 											<option value="clove">clove</option>
 											<option value="cup">cup</option>
+											<option value="drops">drops</option>
 											<option value="g">g</option>
 											<option value="head">head</option>
 											<option value="oz">oz</option>
