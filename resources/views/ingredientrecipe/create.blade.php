@@ -56,6 +56,7 @@
 											<option value="links">links</option>
 											<option value="medium">medium</option>
 											<option value="packets">packets</option>
+											<option value="pinch">pinch</option>
 											<option value="slices">slices</option>
 											<option value="small">small</option>
 											<option value="square">square</option>
