@@ -46,6 +46,7 @@
 										<select class="form-control" name="measurement" id="measurement">
 											<option value=""></option>
 											<option value="clove">clove</option>
+											<option value="cubes">cubes</option>
 											<option value="cup">cup</option>
 											<option value="drops">drops</option>
 											<option value="g">g</option>
