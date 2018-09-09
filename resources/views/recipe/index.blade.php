@@ -56,6 +56,7 @@
 						@endforeach
 					</tbody>
 				</table>
+				{{ $recipes->links() }}
 			</div>
 			<div class="col-12 col-lg-4">
 				<table class="table">
