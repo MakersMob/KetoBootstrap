@@ -13,10 +13,8 @@
 <section class="content">
 	<div class="container">
 		<div class="row">
-			<div class="col-12">
-				@if($challenge->users->contains(Auth::user()->id))
-					<div class="row">
-						<div class="col-6">
+			@if($challenge->users->contains(Auth::user()->id))
+				<div class="col-6">
 							{!! Form::open(['url' => 'challengeuser/'.$challenge->id]) !!}
 								@method('PUT')
 								<input type="hidden" name="challenge" value="{{ $challenge->id }}">
@@ -30,15 +28,14 @@
 							{!! Form::close() !!}
 						</div>
 					</div>
-				@else
-					<div class="col-lg-6">
-						{!! $challenge->start_email_form !!}
-					</div>
-					<div class="col-lg-6">
-						{!! $challenge->description !!}
-					</div>
-				@endif
-			</div>
+			@else
+				<div class="col-lg-6">
+					{!! $challenge->start_email_form !!}
+				</div>
+				<div class="col-lg-6">
+					{!! $challenge->description !!}
+				</div>
+			@endif
 		</div>
 	</div>
 </section>
