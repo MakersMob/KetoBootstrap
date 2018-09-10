@@ -17,6 +17,25 @@
 <section class="content">
 	<div class="container">
 		<div class="row">
+			<div class="col-12">
+				{!! Form::open(['url' => 'recipesearch', 'class' => 'form-inline']) !!}
+					<div class="form-row">
+						<div class="col-9 form-group">
+							<label class="sr-only" for="search">Search Recipes</label>
+							<input style="width: 100%" type="text" class="form-control col-12" id="search" name="search" placeholder="Search for a recipe">
+						</div>
+						<div class="col-3 form-group">
+							<button type="submit" class="btn btn-primary">Search</button>
+						</div>
+					</div>
+				{!! Form::close() !!}
+			</div>
+		</div>
+	</div>
+</section>
+<section class="content smoke">
+	<div class="container">
+		<div class="row">
 			<div class="col-12 col-lg-6 d-print-none">
 				@unless(count($recipe->tags) < 1)
 				<ul class="tags ">
