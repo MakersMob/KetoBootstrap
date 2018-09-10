@@ -19,9 +19,7 @@ Route::get('/keto-diet', function () {
 	return view('keto');
 });
 
-Route::get('/join', function () {
-	return view('join');
-});
+Route::get('/join', 'JoinController@index');
 
 Route::get('/keto-meal-plan', function () {
 	return view('7daymealplan');
