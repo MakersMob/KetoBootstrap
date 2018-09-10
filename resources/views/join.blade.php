@@ -12,7 +12,7 @@
                 <h1 class="linewrap"><span>Learn How to Lose Weight Quickly and Easily by Eating Great Food and Being Supported by Others</span></h1>
                 <h2 class="linewrap"><span>Lose 10-21 Lbs in 4 Weeks Eating Great Recipes, Tracking Your Progress, and Getting 1-on-1 Support from People That Want You to Succeed</span></h2>
                 <p class="" style="margin-top: 2rem;"><a href="#payment-form" class="btn btn-lg btn-primary">Get Started for Just $47. Pay Once, Be Happy Forever.</a></p>
-                <h2 class="linewrap">We&rsquo;ve helped over {{ $users }} awesome people lose weight with Keto and achieve the lifestyle they&rsquo;ve always wanted</h2>
+                <h2 class="linewrap"><span>We&rsquo;ve helped over {{ $users }} awesome people lose weight with Keto and achieve the lifestyle they&rsquo;ve always wanted</span></h2>
             </div>
         </div>
     </div>
