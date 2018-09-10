@@ -31,7 +31,9 @@
 						</div>
 					</div>
 				@else
-					{!! $challenge->start_email_form !!}
+					<div class="col-6">
+						{!! $challenge->start_email_form !!}
+					</div>
 				@endif
 			</div>
 		</div>
