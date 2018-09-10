@@ -5,7 +5,7 @@ namespace KetoBootstrap\Http\Controllers;
 use Illuminate\Http\Request;
 use KetoBootstrap\User;
 
-class IngredientController extends Controller
+class JoinController extends Controller
 {
     /**
      * Display a listing of the resource.
