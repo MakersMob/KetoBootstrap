@@ -15,11 +15,11 @@ $container   = get_theme_mod( 'understrap_container_type' );
 		$title = get_the_title();
 
 	?>
-<header class="entry-header">
+<section class="welcome">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+				<?php the_title( '<h1 class="entry-title linewrap"><span>', '</span></h1>' ); ?>
 
 				<div class="entry-meta">
 
@@ -29,8 +29,8 @@ $container   = get_theme_mod( 'understrap_container_type' );
 			</div>
 		</div>
 	</div>
-</header><!-- .entry-header -->
-<div class="wrapper" id="single-wrapper">
+</section><!-- .entry-header -->
+<section class="content">
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
@@ -67,6 +67,6 @@ $container   = get_theme_mod( 'understrap_container_type' );
 
 </div><!-- Container end -->
 
-</div><!-- Wrapper end -->
+</section><!-- Wrapper end -->
 <?php endwhile; // end of the loop. ?>
 <?php get_footer(); ?>
