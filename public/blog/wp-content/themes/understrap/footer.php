@@ -13,7 +13,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php get_sidebar( 'footerfull' ); ?>
 
-<div class="wrapper" id="wrapper-footer">
+<section class="footer">
 
 	<div class="<?php echo esc_attr( $container ); ?>">
 
@@ -24,8 +24,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<footer class="site-footer" id="colophon">
 
 					<div class="site-info">
-
-							<p>Helping you connect the dots of the Ketogenic Diet</p>
 							<p class="text-center"><small>&copy; Makers Mob LLC | <a href="/privacy-policy">Privacy Policy</a></small></p>
 					</div><!-- .site-info -->
 
@@ -39,7 +37,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 </div><!-- wrapper end -->
 
-</div><!-- #page we need this extra closing tag here -->
+</section><!-- #page we need this extra closing tag here -->
 
 <?php wp_footer(); ?>
 
