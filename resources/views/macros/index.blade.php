@@ -44,6 +44,7 @@
 					</td>
 				</table>
 				<p class="" style="line-height: 1.2;"><small><strong>These macro numbers are from your latest macros calculation.</strong> You can always come back to this page to view your macros.</small></p>
+				<p class="" style="line-height: 1.2;"><strong>Even if your carbs are over 20.0g we suggest staying UNDER 20g a day for optimal results.</strong></p>
 			</div>
 			<div class="col-12 col-lg-6">
 				<div class="card">
