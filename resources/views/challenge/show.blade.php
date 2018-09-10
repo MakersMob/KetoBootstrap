@@ -31,19 +31,22 @@
 						</div>
 					</div>
 				@else
-					<div class="col-6">
+					<div class="col-lg-6">
 						{!! $challenge->start_email_form !!}
+					</div>
+					<div class="col-lg-6">
+						{!! $challenge->description !!}
 					</div>
 				@endif
 			</div>
 		</div>
 	</div>
 </section>
+@if($challenge->users->contains(Auth::user()->id))
 <section class="content post smoke">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				@if($challenge->users->contains(Auth::user()->id))
 					<h3>What Happened Today?</h3>
 					<p>Keeping track of your ups and downs will help you form a better idea of where you can improve during the challenge.</p>
 					<div class="card">
@@ -118,11 +121,9 @@
 							{!! Form::close() !!}
 						</div>
 					</div>
-				@else
-					{!! $challenge->description !!}
-				@endif
 			</div>
 		</div>
 	</div>
 </section>
+@endif
 @endsection
