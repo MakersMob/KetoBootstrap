@@ -70,7 +70,7 @@
 										<div class="form-row">
 											<div class="col-lg-12">
 												<h6>Measurements</h6>
-												<p><small>You do not have to do these measurements daily. In fact, please don't measure daily! Choose an interval and stick with it so you can measure your results. You can select whatever measurements you want to track.</small></p>
+												<p><small><strong>You do not have to do these measurements daily.</strong> In fact, please don't measure daily! Choose an interval and stick with it so you can measure your results. You can select whatever measurements you want to track.</small></p>
 											</div>
 											<div class="col-lg-6">
 												<div class="form-group">
