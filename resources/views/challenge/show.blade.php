@@ -30,7 +30,10 @@
 					</div>
 			@else
 				<div class="col-lg-6">
-					{!! $challenge->start_email_form !!}
+					<form action="https://www.getdrip.com/forms/{{ $challenge->start_email_form }}/submissions" method="post" data-drip-embedded-form="{{ $challenge->start_email_form }}">
+					    <input class="form-control" type="hidden" id="drip-email" name="fields[email]" value="{{ Auth::user()->email }}" />
+					    <button type="submit" class="btn btn-lg btn-block btn-primary">Start Challenge</button>
+					</form>
 				</div>
 				<div class="col-lg-6">
 					{!! $challenge->description !!}
