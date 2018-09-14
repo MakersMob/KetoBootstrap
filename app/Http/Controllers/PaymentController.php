@@ -11,7 +11,6 @@ class PaymentController extends Controller
 {
     public function store(Request $request)
     {
-        dd($request);
         switch ($request->product) {
             case 'general':
                 $amount = 47;
