@@ -510,7 +510,7 @@
                                 <div id="card-errors"></div>
                             </div>
                             <input type="hidden" name="product" value="general">
-                            <button type="submit" class="btn btn-lg btn-primary btn-block">Start the Keto Bootstrap System Today for Just $47</button>
+                            <button type="submit" class="btn btn-lg btn-primary btn-block" id="paymentButton">Start the Keto Bootstrap System Today for Just $47</button>
                             <p style="margin-top: 1rem;" class="text-center"><strong>Please do not submit the form more than once.</strong></p>
                         {!! Form::close() !!}
                     </div>
@@ -526,68 +526,29 @@
 <script type="text/javascript">
     // This identifies your website in the createToken call below
     var stripe = Stripe('{{ env('STRIPE_KEY') }}');
-    var elements = stripe.elements({
+    var elements = stripe.elements();
 
-    });
-
-    var card = elements.create('card', {
-        iconStyle: 'default',
-        style: {
-            base: {
-              iconColor: '#8898AA',
-              color: '#333333',
-              fontSize: '20px',
-              fontFamily: 'Helvetica',
-
-              '::placeholder': {
-                color: '#8898AA',
-              },
-            },
-            invalid: {
-              iconColor: '#e85746',
-              color: '#e85746',
-            }
-        },
-        classes: {
-            focus: 'is-focused',
-            empty: 'is-empty',
-        },
-    });
-
-    card.mount('#card-element');
-
-    function stripeTokenHandler(token) {
-      // Insert the token ID into the form so it gets submitted to the server
-      var form = document.getElementById('payment-form');
-      var hiddenInput = document.createElement('input');
-      hiddenInput.setAttribute('type', 'hidden');
-      hiddenInput.setAttribute('name', 'stripeToken');
-      hiddenInput.setAttribute('value', token.id);
-      form.appendChild(hiddenInput);
-
-      // Submit the form
-      form.submit();
-    }
-
-    function createToken() {
-      stripe.createToken(card).then(function(result) {
-        if (result.error) {
-          // Inform the user if there was an error
-          var errorElement = document.getElementById('card-errors');
-          errorElement.textContent = result.error.message;
-        } else {
-          // Send the token to your server
-          stripeTokenHandler(result.token);
+    var style = {
+      base: {
+        color: '#32325d',
+        lineHeight: '18px',
+        fontFamily: '"Helvetica Neue", Helvetica, sans-serif',
+        fontSmoothing: 'antialiased',
+        fontSize: '16px',
+        '::placeholder': {
+          color: '#aab7c4'
         }
-      });
+      },
+      invalid: {
+        color: '#fa755a',
+        iconColor: '#fa755a'
+      }
     };
 
-    // Create a token when the form is submitted.
-    var form = document.getElementById('payment-form');
-    form.addEventListener('submit', function(e) {
-      e.preventDefault();
-      createToken();
-    });
+    // Create an instance of the card Element.
+    var card = elements.create('card', {style: style});
+
+    card.mount('#card-element');
 
     card.addEventListener('change', function(event) {
       var displayError = document.getElementById('card-errors');
@@ -596,6 +557,23 @@
       } else {
         displayError.textContent = '';
       }
+    });
+
+    // Handle form submission.
+    var form = document.getElementById('payment-form');
+    form.addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      stripe.createToken(card).then(function(result) {
+        if (result.error) {
+          // Inform the user if there was an error.
+          var errorElement = document.getElementById('card-errors');
+          errorElement.textContent = result.error.message;
+        } else {
+          // Send the token to your server.
+          stripeTokenHandler(result.token);
+        }
+      });
     });
 </script>
 @endsection
