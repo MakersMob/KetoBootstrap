@@ -52,6 +52,7 @@
 											<option value="cup">cup</option>
 											<option value="drops">drops</option>
 											<option value="g">g</option>
+											<option value="handfuls">handfuls</option>
 											<option value="head">head</option>
 											<option value="oz">oz</option>
 											<option value="large">large</option>
