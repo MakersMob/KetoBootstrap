@@ -43,8 +43,27 @@ $container   = get_theme_mod( 'understrap_container_type' );
 			</div>
 			<div class="col-12 col-lg-5">
 				<div class="callout">
+					<h3>Recent Posts</h3>
 					<ul class="super-list">
-			
+						<?php 
+									// the query
+									$wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>-1, 'orderby' => 'date', 'order' => 'DESC')); ?>
+
+									<?php if ( $wpb_all_query->have_posts() ) : ?>
+
+
+									<?php
+									while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post();
+									    $out .= '<li>';
+									    $out .=  '<a href="'.get_permalink($cat_post->ID).'" title="'.wptexturize($cat_post->post_title).'">'.$cat_post->post_title.'</a></li>';
+									    echo $out;
+									endwhile;
+									?>
+										<?php wp_reset_postdata(); ?>
+
+									<?php else : ?>
+										<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+									<?php endif; ?>
 					</ul>
 				</div>
 			</div>

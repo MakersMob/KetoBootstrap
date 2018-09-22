@@ -10,4 +10,19 @@
     </div>
   </div>
 </section>
+<section class="content">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h2>You aren&rsquo;t happy about something with your body.</h2>
+			</div>
+			<div class="col-12 col-lg-8">
+				<p>Maybe you feel you can look better. Maybe you feel you should smile when you see yourself. Maybe you feel like you deserve more for yourself.</p>
+				<p>Basically, you're tired of where you're at now and you know you want to be at a different phase with your body.</p>
+				<p>That is where the <strong>ketogenic diet</strong> comes into play.</p>
+				<p>Now, if you don't know about keto then I can understand that the word <em>diet</em> is a pretty shitty term. It usually means eating things that you aren't happy about.</p>
+			</div>
+		</div>
+	</div>
+</section>
 @endsection
