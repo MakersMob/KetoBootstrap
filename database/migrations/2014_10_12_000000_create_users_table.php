@@ -27,6 +27,7 @@ class CreateUsersTable extends Migration
             $table->decimal('fat', 5, 1)->default(0.0);
             $table->decimal('current_weight', 5, 1)->default(0.0);
             $table->decimal('goal_weight', 5, 1)->default(0.0);
+            $table->integer('join_price')->default(199);
             $table->string('stripe_id')->nullable();
             $table->string('card_brand')->nullable();
             $table->string('card_last_four')->nullable();

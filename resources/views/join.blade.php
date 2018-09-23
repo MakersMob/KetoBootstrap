@@ -476,7 +476,7 @@
                 <h2 class="text-center" style="border-bottom: none;">Get Started Today with a One-Time Payment of  $47</h2>
                 <div class="card">
                     <div class="card-body">
-                        <form method="POST" action="/payment" accept-charset="UTF-8" id="payment-form">
+                        <form method="POST" action="/payment" accept-charset="UTF-8" id="payment-form" name="stripe-form">
                             {{ csrf_field() }}
                             <div class="payment-errors"></div>
                             <div class="row">
@@ -556,7 +556,7 @@
     });
 
     // Handle form submission.
-    var form = document.getElementById('payment-form');
+    var form = document.querySelector("form[name='stripe-form']");
     form.addEventListener('submit', function(event) {
       event.preventDefault();
       //event.stopImmediatePropagation()
@@ -584,7 +584,7 @@
       form.appendChild(hiddenInput);
 
       // Submit the form
-      //form.submit();
+      form.submit();
     }
 </script>
 @endsection

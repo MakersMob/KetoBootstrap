@@ -54,26 +54,26 @@
 							<hr>
 							<div class="form-group">
 								<div class="form-check form-check-inline">
-								  <input class="form-check-input" type="radio" name="gender" id="inlineRadio1" value="female">
+								  <input class="form-check-input" type="radio" name="gender" id="inlineRadio1" value="female" @if(Auth::user()->gender == 'Female') checked="checked" @endif>
 								  <label class="form-check-label" for="inlineRadio1">Female</label>
 								</div>
 								<div class="form-check form-check-inline">
-								  <input class="form-check-input" type="radio" name="gender" id="inlineRadio2" value="male">
+								  <input class="form-check-input" type="radio" name="gender" id="inlineRadio2" value="male" @if(Auth::user()->gender == 'Male') checked="checked" @endif>
 								  <label class="form-check-label" for="inlineRadio2">Male</label>
 								</div>
 							</div>
 							<div class="form-row">
 								<div class="form-group col-lg-4">
 									<label for="weight">Weight in lbs.</label>
-									<input class="form-control" type="number" name="weight" id="weight">
+									<input class="form-control" type="number" name="weight" id="weight" value="{{ Auth::user()->current_weight }}">
 								</div>
 								<div class="form-group col-lg-4">
 									<label for="height">Height total inches</label>
-									<input class="form-control" type="number" name="height" id="height">
+									<input class="form-control" type="number" name="height" id="height" value="{{ Auth::user()->height }}">
 								</div>
 								<div class="form-group col-lg-4">
 									<label for="age">Age</label>
-									<input class="form-control" type="number" name="age" id="age">
+									<input class="form-control" type="number" name="age" id="age" value="{{ Auth::user()->age }}">
 								</div>
 							</div>
 							<hr>

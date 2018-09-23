@@ -40,6 +40,8 @@ Route::get('calculator', 'CalculatorController@index');
 Route::post('calculator', 'CalculatorController@store');
 
 Route::group(['middleware' => 'auth'], function () {
+	Route::post('goals', 'GoalController@store');
+	Route::get('/welcome', 'WelcomeController@index');
 	Route::resource('bootcamp', 'BootcampController');
 	Route::get('challenge/{id}/start', 'ChallengeUserController@store');
 	Route::get('challenge/{id}/restart', 'ChallengeUserController@update');

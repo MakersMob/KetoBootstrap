@@ -4,6 +4,7 @@ namespace KetoBootstrap\Http\Controllers;
 
 use Illuminate\Http\Request;
 use KetoBootstrap\User;
+use Auth;
 
 class JoinController extends Controller
 {
@@ -14,6 +15,10 @@ class JoinController extends Controller
      */
     public function index()
     {
+        if(Auth::user()) {
+            return redirect('home');
+        }
+
         $users = User::count();
 
         return view('join', compact('users'));
