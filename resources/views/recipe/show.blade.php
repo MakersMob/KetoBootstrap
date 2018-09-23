@@ -92,21 +92,19 @@
 				</ul>
 			</div>
 			<div class="col-12 col-lg-6">
-				@unless(Auth::guest())
 					<h4>Instructions</h4>
 					<ol>
 						@foreach($recipe->instructions as $instruction)
 							<li>{!! $instruction->description !!}</li>
 						@endforeach
 					</ol>
-				@endunless
 			</div>
 		</div>
 	</div>
 </section>
 @guest
 <section class="announcement d-print-none">
-    <p class="text-center"><a href="/">Sign up today for the 28-Day Weight Loss Challenge</a> and get your first macro calculations done free!</p>    
+    <p class="text-center"><a href="/">Sign up today for the 28-Day Weight Loss Challenge!</a></p>    
 </section>
 @endguest
 <section class="content d-print-none smoke">
