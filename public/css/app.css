@@ -10829,6 +10829,10 @@ table tr.smoke {
   }
 }
 
+.announcement {
+  background-color: #FF715B;
+}
+
 .smoke {
   background-color: #F2F2F2;
 }

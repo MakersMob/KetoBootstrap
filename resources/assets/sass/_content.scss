@@ -162,6 +162,9 @@ p.large {
 		font-size: rem-calc(32);
 	}
 }
+.announcement {
+	background-color: $pink;
+}
 .smoke {
 	background-color: $smoke;
 	.card-header {

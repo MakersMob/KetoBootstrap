@@ -80,6 +80,11 @@
 
 	</div>
 </section>
+@guest
+<section class="content announcement d-print-none">
+    <p style="margin-bottom: 0;" class="text-center"><a class="btn btn-lg btn-primary" href="/join">Sign up today for the 28-Day Weight Loss Challenge!</a></p>    
+</section>
+@endguest
 <section class="content">
 	<div class="container">
 		<div class="row">
@@ -102,11 +107,6 @@
 		</div>
 	</div>
 </section>
-@guest
-<section class="announcement d-print-none">
-    <p class="text-center"><a href="/">Sign up today for the 28-Day Weight Loss Challenge!</a></p>    
-</section>
-@endguest
 <section class="content d-print-none smoke">
 	<div class="container">
 		<div class="row">
