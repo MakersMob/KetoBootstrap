@@ -57,13 +57,10 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::resource('journal', 'JournalController');
 	Route::resource('meal-plan', 'MealPlanController');
 	Route::get('mealplanrecipe/create', 'MealPlanRecipeController@create');
-	Route::post('mealplanrecipe', 'MealPlanRecipeController@store');
-	Route::get('{id}-keto-recipes', 'TagController@show');
-	
+	Route::post('mealplanrecipe', 'MealPlanRecipeController@store');	
 	Route::get('ingredientrecipe/create', 'IngredientRecipeController@create');
 	Route::post('ingredientrecipe', 'IngredientRecipeController@store');
 	Route::resource('instruction', 'InstructionController');
-	Route::post('recipesearch', 'RecipeSearchController@show');
 	Route::post('recipeuser', 'RecipeUserController@store');
 	Route::resource('macros', 'MacrosController');
 	Route::resource('wins', 'WinController');
