@@ -1,9 +1,5 @@
 @extends('layouts.app', ['title' => 'Keto Bootstrap - Lose Weight with the Ketogenic Diet', 'description' => 'Lose weight quick. With the Keto Bootstrap System you can lose 10 - 21 lbs in 28 days.', 'page' => 'home'])
 
-@section('headScripts')
-<script type="text/javascript" src="//js.stripe.com/v3/"></script>
-@endsection
-
 @section('content')
 <section class="welcome weight-loss">
     <div class="container">
@@ -480,7 +476,8 @@
                 <h2 class="text-center" style="border-bottom: none;">Get Started Today with a One-Time Payment of  $47</h2>
                 <div class="card">
                     <div class="card-body">
-                        {!! Form::open(['url' => 'payment', 'class' => 'callout', 'id' => 'payment-form']) !!}
+                        <form method="POST" action="/payment" accept-charset="UTF-8" id="payment-form">
+                            {{ csrf_field() }}
                             <div class="payment-errors"></div>
                             <div class="row">
                                 <div class="col-12 col-lg-6">
@@ -509,10 +506,9 @@
                                 <div id="card-element"></div>
                                 <div id="card-errors"></div>
                             </div>
-                            <input type="hidden" name="product" value="general">
                             <button type="submit" class="btn btn-lg btn-primary btn-block" id="paymentButton">Start the Keto Bootstrap System Today for Just $47</button>
                             <p style="margin-top: 1rem;" class="text-center"><strong>Please do not submit the form more than once.</strong></p>
-                        {!! Form::close() !!}
+                        </form>
                     </div>
                 </div>
             </div>
@@ -523,7 +519,7 @@
 @endsection
 
 @section('footScripts')
-<script type="text/javascript">
+<script>
     // This identifies your website in the createToken call below
     var stripe = Stripe('{{ env('STRIPE_KEY') }}');
     var elements = stripe.elements();
@@ -532,7 +528,7 @@
       base: {
         color: '#32325d',
         lineHeight: '18px',
-        fontFamily: '"Helvetica Neue", Helvetica, sans-serif',
+        fontFamily: '"proxima-nova-condensed", "Helvetica Neue", Helvetica, sans-serif',
         fontSmoothing: 'antialiased',
         fontSize: '16px',
         '::placeholder': {
@@ -563,6 +559,7 @@
     var form = document.getElementById('payment-form');
     form.addEventListener('submit', function(event) {
       event.preventDefault();
+      //event.stopImmediatePropagation()
 
       stripe.createToken(card).then(function(result) {
         if (result.error) {
@@ -570,10 +567,24 @@
           var errorElement = document.getElementById('card-errors');
           errorElement.textContent = result.error.message;
         } else {
+            console.log(result);
           // Send the token to your server.
           stripeTokenHandler(result.token);
         }
       });
     });
+
+    function stripeTokenHandler(token) {
+      // Insert the token ID into the form so it gets submitted to the server
+      var form = document.getElementById('payment-form');
+      var hiddenInput = document.createElement('input');
+      hiddenInput.setAttribute('type', 'hidden');
+      hiddenInput.setAttribute('name', 'stripeToken');
+      hiddenInput.setAttribute('value', token.id);
+      form.appendChild(hiddenInput);
+
+      // Submit the form
+      //form.submit();
+    }
 </script>
 @endsection
