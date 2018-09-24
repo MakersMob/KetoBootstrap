@@ -1,7 +1,7 @@
 @extends('layouts.app', ['title' => 'The Ketogenic Diet: A Beginner\'s Guide to Keto', 'description' => 'Learn about the ketogenic diet and how keto can help you lose weight quickly, boost brain activity and keep you energized.'])
 
 @section('content')
-<section class="welcome">
+<section class="welcome food">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
@@ -519,27 +519,6 @@
 
 				<p>Cooking on Keto also doesn't have to be time-consuming. Love your instant pot? Then here are <a href="https://missfitliving.com/keto-instant-pot-recipes/" target="_blank">instant pot keto recipes</a> just for you.</p>
 				
-				<h2>Like the Guide? Pin It!</h2>
-				<div class="row">
-					<div class="col-12 col-lg-4">
-						<div class="image">
-							<img src="https://s3-us-west-2.amazonaws.com/ketodash-master/blog/wp-content/uploads/2018/04/20002634/keto-guide-pin.jpg" alt="Learn about the ketogenic diet and how it can help you lose weight quickly along other health benefits." data-pin-description="Learn about the ketogenic diet and how it can help you lose weight quickly along other health benefits." data-pin-url="https://ketodash.com/ketogenic-diet" data-pin-media="https://s3-us-west-2.amazonaws.com/ketodash-master/blog/wp-content/uploads/2018/04/20002634/keto-guide-pin.jpg" data-pin-custom="true" data-pin-do="buttonPin">
-						</div>
-					</div>
-					<div class="col-12 col-lg-4">
-						<div class="image">
-							<img src="https://s3-us-west-2.amazonaws.com/ketodash-master/blog/wp-content/uploads/2018/04/20002635/keto-guide-pin2.jpg" alt="Learn about the ketogenic diet and how it can help you lose weight quickly along other health benefits." data-pin-description="Learn about the ketogenic diet and how it can help you lose weight quickly along other health benefits." data-pin-url="https://ketobootstrap.com/keto-diet" data-pin-media="https://s3-us-west-2.amazonaws.com/ketodash-master/blog/wp-content/uploads/2018/04/20002635/keto-guide-pin2.jpg" data-pin-custom="true" data-pin-do="buttonPin">
-						</div>
-					</div>
-					<div class="col-12 col-lg-4">
-						<div class="image">
-							<img src="https://s3-us-west-2.amazonaws.com/ketodash-master/blog/wp-content/uploads/2018/04/20002635/keto-guide-pin3.jpg" alt="Learn about the ketogenic diet and how it can help you lose weight quickly along other health benefits." data-pin-description="Learn about the ketogenic diet and how it can help you lose weight quickly along other health benefits." data-pin-url="https://ketobootstrap.com/keto-diet" data-pin-media="https://s3-us-west-2.amazonaws.com/ketodash-master/blog/wp-content/uploads/2018/04/20002635/keto-guide-pin3.jpg" data-pin-custom="true" data-pin-do="buttonPin">
-						</div>
-						<div style="display:none;">
-							<img src="https://s3-us-west-2.amazonaws.com/ketodash-master/blog/wp-content/uploads/2018/04/20002636/keto-guide-pin4.jpg" alt="Learn about the ketogenic diet and how it can help you lose weight quickly along other health benefits." data-pin-description="Learn about the ketogenic diet and how it can help you lose weight quickly along other health benefits." data-pin-url="https://ketobootstrap.com/keto-diet" data-pin-media="https://s3-us-west-2.amazonaws.com/ketodash-master/blog/wp-content/uploads/2018/04/20002636/keto-guide-pin4.jpg" data-pin-custom="true" data-pin-do="buttonPin">
-						</div>
-					</div>
-				</div>
 				@include('partials.keto')
 			</div>
 		</div>
