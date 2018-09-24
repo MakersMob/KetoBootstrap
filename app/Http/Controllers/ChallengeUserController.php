@@ -10,7 +10,7 @@ class ChallengeUserController extends Controller
 {
     public function store($id)
     {
-    	$challenge = Challenge::find($id);
+    	$challenge = Challenge::where('slug', $id)->first();
 
     	$challenge->users()->attach(Auth::user()->id);
 
@@ -19,7 +19,7 @@ class ChallengeUserController extends Controller
 
     public function update($id)
     {
-        $challenge = Challenge::find($id);
+        $challenge = Challenge::where('slug', $id)->first();
 
         $challenge->users()->updateExistingPivot(Auth::user()->id, ['created_at' => now(), 'updated_at' => now()]);
 
@@ -34,7 +34,7 @@ class ChallengeUserController extends Controller
      */
     public function destroy($id)
     {
-        $challenge = Challenge::find($id);
+        $challenge = Challenge::where('slug', $id)->first();
 
         $challenge->users()->detach(Auth::user()->id);
 
