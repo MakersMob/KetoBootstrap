@@ -16,14 +16,19 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-lg-6 d-print-none">
+				@isset($recipe->image)
+					<div class="image">
+						<img src="{{ $recipe->image }}" alt="{{ $recipe->name }}" title="{{ $recipe->name }}">
+					</div>
+				@endisset
 				@unless(count($recipe->tags) < 1)
 				<ul class="tags ">
 					@foreach($recipe->tags as $tag)
 						<li><a href="/keto-recipes/{{ $tag->slug }}">{{ ucwords($tag->tag) }}</a></li>
 					@endforeach
 				</ul>
-				@endunless
 				<div class="clearfix"></div>
+				@endunless
 				@if($recipe->source)
 					<p><em>Original recipe can be found <a href="{{ $recipe->source }}" rel="nofollow">here</a>.</em></p>
 				@endif
