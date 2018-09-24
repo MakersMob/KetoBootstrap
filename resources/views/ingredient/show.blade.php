@@ -11,7 +11,7 @@
 		</div>
 	</div>
 </section>
-<section class="content">
+<section class="content smoke">
 	<div class="container">
 		<div class="row" data-equalizer>
 			<div class="col-12">
