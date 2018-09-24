@@ -10,7 +10,7 @@
 		</div>
 	</div>
 </section>
-<section class="content">
+<section class="content ice">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
@@ -21,10 +21,11 @@
 		</div>
 	</div>
 </section>
-<section class="content smoke">
+<section class="content ">
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-lg-6">
+				<h5>Your Macros</h5>
 				<table class="table">
 					<tr>
 						<td>Calories</td>
