@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app', ['title' => $ingredient->name'. Keto Recipes', 'description' => 'Looking for keto recipes that use '.$ingredient->name.'? Here are '.count($ingredient->recipes).' keto recipes with '.$ingredient->name.' for you to enjoy.'])
 
 @section('content')
 <section class="welcome food">
