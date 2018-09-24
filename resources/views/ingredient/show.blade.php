@@ -11,6 +11,7 @@
 		</div>
 	</div>
 </section>
+@include('partials.search')
 <section class="content smoke">
 	<div class="container">
 		<div class="row" data-equalizer>
