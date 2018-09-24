@@ -15,7 +15,7 @@
 		<div class="row">
 			<div class="col-12">
 				<h5>How Often Should I Calculate My Macros?</h5>
-				<p>A good rule of thumb to follow is that with every 10 lbs. lost, you should recalculate your macros. Of course, you can do this whenever you want but it is not something you want to do daily. You want at least a week with your macro calculations before making adjustments.</p>
+				<p><strong>A good rule of thumb to follow is that with every 10 lbs. lost, you should recalculate your macros.</strong> Of course, you can do this whenever you want but it is not something you want to do daily. You want at least a week with your macro calculations before making adjustments.</p>
 				<p>If you don't give them time then you will not know the effect they are having on you.</p>
 			</div>
 		</div>
