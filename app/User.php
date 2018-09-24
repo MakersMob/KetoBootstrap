@@ -40,7 +40,7 @@ class User extends Authenticatable
 
     public function recipes()
     {
-        return $this->belongsToMany('KetoBootstrap\Recipe')->withPivot('category');
+        return $this->belongsToMany('KetoBootstrap\Recipe')->withPivot('category', 'slug');
     }
 
     /*public function weights()

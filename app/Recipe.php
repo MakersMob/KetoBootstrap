@@ -37,7 +37,7 @@ class Recipe extends Model
 
     public function users()
     {
-        return $this->belongsToMany('KetoBootstrap\User')->withPivot('category');
+        return $this->belongsToMany('KetoBootstrap\User')->withPivot('category', 'slug');
     }
 
 	public function setDescriptionAttribute($value)

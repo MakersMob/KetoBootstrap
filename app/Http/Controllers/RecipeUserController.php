@@ -18,7 +18,7 @@ class RecipeUserController extends Controller
     	$user = Auth::user();
     	$recipe = Recipe::find($request->recipe);
 
-    	$user->recipes()->attach($request->recipe, ['category' => $request->category]);
+    	$user->recipes()->attach($request->recipe, ['category' => strtolower($request->category), 'slug' => urlencode(strtolower($request->category))]);
 
     	return redirect('recipe/'.$recipe->slug);
     }
