@@ -61,6 +61,7 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::get('ingredientrecipe/create', 'IngredientRecipeController@create');
 	Route::post('ingredientrecipe', 'IngredientRecipeController@store');
 	Route::resource('instruction', 'InstructionController');
+	Route::get('user/recipes', 'RecipeUserController@index');
 	Route::post('recipeuser', 'RecipeUserController@store');
 	Route::resource('macros', 'MacrosController');
 	Route::resource('wins', 'WinController');

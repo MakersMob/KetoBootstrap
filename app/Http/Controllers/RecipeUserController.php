@@ -8,12 +8,17 @@ use Auth;
 
 class RecipeUserController extends Controller
 {
+	public function index()
+	{
+		return view('user.recipe.index');
+	}
+
     public function store(Request $request)
     {
     	$user = Auth::user();
     	$recipe = Recipe::find($request->recipe);
 
-    	$user->recipes()->attach($request->recipe);
+    	$user->recipes()->attach($request->recipe, ['category' => $request->category]);
 
     	return redirect('recipe/'.$recipe->slug);
     }

@@ -1,8 +1,5 @@
 @extends('layouts.app', ['title' => $recipe->name.' Keto Recipe', 'description' => strip_tags($recipe->description).' Delicious keto recipe.'])
 
-@section('headScripts')
-@endsection
-
 @section('content')
 <section class="welcome food">
 	<div class="container">
@@ -51,7 +48,12 @@
 				<div class="d-print-none">{!! $recipe->description !!}</div>
 			</div>
 			<div class="col-12 col-lg-6">
-				<div class="d-print-none" style="margin-bottom: 2rem;"><a href="javascript:window.print()" class="btn btn-primary print-button">Print Recipe</a></div>
+				<div class="d-print-none" style="margin-bottom: 2rem;">
+					@unless(Auth::user()->recipes->contains($recipe->id))
+						<a href="" class="btn btn-success print-button" data-toggle="modal" data-target="#saveModal">Save Recipe</a>
+					@endunless
+					<a href="javascript:window.print()" class="btn btn-primary print-button">Print Recipe</a>
+				</div>
 				<h4>Servings: {{ $recipe->servings }}</h4>
 				<div class="recipe-description">
 					<p>{!! $recipe->serving_description !!}</p>
@@ -140,4 +142,29 @@
 		</div>
 	</div>
 </section>
+<div class="modal fade" tabindex="-1" role="dialog" id="saveModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Save This Recipe</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      {!! Form::open(['url' => 'recipeuser']) !!}
+      <div class="modal-body">
+        <div class="form-group">
+        	<label for="category">Category</label>
+        	<input class="form-control" type="text" name="category" id="category">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Save changes</button>
+        <input type="hidden" name="recipe" value="{{ $recipe->id }}">
+      </div>
+      {!! Form::close() !!}
+    </div>
+  </div>
+</div>
 @endsection
