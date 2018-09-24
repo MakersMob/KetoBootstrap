@@ -15,17 +15,16 @@
 		<div class="row">
 			@if($challenge->users->contains(Auth::user()->id))
 				<div class="col-6">
-							{!! Form::open(['url' => 'challengeuser/'.$challenge->id]) !!}
-								@method('PUT')
-								<input type="hidden" name="challenge" value="{{ $challenge->id }}">
-								<button type="submit" class="btn btn-block btn-warning">Restart Challenge</button>
-							{!! Form::close() !!}
+							<form action="https://www.getdrip.com/forms/{{ $challenge->restart_email_form }}/submissions" method="post" data-drip-embedded-form="{{ $challenge->restart_email_form }}">
+							    <input class="form-control" type="hidden" id="drip-email" name="fields[email]" value="{{ Auth::user()->email }}" />
+							    <button type="submit" class="btn btn-lg btn-block btn-warning">Restart Challenge</button>
+							</form>
 						</div>
 						<div class="col-6">
-							{!! Form::open(['url' => 'challengeuser/'.$challenge->id]) !!}
-								@method('DELETE')
-								<button type="submit" class="btn btn-block btn-danger">Stop Challenge</button>
-							{!! Form::close() !!}
+							<form action="https://www.getdrip.com/forms/{{ $challenge->stop_email_form }}/submissions" method="post" data-drip-embedded-form="{{ $challenge->stop_email_form }}">
+							    <input class="form-control" type="hidden" id="drip-email" name="fields[email]" value="{{ Auth::user()->email }}" />
+							    <button type="submit" class="btn btn-lg btn-block btn-danger">Stop Challenge</button>
+							</form>
 						</div>
 					</div>
 			@else
