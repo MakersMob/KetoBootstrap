@@ -34,9 +34,11 @@
 			</div>
 			<div class="col-12 col-lg-6">
 				<div class="d-print-none" style="margin-bottom: 2rem;">
-					@unless(Auth::user()->recipes->contains($recipe->id))
-						<a href="" class="btn btn-success print-button" data-toggle="modal" data-target="#saveModal">Save Recipe</a>
-					@endunless
+					@auth
+						@unless(Auth::user()->recipes->contains($recipe->id))
+							<a href="" class="btn btn-success print-button" data-toggle="modal" data-target="#saveModal">Save Recipe</a>
+						@endunless
+					@endauth
 					<a href="javascript:window.print()" class="btn btn-primary print-button">Print Recipe</a>
 				</div>
 				<h4>Servings: {{ $recipe->servings }}</h4>
