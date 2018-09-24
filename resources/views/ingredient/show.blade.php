@@ -14,7 +14,12 @@
 <section class="content smoke">
 	<div class="container">
 		<div class="row" data-equalizer>
-			<div class="col-12">
+			@isset($ingredient->image)
+				<div class="col-12 col-lg-5">
+					<img src="{{ $ingredient->image }}" alt="{{ $ingredient->name }}" title="{{ $ingredient->title }}">
+				</div>
+			@endisset
+			<div class="col-12 @isset($ingredient->image) col-lg-7 @endisset">
 				<table class="table">
 					<thead>
 						<tr>
