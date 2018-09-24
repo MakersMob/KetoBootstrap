@@ -17,9 +17,7 @@
 		<div class="row">
 			<div class="col-12 col-lg-6 d-print-none">
 				@isset($recipe->image)
-					<div class="image">
 						<img src="{{ $recipe->image }}" alt="{{ $recipe->name }}" title="{{ $recipe->name }}">
-					</div>
 				@endisset
 				@unless(count($recipe->tags) < 1)
 				<ul class="tags ">
