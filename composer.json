@@ -15,7 +15,8 @@
         "laravel/scout": "^5.0",
         "laravel/tinker": "^1.0",
         "laravelcollective/html": "^5.4.0",
-        "league/commonmark": "^0.15.2"
+        "league/commonmark": "^0.15.2",
+        "spatie/laravel-permission": "^2.20"
     },
     "require-dev": {
         "filp/whoops": "^2.0",
