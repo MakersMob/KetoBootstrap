@@ -68,7 +68,7 @@
 					<tbody>
 						@foreach($tags as $tag)
 							<tr>
-								<td><a href="/{{ $tag->slug }}-keto-recipes">{{ ucwords($tag->tag) }}</a></td>
+								<td><a href="/keto-recipes/{{ $tag->slug }}">{{ ucwords($tag->tag) }}</a></td>
 								<td>{{ count($tag->recipes) }}</td>
 							</tr>
 						@endforeach

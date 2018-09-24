@@ -39,7 +39,7 @@ Route::resource('recipe', 'RecipeController');
 Route::get('calculator', 'CalculatorController@index');
 Route::post('calculator', 'CalculatorController@store');
 
-Route::get('{id}-keto-recipes', 'TagController@show');
+Route::get('{keto-recipes/{id}', 'TagController@show');
 Route::resource('tag', 'TagController');
 Route::resource('ingredient', 'IngredientController');
 Route::post('recipesearch', 'RecipeSearchController@show');
