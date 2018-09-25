@@ -265,7 +265,7 @@
 		</div>
 		<div class="row">
 			<div class="col-12">
-				<h2>Day 5</h2>
+				<h2>Day 7</h2>
 			</div>
 			<div class="col-6 col-lg-3">
 				<div class="card recipe">
