@@ -108,6 +108,19 @@
 		background-color: $yellow;
 	}
 }
+.card.recipe {
+	.card-header {
+		background-color: $ice;
+	}
+	h5 a {
+		text-decoration: none;
+		font-size: 20px;
+		line-height: 1;
+	}
+	li {
+		font-size: 16px;
+	}
+}
 .content.gap {
 	margin-top: 3rem;
 }
