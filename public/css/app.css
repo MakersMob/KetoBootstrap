@@ -10872,8 +10872,7 @@ table tr.smoke {
   background-color: #fff;
 }
 
-.smoke table,
-.smoke .card-body {
+.smoke table {
   border: 3px solid #CCEBF1;
   background-color: #fff;
 }
@@ -10881,6 +10880,25 @@ table tr.smoke {
 .smoke ul.ingredient-list li {
   border-bottom: 1px solid rgba(71, 73, 84, 0.25);
   padding: 5px 0;
+}
+
+.smoke .card.recipe .card-header {
+  background-color: #EEFCFF;
+  color: #343838;
+}
+
+.smoke .card.recipe .card-body {
+  border: 1px solid #CCEBF1;
+}
+
+.smoke .card.recipe h5 a {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.smoke .card.recipe li {
+  font-size: 16px;
 }
 
 .card.smoke .card-body {

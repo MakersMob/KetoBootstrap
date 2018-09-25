@@ -15,7 +15,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<h2>Day 1</h2>
+				<h2 style="margin-top:0;">Day 1</h2>
 			</div>
 			<div class="col-6 col-lg-3">
 				<div class="card recipe">
@@ -58,9 +58,13 @@
 				</div>
 			</div>
 		</div>
+	</div>
+</section>
+<section class="content post smoke">
+	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<h2>Day 2</h2>
+				<h2 style="margin-top:0;">Day 2</h2>
 			</div>
 			<div class="col-6 col-lg-3">
 				<div class="card recipe">
@@ -93,9 +97,13 @@
 				</div>
 			</div>
 		</div>
+	</div>
+</section>
+<section class="content post">
+	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<h2>Day 3</h2>
+				<h2 style="margin-top:0;">Day 3</h2>
 			</div>
 			<div class="col-6 col-lg-3">
 				<div class="card recipe">
@@ -138,9 +146,13 @@
 				</div>
 			</div>
 		</div>
+	</div>
+</section>
+<section class="content post smoke">
+	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<h2>Day 4</h2>
+				<h2 style="margin-top:0;">Day 4</h2>
 			</div>
 			<div class="col-6 col-lg-3">
 				<div class="card recipe">
@@ -173,9 +185,13 @@
 				</div>
 			</div>
 		</div>
+	</div>
+</section>
+<section class="content post">
+	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<h2>Day 5</h2>
+				<h2 style="margin-top:0;">Day 5</h2>
 			</div>
 			<div class="col-6 col-lg-3">
 				<div class="card recipe">
@@ -218,9 +234,13 @@
 				</div>
 			</div>
 		</div>
+	</div>
+</section>
+<section class="content post smoke">
+	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<h2>Day 6</h2>
+				<h2 style="margin-top:0;">Day 6</h2>
 			</div>
 			<div class="col-6 col-lg-3">
 				<div class="card recipe">
@@ -263,9 +283,13 @@
 				</div>
 			</div>
 		</div>
+	</div>
+</section>
+<section class="content post">
+	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<h2>Day 7</h2>
+				<h2 style="margin-top:0;">Day 7</h2>
 			</div>
 			<div class="col-6 col-lg-3">
 				<div class="card recipe">
