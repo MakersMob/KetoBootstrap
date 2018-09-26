@@ -53,7 +53,7 @@
 						Snack
 					</div>
 					<div class="card-body">
-						<h5 class="card-title"><a href="https://ketodash.com/recipe/chocolate-chip-cookie-cheesecake-bars">Chocolate Chip Cookie Cheesecake Bars</a></h5>
+						<h5 class="card-title"><a href="https://ketobootstrap.com/recipe/chocolate-chip-cookie-cheesecake-bars">Chocolate Chip Cookie Cheesecake Bars</a></h5>
 					</div>
 				</div>
 			</div>
@@ -141,7 +141,7 @@
 						Snack or Dessert
 					</div>
 					<div class="card-body">
-						<h5 class="card-title"><a href="https://ketodash.com/recipe/chocolate-chip-cookie-cheesecake-bars">Chocolate Chip Cookie Cheesecake Bars</a></h5>
+						<h5 class="card-title"><a href="https://ketobootstrap.com/recipe/chocolate-chip-cookie-cheesecake-bars">Chocolate Chip Cookie Cheesecake Bars</a></h5>
 					</div>
 				</div>
 			</div>
@@ -219,7 +219,7 @@
 						Dinner
 					</div>
 					<div class="card-body">
-						<h5 class="card-title"><a href="https://ketobootstrap.com/recipe/italian-sausage-pepper-jack-meatballs">Italian Sausage &amp; Pepperjack Meatballs</a>, <a href="https://ketodash.com/recipe/loaded-cauliflower-mashed-potatoes">Loaded Cauliflower Mashed Potatoes</a></h5>
+						<h5 class="card-title"><a href="https://ketobootstrap.com/recipe/italian-sausage-pepper-jack-meatballs">Italian Sausage &amp; Pepperjack Meatballs</a>, <a href="https://ketobootstrap.com/recipe/loaded-cauliflower-mashed-potatoes">Loaded Cauliflower Mashed Potatoes</a></h5>
 					</div>
 				</div>
 			</div>
@@ -278,7 +278,7 @@
 						Snack
 					</div>
 					<div class="card-body">
-						<h5 class="card-title"><a href="https://ketodash.com/recipe/chocolate-chip-cookie-cheesecake-bars">Chocolate Chip Cookie Cheesecake Bars</a></h5>
+						<h5 class="card-title"><a href="https://ketobootstrap.com/recipe/chocolate-chip-cookie-cheesecake-bars">Chocolate Chip Cookie Cheesecake Bars</a></h5>
 					</div>
 				</div>
 			</div>
@@ -317,7 +317,7 @@
 						Dinner
 					</div>
 					<div class="card-body">
-						<h5 class="card-title"><a href="https://ketobootstrap.com/recipe/italian-sausage-pepper-jack-meatballs">Italian Sausage &amp; Pepperjack Meatballs</a>, <a href="https://ketodash.com/recipe/loaded-cauliflower-mashed-potatoes">Loaded Cauliflower Mashed Potatoes</a></h5>
+						<h5 class="card-title"><a href="https://ketobootstrap.com/recipe/italian-sausage-pepper-jack-meatballs">Italian Sausage &amp; Pepperjack Meatballs</a>, <a href="https://ketobootstrap.com/recipe/loaded-cauliflower-mashed-potatoes">Loaded Cauliflower Mashed Potatoes</a></h5>
 					</div>
 				</div>
 			</div>

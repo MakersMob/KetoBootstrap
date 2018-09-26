@@ -55,11 +55,11 @@
 											<option value="g">g</option>
 											<option value="handfuls">handfuls</option>
 											<option value="head">head</option>
-											<option value="oz">oz</option>
 											<option value="large">large</option>
 											<option value="lbs">lbs</option>
 											<option value="links">links</option>
 											<option value="medium">medium</option>
+											<option value="oz">oz</option>
 											<option value="packets">packets</option>
 											<option value="pinch">pinch</option>
 											<option value="scoops">scoops</option>
