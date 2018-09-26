@@ -15,13 +15,11 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<table class="table">
+				<ul>
 					@foreach($mealplans as $plan)
-						<tr>
-							<td><a href="/meal-plan/{{ $plan->id }}">{{ $plan->title }}</a></td>
-						</tr>
+						<li><a href="/meal-plan/{{ $plan->id }}">{{ $plan->title }}</a></li>
 					@endforeach
-				</table>	
+				</ul>	
 			</div>
 		</div>
 	</div>
