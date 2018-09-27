@@ -34,7 +34,7 @@
 					<div class="card-body">
 						<p>Whenever starting any health journey it is important to set some goals so you have something to aim for.</p>
 						<p>Please take a second to fill out the form below so that we better understand what you are hoping to achieve in this journey.</p>
-						<p>None of this information is shared with anyone else. It just helps the Keto Dash team get you closer to your goals.</p>
+						<p>None of this information is shared with anyone else. It just helps the Keto Bootstrap team get you closer to your goals.</p>
 						<p><strong>This form will not automatically calculate your macros. It just gives us a reference to look at if you need our help.</strong></p>
 						<hr>
 						{!! Form::open(['url' => 'goals']) !!}
