@@ -135,29 +135,5 @@
 
           gtag('config', 'UA-51364-104');
         </script>
-    @guest
-        <!-- Guest -->
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-51364-106"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-51364-106');
-        </script>
-    @endguest
-    @auth
-        <!-- Auth -->
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-51364-107"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-51364-107');
-        </script>
-    @endauth
 </body>
 </html>
