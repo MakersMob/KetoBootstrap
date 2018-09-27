@@ -55,11 +55,11 @@
 							<hr>
 							<div class="form-group">
 								<div class="form-check form-check-inline">
-								  <input class="form-check-input" type="radio" name="gender" id="inlineRadio1" value="female" @if(Auth::user()->gender == 'Female') checked="checked" @endif>
+								  <input class="form-check-input" type="radio" name="gender" id="inlineRadio1" value="Female" @if(Auth::user()->gender == 'Female') checked="checked" @endif>
 								  <label class="form-check-label" for="inlineRadio1">Female</label>
 								</div>
 								<div class="form-check form-check-inline">
-								  <input class="form-check-input" type="radio" name="gender" id="inlineRadio2" value="male" @if(Auth::user()->gender == 'Male') checked="checked" @endif>
+								  <input class="form-check-input" type="radio" name="gender" id="inlineRadio2" value="Male" @if(Auth::user()->gender == 'Male') checked="checked" @endif>
 								  <label class="form-check-label" for="inlineRadio2">Male</label>
 								</div>
 							</div>

@@ -14,7 +14,7 @@ class CalculatorController extends Controller
 
     public function store(Request $request)
     {
-    	if($request->gender == 'male') {
+    	if($request->gender == 'Male') {
     		$bmr = 66 + (6.2 * $request->weight) + (12.7 * $request->height) - (6.76 * $request->age);
     	} else {
     		$bmr = 655.1 + (4.35 * $request->weight) + (4.7 * $request->height) - (4.7 * $request->age);
