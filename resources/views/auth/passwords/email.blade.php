@@ -1,6 +1,15 @@
 @extends('layouts.app')
 
 @section('content')
+<section class="welcome smiles">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="linewrap"><span>Reset Your Password</span></h1>
+            </div>
+        </div>
+    </div>
+</section>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
