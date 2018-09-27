@@ -94,19 +94,19 @@
 								  </label>
 								</div>
 								<div class="form-check">
-								  <input class="form-check-input" type="radio" name="exercise" id="exampleRadios2" value="1.375">
+								  <input class="form-check-input" type="radio" name="exercise" id="exampleRadios2" value="1.3">
 								  <label class="form-check-label" for="exampleRadios2">
 								    4 or More Days a Week of Low-Intensity 
 								  </label>
 								</div>
 								<div class="form-check">
-								  <input class="form-check-input" type="radio" name="exercise" id="exampleRadios2" value="1.55">
+								  <input class="form-check-input" type="radio" name="exercise" id="exampleRadios2" value="1.41">
 								  <label class="form-check-label" for="exampleRadios2">
 								    4 or More Days a Week of Medium-to-High Intensity
 								  </label>
 								</div>
 								<div class="form-check">
-								  <input class="form-check-input" type="radio" name="exercise" id="exampleRadios2" value="1.725">
+								  <input class="form-check-input" type="radio" name="exercise" id="exampleRadios2" value="1.57">
 								  <label class="form-check-label" for="exampleRadios2">
 								    5 or More Days a Week of HIIT
 								  </label>
