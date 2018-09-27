@@ -21,12 +21,8 @@
 				<p>Don't worry you won&rsquo;t have to run anywhere if you don't want to but you will start to quickly find out the habits that you need to change.</p>
 				<p>It's not easy creating a whole new lifestyle for yourself but that is what makes this journey so worth it.</p>
 				<p>Before you jump right into the <a href="https://ketobootstrap.com/challenge/28-day-weight-loss-challenge">28-Day Weight Loss Challenge</a> I suggest you go through the <a href="https://ketobootstrap.com/challenge/keto-bootcamp">Keto Bootcamp</a> even if you're familiar with Keto.</p>
-				<p>Here is a video overview of the site and the different sections:</p>
-				<div class="" style="margin-bottom: 2rem;">
-					<script src="https://fast.wistia.com/embed/medias/1z57vwmuqd.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_1z57vwmuqd seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
-				</div>
 				<p>If you have any questions in the meantime, please don't hesitate to ask! That's what I'm here for!</p>
-				<p>You can reach me at <a href="mailto:support@ketodash.com">support@ketobootstrap.com</a>.</p>
+				<p>You can reach me at <a href="mailto:support@ketobootstrap.com">support@ketobootstrap.com</a>.</p>
 				<p>I am so excited to get to know you over the next few weeks, and again, welcome to Keto Bootstrap! You're going to do incredible!</p>
 				<p>- Elisa</p>
 			</div>
