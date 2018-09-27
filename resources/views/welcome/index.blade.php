@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<section class="welcome">
+<section class="welcome smiles">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
