@@ -22,10 +22,10 @@
 						<p>It's important to note that these meals plans are made specifically for people within a specific macro range.</p>
 						<p>That doesn't mean you can't make adjustments to these meals.</p>
 						<p>The idea is to merely show you how you can construct a weekly meal plan using just a couple of different recipes.</p>
-						<ul>
+						<!--<ul>
 							<li><a href="/meal/plan1">Meal Plan #1</a></li>
 							<li><a href="/meal/plan2">Meal Plan #2</a></li>
-						</ul>
+						</ul>-->
 						<h3>Calorie-Specific Plans</h3>
 						<p>We've also taken the time to put together 28-day meal plans for some specific calorie ranges:</p>
 						<ul>
