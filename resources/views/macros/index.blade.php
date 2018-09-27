@@ -82,7 +82,7 @@
 							<hr>
 							<div class="form-group">
 								<div class="form-check">
-								  <input class="form-check-input" type="radio" name="exercise" id="exampleRadios1" value="1.2" checked>
+								  <input class="form-check-input" type="radio" name="exercise" id="exampleRadios1" value="1.1" checked>
 								  <label class="form-check-label" for="exampleRadios1">
 								    No Exercise to 1-3 Days a Week of Low-Intensity
 								  </label>
