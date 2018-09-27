@@ -15,9 +15,11 @@ class MealPlanController extends Controller
      */
     public function index()
     {
-        $mealplans = Mealplan::orderBy('id', 'DESC')->get();
+        // $mealplans = Mealplan::orderBy('id', 'DESC')->get();
         
-        return view('mealplans.index', compact('mealplans'));
+        // return view('mealplans.index', compact('mealplans'));
+
+        return view('meal.index');
     }
 
     /**
@@ -46,6 +48,11 @@ class MealPlanController extends Controller
         ]);
 
         return redirect('meal-plan/'.$mealplan->id);
+    }
+
+    public function day($day)
+    {
+        return view('meal.day'.$day);
     }
 
     /**

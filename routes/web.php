@@ -44,6 +44,84 @@ Route::resource('tag', 'TagController');
 Route::resource('ingredient', 'IngredientController');
 Route::post('recipesearch', 'RecipeSearchController@show');
 
+Route::get('plans/1150/week1', function () {
+	return view('meal.1150.1150week1');
+});
+Route::get('plans/1150/week2', function () {
+	return view('meal.1150.1150week2');
+});
+Route::get('plans/1150/week3', function () {
+	return view('meal.1150.1150week3');
+});
+Route::get('plans/1150/week4', function () {
+	return view('meal.1150.1150week4');
+});
+Route::get('plans/1250/week1', function () {
+	return view('meal.1250.week1');
+});
+Route::get('plans/1250/week2', function () {
+	return view('meal.1250.week2');
+});
+Route::get('plans/1250/week3', function () {
+	return view('meal.1250.week3');
+});
+Route::get('plans/1250/week4', function () {
+	return view('meal.1250.week4');
+});
+Route::get('plans/1200/week1', function () {
+	return view('meal.1200.1200week1');
+});
+
+Route::get('plans/1200/week2', function () {
+	return view('meal.1200.1200week2');
+});
+
+Route::get('plans/1200/week3', function () {
+	return view('meal.1200.1200week3');
+});
+
+Route::get('plans/1200/week4', function () {
+	return view('meal.1200.1200week4');
+});
+
+Route::get('plans/1350/week1', function () {
+	return view('meal.1350.week1');
+});
+
+Route::get('plans/1350/week2', function () {
+	return view('meal.1350.week2');
+});
+
+Route::get('plans/1350/week3', function () {
+	return view('meal.1350.week3');
+});
+
+Route::get('plans/1350/week4', function () {
+	return view('meal.1350.week4');
+});
+
+Route::get('plans/1500/week1', function () {
+	return view('meal.1500.week1');
+});
+
+Route::get('plans/1500/week2', function () {
+	return view('meal.1500.week2');
+});
+
+Route::get('plans/1500/week3', function () {
+	return view('meal.1500.week3');
+});
+
+Route::get('plans/1500/week4', function () {
+	return view('meal.1500.week4');
+});
+
+Route::get('meal/plan2', function () {
+		return view('meal.plan2');
+	});
+
+Route::get('/meal/day/{day}', 'MealController@day');
+
 Route::group(['middleware' => 'auth'], function () {
 	Route::post('goals', 'GoalController@store');
 	Route::get('/welcome', 'WelcomeController@index');
