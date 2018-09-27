@@ -17,13 +17,13 @@
 				<div class="col-6">
 							<form action="https://www.getdrip.com/forms/{{ $challenge->restart_email_form }}/submissions" method="post" data-drip-embedded-form="{{ $challenge->restart_email_form }}">
 							    <input class="form-control" type="hidden" id="drip-email" name="fields[email]" value="{{ Auth::user()->email }}" />
-							    <button type="submit" class="btn btn-lg btn-block btn-warning">Restart Challenge</button>
+							    <button type="submit" class="btn btn-lg btn-block btn-warning">Restart the Challenge</button>
 							</form>
 						</div>
 						<div class="col-6">
 							<form action="https://www.getdrip.com/forms/{{ $challenge->stop_email_form }}/submissions" method="post" data-drip-embedded-form="{{ $challenge->stop_email_form }}">
 							    <input class="form-control" type="hidden" id="drip-email" name="fields[email]" value="{{ Auth::user()->email }}" />
-							    <button type="submit" class="btn btn-lg btn-block btn-danger">Stop Challenge</button>
+							    <button type="submit" class="btn btn-lg btn-block btn-danger">Stop the Challenge</button>
 							</form>
 						</div>
 					</div>
@@ -31,7 +31,7 @@
 				<div class="col-lg-6">
 					<form action="https://www.getdrip.com/forms/{{ $challenge->start_email_form }}/submissions" method="post" data-drip-embedded-form="{{ $challenge->start_email_form }}">
 					    <input class="form-control" type="hidden" id="drip-email" name="fields[email]" value="{{ Auth::user()->email }}" />
-					    <button type="submit" class="btn btn-lg btn-block btn-primary">Start Challenge</button>
+					    <button type="submit" class="btn btn-lg btn-block btn-primary">Start the Challenge</button>
 					</form>
 				</div>
 				<div class="col-lg-6">

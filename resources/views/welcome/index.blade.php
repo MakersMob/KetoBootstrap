@@ -14,20 +14,20 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-lg-7 post">
-				<p>Welcome to the Keto Bootstrap!</p>
-				<p>I am so excited to get to know you over the next 28 Days (and beyond), and I am truly blessed to be a part of your new fitness adventure! Together over the next few weeks you are going to learn all about nutrition and the importance of living a balanced lifestyle.</p>
+				<p>Welcome to Keto Bootstrap!</p>
+				<p>I am so excited to get to know you over the next 28 Days (and beyond), and I am truly blessed to be a part of your new healthy journey! Together over the next few weeks you are going to learn all about nutrition and the importance of living a balanced lifestyle.</p>
 				<p>This is the most intense and rewarding challenge. Over the next 28 days your body and mind are going to be tested; you will be pushed harder than you have ever been pushed and achieve more than you have ever achieved. There will be times of triumph and moments of weakness, but together, and with the support of your teammates, I have no doubt that you will be successful in reaching your goals!</p>
 				<p>It sounds like you are training for a marathon doesn't it?</p>
 				<p>Don't worry you won&rsquo;t have to run anywhere if you don't want to but you will start to quickly find out the habits that you need to change.</p>
 				<p>It's not easy creating a whole new lifestyle for yourself but that is what makes this journey so worth it.</p>
-				<p>That is why the first 5 days are spent getting ready for your dive into the Keto Diet. To help you succeed I want to ensure with all of the knowledge and tools you need as you slowly start to adapt to your new lifestyle.</p>
+				<p>Before you jump right into the <a href="https://ketobootstrap.com/challenge/28-day-weight-loss-challenge">28-Day Weight Loss Challenge</a> I suggest you go through the <a href="https://ketobootstrap.com/challenge/keto-bootcamp">Keto Bootcamp</a> even if you're familiar with Keto.</p>
 				<p>Here is a video overview of the site and the different sections:</p>
 				<div class="" style="margin-bottom: 2rem;">
 					<script src="https://fast.wistia.com/embed/medias/1z57vwmuqd.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_1z57vwmuqd seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
 				</div>
 				<p>If you have any questions in the meantime, please don't hesitate to ask! That's what I'm here for!</p>
-				<p>You can reach me at <a href="mailto:elisa@ketodash.com">elisa@ketodash.com</a>.</p>
-				<p>I am so excited to get to know you over the next few weeks, and again, welcome to the Keto Dash! You're going to do incredible!</p>
+				<p>You can reach me at <a href="mailto:support@ketodash.com">support@ketobootstrap.com</a>.</p>
+				<p>I am so excited to get to know you over the next few weeks, and again, welcome to Keto Bootstrap! You're going to do incredible!</p>
 				<p>- Elisa</p>
 			</div>
 			<div class="col-12 col-lg-5 post">

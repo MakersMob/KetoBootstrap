@@ -45,7 +45,7 @@ class IngredientController extends Controller
             'image' => $request->image
         ]);
 
-        return redirect('ingredient/'.$ingredient->slug);
+        return redirect('/ingredientrecipe/create');
     }
 
     /**
