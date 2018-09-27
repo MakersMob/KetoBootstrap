@@ -24,7 +24,7 @@
 				<ul>
 					<li>Breakfast: <a href="https://ketodash.com/recipe/philly-cheesesteak-bowl">Philly Cheesesteak Breakfast Wrap</a></li>
 					<li>Lunch: <a href="https://ketodash.com/recipe/zucchini-goat-cheese-wraps">Zucchini Goat Cheese Wraps</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/garlic-gusto-pancetta-stuffed-chicken-thighs-1">Garlic Gusto Pancetta Stuffed Chicken Thighs</a>, <a href="https://ketodash.com/recipe/cauliflower-mashed-potatoes">Cauliflower Mashed Potatoes</a></li>
+					<li>Dinner: <a href="https://ketobootstrap.com/recipe/garlic-gusto-pancetta-stuffed-chicken-thighs">Garlic Gusto Pancetta Stuffed Chicken Thighs</a>, <a href="https://ketodash.com/recipe/cauliflower-mashed-potatoes">Cauliflower Mashed Potatoes</a></li>
 				</ul>
 				<h2>Day 3</h2>
 				<ul>
@@ -43,7 +43,7 @@
 				<ul>
 					<li>Breakfast: <a href="https://ketodash.com/recipe/philly-cheesesteak-bowl">Philly Cheesesteak Breakfast Wrap</a></li>
 					<li>Lunch: <a href="https://ketodash.com/recipe/zucchini-goat-cheese-wraps">Zucchini Goat Cheese Wraps</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/garlic-gusto-pancetta-stuffed-chicken-thighs-1">Garlic Gusto Pancetta Stuffed Chicken Thighs</a>, <a href="https://ketodash.com/recipe/cauliflower-mashed-potatoes">Cauliflower Mashed Potatoes</a></li>
+					<li>Dinner: <a href="https://ketobootstrap.com/recipe/garlic-gusto-pancetta-stuffed-chicken-thighs">Garlic Gusto Pancetta Stuffed Chicken Thighs</a>, <a href="https://ketodash.com/recipe/cauliflower-mashed-potatoes">Cauliflower Mashed Potatoes</a></li>
 				</ul>
 				<h2>Day 6</h2>
 				<ul>
