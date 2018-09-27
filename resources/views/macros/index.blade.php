@@ -88,7 +88,7 @@
 								  </label>
 								</div>
 								<div class="form-check">
-								  <input class="form-check-input" type="radio" name="exercise" id="exampleRadios2" value="1.375">
+								  <input class="form-check-input" type="radio" name="exercise" id="exampleRadios2" value="1.225">
 								  <label class="form-check-label" for="exampleRadios2">
 								    1-3 Days a Week of Medium to High-Intensity
 								  </label>
