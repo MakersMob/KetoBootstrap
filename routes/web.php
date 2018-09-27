@@ -44,6 +44,7 @@ Route::resource('tag', 'TagController');
 Route::resource('ingredient', 'IngredientController');
 Route::post('recipesearch', 'RecipeSearchController@show');
 
+
 Route::get('plans/1150/week1', function () {
 	return view('meal.1150.1150week1');
 });
@@ -123,6 +124,7 @@ Route::get('meal/plan2', function () {
 Route::get('/meal/day/{day}', 'MealController@day');
 
 Route::group(['middleware' => 'auth'], function () {
+	Route::get('/admin', 'AdminController@index');
 	Route::post('goals', 'GoalController@store');
 	Route::get('/welcome', 'WelcomeController@index');
 	Route::resource('bootcamp', 'BootcampController');
@@ -143,4 +145,5 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::post('recipeuser', 'RecipeUserController@store');
 	Route::resource('macros', 'MacrosController');
 	Route::resource('wins', 'WinController');
+	Route::post('usersearch', 'UserSearchController@show');
 });

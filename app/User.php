@@ -2,6 +2,7 @@
 
 namespace KetoBootstrap;
 
+use Laravel\Scout\Searchable;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Laravel\Cashier\Billable;
@@ -9,7 +10,7 @@ use Spatie\Permission\Traits\HasRoles;
 
 class User extends Authenticatable
 {
-    use Notifiable, Billable, HasRoles;
+    use Notifiable, Billable, HasRoles, Searchable;
 
     /**
      * The attributes that are mass assignable.
