@@ -11,6 +11,14 @@
     <meta name="google-site-verification" content="gThN8HtB6TekSYHSkIMPPdMdDryPiGFnn40Wawh2BRs" />
 
     <title>{{ $title OR 'Keto Bootstrap' }}</title>
+    <meta name="description" content="{{ $description or 'Learn how to drop the fat and keep it off by eating delicious foods with the Ketogenic Diet.' }}"/>
+    <meta property="og:type" content="{{ $type or 'article'}}" />
+    <meta property="og:title" content="{{ $title or '28-Day Weight Loss Challenge' }}" />
+    <meta property="og:description" content="{{ $description or 'Learn how to drop the fat and keep it off by eating delicious foods with the Ketogenic Diet.' }}" />
+    <meta property="og:url" content="{{ Request::url() }}" />
+    <meta property="og:site_name" content="Keto Bootstrap" />
+    <meta property="og:image" content="https://s3-us-west-2.amazonaws.com/ketodash-master/wp-content/uploads/2017/01/18221125/favicon.png">
+    <meta property="article:author" content="Paul Scrivens" />
     <!-- Scripts -->
     <!--<script src="{{ asset('js/app.js') }}" defer></script>-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
