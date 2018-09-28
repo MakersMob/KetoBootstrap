@@ -126,7 +126,7 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="calorie_change">Caloric % Change</label>
+								<label for="calorie_change">Caloric % Change (<a data-target="#help" href="#" data-toggle="modal">Click for help</a>)</label>
 								<input class="form-control" type="number" name="calorie_change" id="calorie_change">
 								<small id="passwordHelpBlock" class="form-text text-muted">
 								  5-10% is a small deficit. 10-20% is a moderate deficit. 20-30% is a large deficit. <strong>Do not exceed 30%.</strong>
@@ -140,4 +140,21 @@
 		</div>
 	</div>
 </section>
+<div class="modal fade" id="help" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p><strong>To maintain weight:</strong> Set to 0%.<br>
+		<strong>To lose weight:</strong> Choose between 5-30% (deficit). Stay within 10-20% for moderate weight loss.<br> 
+		<strong>To gain weight:</strong> Choose between 5-30% (surplus). Stay within 10-20% for moderate weight gain.
+	</p>
+      </div>
+    </div>
+  </div>
+</div>
 @endsection
