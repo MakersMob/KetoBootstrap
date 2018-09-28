@@ -125,6 +125,7 @@
         </footer>
     </div>
     @yield('footScripts')
+    @if (ENV('APP_ENV') == 'production')
         <!-- All -->
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-51364-104"></script>
@@ -135,5 +136,6 @@
 
           gtag('config', 'UA-51364-104');
         </script>
+    @endif
 </body>
 </html>
