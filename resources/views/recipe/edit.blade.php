@@ -32,18 +32,6 @@
 								</textarea>
 							</div>
 							<div class="form-group">
-								<label for="ingredients">Ingredients</label>
-								<textarea class="form-control" name="ingredients" rows="8">
-{!! $recipe->ingredients !!}							
-								</textarea>
-							</div>
-							<div class="form-group">
-								<label for="instructions">Instructions</label>
-								<textarea class="form-control" name="instructions" rows="8">
-{!! $recipe->instructions !!}					
-								</textarea>
-							</div>
-							<div class="form-group">
 								<label for="servings">Servings</label>
 								<input class="form-control" type="text" name="servings" id="servings" required value="{{ $recipe->servings }}">
 							</div>

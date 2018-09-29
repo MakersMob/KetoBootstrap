@@ -93,8 +93,8 @@ class RecipeController extends Controller
      */
     public function edit($id)
     {
-        //$recipe = Recipe::find($id);
-        $recipe = Recipe::where('slug', $id)->firstOrFail();
+        $recipe = Recipe::find($id);
+        //$recipe = Recipe::where('slug', $id)->firstOrFail();
 
         return view('recipe.edit', compact('recipe'));
     }
