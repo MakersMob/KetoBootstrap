@@ -112,8 +112,6 @@ class RecipeController extends Controller
 
         $recipe->name = $request->name;
         $recipe->description = $request->description;
-        $recipe->ingredients = $request->ingredients;
-        $recipe->instructions = $request->instructions;
         $recipe->servings = $request->servings;
         $recipe->calories = $request->calories;
         $recipe->serving_description = $request->serving_description;
