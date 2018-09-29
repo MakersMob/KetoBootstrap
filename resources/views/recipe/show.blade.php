@@ -18,10 +18,10 @@
 			<div class="col-12">
 				<ul class="nav">
 				  <li class="nav-item">
-				    <a class="nav-link btn btn-primary" href="/recipe/{{ $recipe->id }}/edit">Edit Recipe</a>
+				    <a class="nav-link btn btn-primary" style="margin-right: 1rem;" href="/recipe/{{ $recipe->id }}/edit">Edit Recipe</a>
 				  </li>
 				  <li class="nav-item">
-				    <a class="nav-link btn btn-success" href="/ingredientrecipe/create">Add Ingredient</a>
+				    <a class="nav-link btn btn-success" style="margin-right: 1rem;" href="/ingredientrecipe/create">Add Ingredient</a>
 				  </li>
 				  <li class="nav-item">
 				    <a class="nav-link btn btn-warning" href="/instruction/create">Add Instruction</a>
