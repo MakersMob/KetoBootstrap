@@ -11,6 +11,27 @@
 		</div>
 	</div>
 </section>
+@role('admin')
+<section class="content admin">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<ul class="nav">
+				  <li class="nav-item">
+				    <a class="nav-link active" href="/recipe/{{ $recipe->id }}/edit">Edit Recipe</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="/ingredientrecipe/create">Add Ingredient</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="/instruction/create">Add Instruction</a>
+				  </li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+@endhasrole
 @include('partials.search')
 <section class="content smoke">
 	<div class="container">

@@ -30,7 +30,7 @@
 				</ul>
 				<h2>Day 3</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/bacon-cheddar-chive-omelette">Bacon Cheddar Ommelette</a></li>
+					<li>Breakfast: <a href="https://ketodash.com/recipe/bacon-cheddar-chive-omelette">Bacon Cheddar Omelette</a></li>
 					<li>Lunch: <a href="https://ketodash.com/recipe/loaded-tuna-salad">Loaded Tuna Salad</a></li>
 					<li>Dinner: <a href="https://ketodash.com/recipe/california-stir-fry">California Stif Fry</a></li>
 					<li>Snack: <a href="https://ketodash.com/recipe/vanilla-bean-cupcakes">Vanilla Bean Cupcakes</a></li>
