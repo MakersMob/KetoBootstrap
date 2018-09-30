@@ -6,7 +6,6 @@
 		<div class="row">
 			<div class="col-12">
 				<h1>1500 - 1600 Calories: Week 4</h1>
-				<h2><a href="/plans">Meal Plan</a></h2>
 			</div>
 		</div>
 	</div>
