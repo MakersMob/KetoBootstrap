@@ -19,7 +19,7 @@
 				<ul>
 					<li>Breakfast: <a href="https://ketodash.com/recipe/french-toast-muffins">French Toast Muffins</a></li>
 					<li>Lunch: <a href="https://ketodash.com/recipe/chicken-chili-soup">Chicken Chili Soup</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/meatball-parm-casserole">Meatball Parm Casserole</a>, <a href="https://ketodash.com/recipe/bake-spaghetti-squash">Bake Spaghetti Squash</li>
+					<li>Dinner: <a href="https://ketodash.com/recipe/meatball-parm-casserole">Meatball Parm Casserole</a>, <a href="https://ketodash.com/recipe/bake-spaghetti-squash">Bake Spaghetti Squash</a></li>
 					<li>Snack: <a href="https://ketodash.com/recipe/espresso-peanut-butter-mousse">Espresso Peanut Butter Mousse</a></li>
 				</ul>
 				<h2>Day 2</h2>
@@ -40,7 +40,7 @@
 				<ul>
 					<li>Breakfast: <a href="https://ketodash.com/recipe/french-toast-muffins">French Toast Muffins</a></li>
 					<li>Lunch: <a href="https://ketodash.com/recipe/chicken-chili-soup">Chicken Chili Soup</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/meatball-parm-casserole">Meatball Parm Casserole</a>, <a href="https://ketodash.com/recipe/bake-spaghetti-squash">Bake Spaghetti Squash</li>
+					<li>Dinner: <a href="https://ketodash.com/recipe/meatball-parm-casserole">Meatball Parm Casserole</a>, <a href="https://ketodash.com/recipe/bake-spaghetti-squash">Bake Spaghetti Squash</a></li>
 					<li>Snack: <a href="https://ketodash.com/recipe/espresso-peanut-butter-mousse">Espresso Peanut Butter Mousse</a></li>
 				</ul>
 				<h2>Day 5</h2>
@@ -61,7 +61,7 @@
 				<ul>
 					<li>Breakfast: <a href="https://ketodash.com/recipe/french-toast-muffins">French Toast Muffins</a></li>
 					<li>Lunch: <a href="https://ketodash.com/recipe/chicken-chili-soup">Chicken Chili Soup</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/meatball-parm-casserole">Meatball Parm Casserole</a>, <a href="https://ketodash.com/recipe/bake-spaghetti-squash">Bake Spaghetti Squash</li>
+					<li>Dinner: <a href="https://ketodash.com/recipe/meatball-parm-casserole">Meatball Parm Casserole</a>, <a href="https://ketodash.com/recipe/bake-spaghetti-squash">Bake Spaghetti Squash</a></li>
 					<li>Snack: <a href="https://ketodash.com/recipe/espresso-peanut-butter-mousse">Espresso Peanut Butter Mousse</a></li>
 				</ul>
 			</div>

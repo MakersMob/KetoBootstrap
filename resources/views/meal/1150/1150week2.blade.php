@@ -22,7 +22,7 @@
 				</ul>
 				<h2>Day 2</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/sausage-breakfast-cassrole">Sausage Breakfast Casserole with 2 Eggs</a></li>
+					<li>Breakfast: <a href="https://ketobootstrap.com/recipe/sausage-breakfast-casserole">Sausage Breakfast Casserole with 2 Eggs</a></li>
 					<li>Lunch: <a href="https://ketodash.com/recipe/feta-and-bacon-bites">Feta and Bacon Bites</a> (eat 4)</li>
 					<li>Dinner: <a href="https://ketodash.com/recipe/enchilada-skillet-chicken">Enchilada Skillet Chicken</a></li>
 				</ul>
@@ -34,7 +34,7 @@
 				</ul>
 				<h2>Day 4</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/sausage-breakfast-cassrole">Sausage Breakfast Casserole with 2 Eggs</a></li>
+					<li>Breakfast: <a href="https://ketobootstrap.com/recipe/sausage-breakfast-casserole">Sausage Breakfast Casserole with 2 Eggs</a></li>
 					<li>Lunch: <a href="https://ketodash.com/recipe/feta-and-bacon-bites">Feta and Bacon Bites</a></li>
 					<li>Dinner: <a href="https://ketodash.com/recipe/paprika-chicken">Paprika Chicken</a>, <a href="https://ketodash.com/recipe/au-gratin-brussels-sprouts">Au Gratin Brussels Sprouts</a></li>
 				</ul>
@@ -46,7 +46,7 @@
 				</ul>
 				<h2>Day 6</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/sausage-breakfast-cassrole">Sausage Breakfast Casserole with 2 Eggs</a></li>
+					<li>Breakfast: <a href="https://ketobootstrap.com/recipe/sausage-breakfast-casserole">Sausage Breakfast Casserole with 2 Eggs</a></li>
 					<li>Lunch: <a href="https://ketodash.com/recipe/feta-and-bacon-bites">Feta and Bacon Bites</a> (eat 4)</li>
 					<li>Dinner: <a href="https://ketodash.com/recipe/enchilada-skillet-chicken">Enchilada Skillet Chicken</a></li>
 				</ul>
