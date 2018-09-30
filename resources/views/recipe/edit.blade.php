@@ -1,11 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
-<section class="welcome">
+<section class="welcome food">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<h1>Edit: {{ $recipe->name }}</h1>
+				<h1 class="linewrap"><span>Edit: {{ $recipe->name }}</span></h1>
 			</div>
 		</div>
 	</div>
@@ -29,18 +29,6 @@
 								<label for="description">Description</label>
 								<textarea class="form-control" name="description" rows="8">
 {!! $recipe->description !!}
-								</textarea>
-							</div>
-							<div class="form-group">
-								<label for="ingredients">Ingredients</label>
-								<textarea class="form-control" name="ingredients" rows="8">
-{!! $recipe->ingredients !!}							
-								</textarea>
-							</div>
-							<div class="form-group">
-								<label for="instructions">Instructions</label>
-								<textarea class="form-control" name="instructions" rows="8">
-{!! $recipe->instructions !!}					
 								</textarea>
 							</div>
 							<div class="form-group">

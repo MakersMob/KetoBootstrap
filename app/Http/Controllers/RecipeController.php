@@ -93,8 +93,8 @@ class RecipeController extends Controller
      */
     public function edit($id)
     {
-        //$recipe = Recipe::find($id);
-        $recipe = Recipe::where('slug', $id)->firstOrFail();
+        $recipe = Recipe::find($id);
+        //$recipe = Recipe::where('slug', $id)->firstOrFail();
 
         return view('recipe.edit', compact('recipe'));
     }
@@ -112,8 +112,6 @@ class RecipeController extends Controller
 
         $recipe->name = $request->name;
         $recipe->description = $request->description;
-        $recipe->ingredients = $request->ingredients;
-        $recipe->instructions = $request->instructions;
         $recipe->servings = $request->servings;
         $recipe->calories = $request->calories;
         $recipe->serving_description = $request->serving_description;
