@@ -11,6 +11,21 @@
 		</div>
 	</div>
 </section>
+@role('admin')
+<section class="content admin">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<ul class="nav">
+				  <li class="nav-item">
+				    <a class="nav-link btn btn-primary" style="margin-right: 1rem;" href="/recipe/create">Add Recipe</a>
+				  </li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+@endhasrole
 @include('partials.search')
 <section class="content smoke">
 	<div class="container">
