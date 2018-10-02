@@ -1,12 +1,12 @@
 @extends('layouts.app', ['title' => 'The 3-Day Weight Loss Manual', 'description' => 'Get your body into Ketosis and start losing weigth in just 3 days'])
 
 @section('content')
-<div class="hero">
+<div class="welcome food">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<h1>The 3-Day Weight Loss Manual</h1>
-				<h2 class="subheader">Learn About the Ketogenic Diet and Follow a Routine That Will Help You Achieve Ketosis and Weight Loss in Just 3 Days!</h2>
+				<h1 class="linewrap"><span>The 3-Day Weight Loss Manual</span></h1>
+				<h2 class="subheader linewrap"><span>Learn About the Ketogenic Diet and Follow a Routine That Will Help You Achieve Ketosis and Weight Loss in Just 3 Days!</span></h2>
 				<p class="text-center" style="margin-top: 2rem;"><a data-dpd-type="button" data-variant="price-right" data-text="PURCHASE NOW" data-button-size="dpd-large" data-bg-color="ff6600" data-bg-color-hover="ff7b0b" data-text-color="ffffff" data-pr-bg-color="ffffff" data-pr-color="000000" data-lightbox="1" href="https://keto-dash.dpdcart.com/cart/add?product_id=155405&amp;method_id=166224">PURCHASE NOW</a><script src="https://keto-dash.dpdcart.com/dpd.js"></script></p>
 			</div>
 		</div>
