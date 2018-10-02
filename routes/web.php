@@ -11,6 +11,10 @@
 |
 */
 
+Route::get('confirm', function() {
+	return view('confirm');
+});
+
 Route::get('weight-loss-challenge', function () {
 	return view('3day');
 });
