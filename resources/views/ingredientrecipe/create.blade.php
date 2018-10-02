@@ -76,10 +76,15 @@
 								<label for="item">Item</label>
 								<input class="form-control" type="text" name="item" id="item">
 							</div>
-							<button type="submit" class="btn btn-primary btn-block">Create Ingredient</button>
+							<button type="submit" class="btn btn-primary btn-block">Add Ingredient to Recipe</button>
 						{!! Form::close() !!}
 					</div>
 				</div>
+			</div>
+			<div class="col-12 col-lg-6">
+				@role('admin')
+					<p><a href="/ingredient/create" class="btn btn-lg btn-warning">Create New Ingredient</a></p>
+				@endrole
 			</div>
 		</div>
 	</div>
