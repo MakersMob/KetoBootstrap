@@ -32,7 +32,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <img src="https://s3-us-west-2.amazonaws.com/ketodash-master/blog/wp-content/uploads/2018/08/09032004/logo-64.png" alt="Keto Bootstrap"> Keto Bootstrap
