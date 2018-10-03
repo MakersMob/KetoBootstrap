@@ -23,7 +23,7 @@
 							</div>
 							<div class="form-group">
 								<label for="source">Source</label>
-								<input class="form-control" type="text" name="source" id="source" value="{{ $recipe->source }}" required>
+								<input class="form-control" type="text" name="source" id="source" value="{{ $recipe->source }}">
 							</div>
 							<div class="form-group">
 								<label for="description">Description</label>
