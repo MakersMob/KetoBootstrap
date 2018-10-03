@@ -61,6 +61,10 @@
 								<label for="pinterest">Pinterest Image</label>
 								<input class="form-control" type="text" name="pinterest" id="pinterest" value="{{ $recipe->pinterest }}">
 							</div>
+							<div class="form-group">
+								<label for="tags">Tags</label>
+								<input class="form-control" type="text" name="tags" id="tags">
+							</div>
 							<button type="submit" class="btn btn-primary btn-block">Edit Recipe</button>
 						{!! Form::close() !!}
 					</div>

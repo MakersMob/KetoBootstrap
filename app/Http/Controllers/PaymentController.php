@@ -30,8 +30,8 @@ class PaymentController extends Controller
             ]);
         } catch (\Cartalyst\Stripe\Exception\CardErrorException $e) {
             $message = $e->getMessage();
-            dd($message);
-            //return redirect()->back()->with('message', $message);
+            //dd($message);
+            return redirect()->back()->with('message', $message);
         }
 
     	$user = User::create([
