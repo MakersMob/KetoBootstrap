@@ -18,6 +18,7 @@
     <meta property="og:url" content="{{ Request::url() }}" />
     <meta property="og:site_name" content="Keto Bootstrap" />
     <meta property="og:image" content="https://s3-us-west-2.amazonaws.com/ketodash-master/wp-content/uploads/2017/01/18221125/favicon.png">
+    <link rel="shortcut icon" href="https://s3-us-west-2.amazonaws.com/ketodash-master/wp-content/uploads/2017/01/18221125/favicon.png">
     <meta property="article:author" content="Paul Scrivens" />
     <!-- Scripts -->
     <!--<script src="{{ asset('js/app.js') }}" defer></script>-->
