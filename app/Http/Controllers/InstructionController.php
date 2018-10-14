@@ -71,7 +71,7 @@ class InstructionController extends Controller
 
         $recipes = Recipe::orderBy('id', 'DESC')->get();
 
-        return view('instruction.edit', compact('instruction, recipes'));
+        return view('instruction.edit', compact('instruction', 'recipes'));
     }
 
     /**

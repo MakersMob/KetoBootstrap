@@ -110,7 +110,7 @@
 					<h4>Instructions</h4>
 					<ol>
 						@foreach($recipe->instructions as $instruction)
-							<li>{!! $instruction->description !!} @role('admin') [<a href="/instruction/{{ $instruction->id }}/edit">Edit</a> ] @endhasrole</li>
+							<li>{!! $instruction->description !!} @role('admin') [<a href="/instruction/{{ $instruction->id }}/edit">Edit</a>] @endhasrole</li>
 						@endforeach
 					</ol>
 			</div>
