@@ -67,7 +67,11 @@ class InstructionController extends Controller
      */
     public function edit($id)
     {
-        //
+        $instruction = Instruction::find($id);
+
+        $recipes = Recipe::orderBy('id', 'DESC')->get();
+
+        return view('instruction.edit', compact('instruction, recipes'));
     }
 
     /**
@@ -79,7 +83,16 @@ class InstructionController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $instruction = Instruction::find($id);
+
+        $instruction->recipe_id = $request->recipe;
+        $instruction->description = $request->description;
+
+        $instruction->save();
+
+        $recipe = Recipe::find($request->recipe);
+
+        return redirect('recipe/'.$recipe->slug);
     }
 
     /**
