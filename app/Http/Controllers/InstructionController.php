@@ -103,6 +103,12 @@ class InstructionController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $instruction = Instruction::find($id);
+
+        $recipe = Recipe::find($instruction->recipe_id);
+
+        $instruction->delete();  
+
+        return redirect('recipe/'.$recipe->slug);
     }
 }
