@@ -29,7 +29,7 @@
 								<label for="description">Description</label>
 								<textarea class="form-control" name="description" rows="4">{!! $instruction->description !!}</textarea>
 							</div>
-							<button type="submit" class="btn btn-primary btn-block">Add Instruction</button>
+							<button type="submit" class="btn btn-primary btn-block">Edit Instruction</button>
 						{!! Form::close() !!}
 					</div>
 				</div>
