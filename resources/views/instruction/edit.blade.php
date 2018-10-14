@@ -31,6 +31,9 @@
 							</div>
 							<button type="submit" class="btn btn-primary btn-block">Edit Instruction</button>
 						{!! Form::close() !!}
+						{!! Form::open(['method' => 'DELETE', 'route' => ['instruction.destroy', $instruction->id]]) !!}
+							<button type="submit" class="btn btn-primary btn-warning">Delete Instruction</button>
+						{!! Form::close() !!}
 					</div>
 				</div>
 			</div>
