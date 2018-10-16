@@ -1,7 +1,7 @@
 @extends('layouts.app', ['title' => 'Keto Bootstrap - Lose Weight with the Ketogenic Diet', 'description' => 'Lose weight quick. With the Keto Bootstrap System you can lose 10 - 21 lbs in 28 days.', 'page' => 'home'])
 
 @section('content')
-<section class="welcome weight-loss">
+<section class="welcome food2">
     <div class="container">
         <div class="row">
             <div class="col-12">
