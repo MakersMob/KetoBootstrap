@@ -16,9 +16,6 @@ get_header();
 $container   = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<?php if ( is_front_page() && is_home() ) : ?>
-	<?php get_template_part( 'global-templates/hero' ); ?>
-<?php endif; ?>
 <header class="welcome food">
 	<div class="container">
 		<div class="row justify-content-center">
@@ -28,6 +25,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 		</div>
 	</div>
 </header>
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <section class="content">
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
@@ -70,5 +68,5 @@ $container   = get_theme_mod( 'understrap_container_type' );
 	</div><!-- Container end -->
 
 </section><!-- Wrapper end -->
-
+<?php endwhile; endif; ?>
 <?php get_footer(); ?>
