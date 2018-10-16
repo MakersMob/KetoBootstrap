@@ -34,7 +34,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
-		<div class="row justify-content-center">
+		<div class="row">
 
 			<main class=" site-main col-md-9" id="main">
 
@@ -50,7 +50,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 
 			
 		</div><!-- #primary -->
-		<div class="row justify-content-center">
+		<div class="row ">
 			<div class="col-md-9">
 				<h3>Enjoyed this post? You should Pin it!</h3>
 				<p>Our goal is to continue to share as much valuable information on Keto so that everyone has a chance to live a more fulfilling life.</p>
