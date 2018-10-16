@@ -5,6 +5,15 @@ Template Name: Pinterest Gallery
 ?>
 
 <?php get_header(); ?>
+<header class="welcome food">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-12">
+				<h1 class="billboard linewrap"><span>Showing you how to connect the dots of the Keto Diet so you can thrive.</span></h1>
+			</div>
+		</div>
+	</div>
+</header>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <section class="article">
 	<div class="container">

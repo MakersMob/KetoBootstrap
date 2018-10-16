@@ -25,7 +25,6 @@ $container   = get_theme_mod( 'understrap_container_type' );
 		</div>
 	</div>
 </header>
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <section class="content">
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
@@ -41,6 +40,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 			</div>
 			<div class="col-12 col-lg-5">
 				<div class="callout">
+					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					<h3>Recent Posts</h3>
 					<ul class="super-list">
 						<?php 
@@ -61,6 +61,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 						<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
 						<?php endif; ?>
 					</ul>
+					<?php endwhile; endif; ?>
 				</div>
 			</div>
 		</div><!-- .row -->
@@ -68,5 +69,4 @@ $container   = get_theme_mod( 'understrap_container_type' );
 	</div><!-- Container end -->
 
 </section><!-- Wrapper end -->
-<?php endwhile; endif; ?>
 <?php get_footer(); ?>
