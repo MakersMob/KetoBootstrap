@@ -15,7 +15,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 		$title = get_the_title();
 
 	?>
-<section class="welcome">
+<section class="welcome food">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">

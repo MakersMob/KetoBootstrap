@@ -31,7 +31,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	></script>
 
 <div class="hfeed site" id="page">
-
+    <section class="navigation"
 	<!-- ******************* The Navbar Area ******************* -->
 	<div id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
 
