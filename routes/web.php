@@ -40,6 +40,10 @@ Route::get('/keto-shopping-list', function () {
 	return view('shopping-list');
 });
 
+Route::get('intermittent-fasting', function () {
+	return view('fasting');
+});
+
 Route::post('/payment', 'PaymentController@store');
 
 Auth::routes();
