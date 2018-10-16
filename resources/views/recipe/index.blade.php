@@ -5,7 +5,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<h1 class="linewrap"><span>300+ Keto, Delicious, &amp; Low-Carb Recipes</span></h1>
+				<h1 class="linewrap"><span>{{ $count }} Keto, Delicious, &amp; Low-Carb Recipes</span></h1>
 				<h2 class="linewrap"><span>Keto Recipes for Breakfast, Lunch, Dinner, Dessert &amp; Snacks</span></h2>
 			</div>
 		</div>
