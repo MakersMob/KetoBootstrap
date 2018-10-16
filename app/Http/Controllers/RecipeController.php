@@ -56,9 +56,12 @@ class RecipeController extends Controller
         $tags = explode(",", $request->tags);
 
         foreach($tags as $tag) {
-            $t = Tag::firstOrCreate(['tag' => strtolower(trim($tag))]);
+            if(!empty($tag)) {
+                $t = Tag::firstOrCreate(['tag' => strtolower(trim($tag))]);
 
-            $recipe->tags()->attach($t->id);
+                $recipe->tags()->attach($t->id);
+            }
+            
         }
 
         return redirect('recipe/'.$recipe->slug);
