@@ -524,4 +524,25 @@
 		</div>
 	</div>
 </section>
+<section class="content smoke">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-3">
+				<div class="image">
+					<img src="https://s3-us-west-2.amazonaws.com/ketobootstrap-blog-master/blog/wp-content/uploads/2018/10/16192135/keto-diet-pin3.jpg" alt="Learn about the ketogenic diet and how it can help you lose weight quickly along other health benefits." data-pin-description="Learn about the ketogenic diet and how it can help you lose weight quickly along other health benefits." data-pin-url="https://ketobootstrap.com/keto-diet" data-pin-media="https://s3-us-west-2.amazonaws.com/ketobootstrap-blog-master/blog/wp-content/uploads/2018/10/16192135/keto-diet-pin3.jpg" data-pin-custom="true" data-pin-do="buttonPin">
+				</div>
+			</div>
+			<div class="col-12 col-lg-3">
+				<div class="image">
+					<img src="https://s3-us-west-2.amazonaws.com/ketobootstrap-blog-master/blog/wp-content/uploads/2018/10/16192137/keto-diet-pin4.jpg" alt="Learn about the ketogenic diet and how it can help you lose weight quickly along other health benefits." data-pin-description="Learn about the ketogenic diet and how it can help you lose weight quickly along other health benefits." data-pin-url="https://ketobootstrap.com/keto-diet" data-pin-media="https://s3-us-west-2.amazonaws.com/ketobootstrap-blog-master/blog/wp-content/uploads/2018/10/16192137/keto-diet-pin4.jpg" data-pin-custom="true" data-pin-do="buttonPin">
+				</div>
+			</div>
+			<div class="col-12 col-lg-3">
+				<div class="image">
+					<img src="https://s3-us-west-2.amazonaws.com/ketobootstrap-blog-master/blog/wp-content/uploads/2018/10/16192133/keto-diet-pin2.jpg" alt="Learn about the ketogenic diet and how it can help you lose weight quickly along other health benefits." data-pin-description="Learn about the ketogenic diet and how it can help you lose weight quickly along other health benefits." data-pin-url="https://ketobootstrap.com/keto-diet" data-pin-media="https://s3-us-west-2.amazonaws.com/ketobootstrap-blog-master/blog/wp-content/uploads/2018/10/16192133/keto-diet-pin2.jpg" data-pin-custom="true" data-pin-do="buttonPin">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 @endsection
