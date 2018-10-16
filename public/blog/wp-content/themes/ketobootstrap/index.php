@@ -50,8 +50,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 							if ( $wpb_all_query->have_posts() ) : 
 
 								while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post();
-									$out .= '<li>';
-									$out .=  '<a href="'.get_permalink($cat_post->ID).'" title="'.wptexturize($cat_post->post_title).'">'.$cat_post->post_title.'</a></li>';
+									$out = '<li><a href="'.get_permalink($cat_post->ID).'" title="'.wptexturize($cat_post->post_title).'">'.$cat_post->post_title.'</a></li>';
 									echo $out;
 								endwhile;
 								wp_reset_postdata();
