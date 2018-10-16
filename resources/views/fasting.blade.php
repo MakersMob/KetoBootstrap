@@ -16,7 +16,7 @@
 		<div class="row">
 			<div class="col-12">
 				<p>Intermittent fasting (IF) has quickly become one of the hottest health and fitness trends and for good reason. People are losing weight and improving their health significantly by incorporating it into their lives.</p>
-<p>Because we are big proponents of the <a href="https://ketobootstrap.com/keto-diet/" target="_blank">keto diet</a> we have huge interest in intermittent fasting as it can help your body enter a state of <a href="/what-is-ketosis/" target="_blank">ketosis</a> much quicker.</p>
+<p>Because we are big proponents of the <a href="https://ketobootstrap.com/keto-diet/" target="_blank">keto diet</a> (obviously) we have a huge interest in intermittent fasting as it can help your body enter a state of <a href="https://ketobootstrap.com/blog/what-is-ketosis/" target="_blank">ketosis</a> much quicker.</p>
 <p>A <a href="https://www.sciencedirect.com/science/article/pii/S193152441400200X" target="_blank">number</a> of <a href="http://ibimapublishing.com/articles/ENDO/2014/459119/" target="_blank">studies</a> have shown that intermittent fasting can have very powerful (positive) effects on your body and brain. Some believe it may also help you to live longer.</p>
 <p>This guide is meant to help you understand intermittent fasting, its benefits, and how you can incorporate it into your life.</p>
 <h4>Contents</h4>
@@ -44,7 +44,7 @@
 <p>Knocking yourself out of that routine can be tough, especially if you cave in at the first sign of hunger. However, hunger isn&#8217;t usually an issue with basic intermittent fasting.</p>
 <p>Once your body gets used to your eating pattern then you&#8217;ll find that intermittent fasting is a walk in the park.</p>
 <h3>What Can You Consume During the Fasting Period?</h3>
-<p>This is a good question to ask. No food is allowed during the fasting period, but you can drink water, coffee, tea and other non-caloric beverages. There are arguments on whether or not you can drink <a href="/bulletproof-coffee" target="_blank">bulletproof coffee</a> while fasting so I&#8217;ll leave that up to you.</p>
+<p>This is a good question to ask. No food is allowed during the fasting period, but you can drink water, coffee, tea and other non-caloric beverages. There are arguments on whether or not you can drink <a href="https://dotketo.com/bulletproof-coffee/" target="_blank">bulletproof coffee</a> while fasting so I&#8217;ll leave that up to you.</p>
 <p>Some people like to take a tablespoon of Apple Cider Vinegar to curb any hunger. I like to drink flavored seltzer water since it tricks my mind into thinking I&#8217;m filling up with a sweet drink.</p>
 <p>There are some forms of fasting that allow small amounts of low-calories foods but for the purpose of this article, we&#8217;ll continue to talk about the ones that don&#8217;t allow you to eat until the eating period begins.</p>
 <h2 id="benefits">Intermittent Fasting Benefits</h2>
