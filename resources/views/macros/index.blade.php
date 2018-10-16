@@ -1,11 +1,11 @@
-@extends('layouts.app', ['title' => 'Keto Macro Calculator'])
+@extends('layouts.app', ['title' => 'Keto Diet Macro Calculator', 'description' => 'Need to calculate your macros for the ketogenic diet? Check out our custom Keto Calculator'])
 
 @section('content')
 <section class="welcome food">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<h1 class="linewrap"><span>Calculate Your Macros</span></h1>
+				<h1 class="linewrap"><span>Keto Calculator: Calculate Your Macros</span></h1>
 			</div>
 		</div>
 	</div>
