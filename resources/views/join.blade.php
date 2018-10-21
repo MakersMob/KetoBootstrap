@@ -1,14 +1,13 @@
 @extends('layouts.app', ['title' => 'Keto Bootstrap - Lose Weight with the Ketogenic Diet', 'description' => 'Lose weight quick. With the Keto Bootstrap System you can lose 10 - 21 lbs in 28 days.', 'page' => 'home'])
 
 @section('content')
-<section class="welcome food2">
+<section class="welcome food">
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1 class="linewrap"><span>Learn How to Lose Weight Quickly and Easily by Eating Great Food and Being Supported by Others</span></h1>
-                <h2 class="linewrap"><span>Lose 10-21 Lbs in 4 Weeks Eating Great Recipes, Tracking Your Progress, and Getting 1-on-1 Support from People That Want You to Succeed</span></h2>
+                <h1 class="linewrap"><span>Learn How to Lose Weight Quickly in an Enjoyable Way with the Ketogenic Diet</span></h1>
+                <h2 class="linewrap"><span>We will guide you through the steps of losing 10 - 21 lbs. in just 4 weeks by eating great recipes, tracking your progress and getting 1-on-1 support from people that want you to succeed.</span></h2>
                 <p class="" style="margin-top: 2rem;"><a href="#payment-form" class="btn btn-lg btn-primary">Get Started for Just $47. Pay Once, Be Happy Forever.</a></p>
-                <h2 class="linewrap"><span>We&rsquo;ve helped over {{ $users }} awesome people lose weight with Keto and achieve the lifestyle they&rsquo;ve always wanted</span></h2>
             </div>
         </div>
     </div>
@@ -28,6 +27,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-8 post">
+                <h2>We&rsquo;ve helped over {{ $users }} awesome people lose weight with Keto and achieve the lifestyle they&rsquo;ve always wanted</h2>
                 <p>Would you feed your pets stuff that could damage their bodies?</p>
                 <p>Of course not, and yet we do this to ourselves every single day.</p>
                 <p>When trying to lose weight the first thing that you should look into is sugar because it is one of the most damaging things you can put in your body.</p>
