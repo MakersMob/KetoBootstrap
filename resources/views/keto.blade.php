@@ -21,13 +21,28 @@
 
 				<p>The ketogenic diet is also referred to as keto (key-toe) diet, low carb diet, and low carb high fat (LCHF).</p>
 
-				<p>So why is it so awesome and why is it taking the world by storm?</p>
+				<h2>What Is a Ketogenic Diet?</h2>
+
+				<p>As already mentioned the ketogenic diet is a low-carb, moderate protein, and high fat diet.</p>
+
+				<p>However, what does that mean? Do you sit around drink lard and chewing on jerky all day?</p>
+
+				<p>Not at all. In fact, there are so many <a href="/recipes">awesome keto recipes</a> that you'll find yourself wondering what's the difference between the ketogenic diet and just eating normally.</p>
+
+				<p>Essentially, with keto, you're cutting out the carbs. That means you're losing breads, pasta and rice in the traditional sense. There are subsitutions to all of these that absolutely rock.</p>
+
+				<p>For example, check out these <a href="https://missfitliving.com/keto-bread/" target="_blank">keto breads</a>. They look amazing!</p>
+
+				<p>When you're able to drastically reduce the amount of carbs you bring into your body and replace it with fat, it helps to put your body into a state of <a href="https://ketobootstrap.com/blog/what-is-ketosis/">ketosis</a>.</p>
+
+				<p>But why is it important to reduce the carbs?</p>
+
+				<h2>Fat Burner vs Sugar Burner</h2>
 
 				<p>Because it completely reverses how your body functions (in a good way) along with changing how you view nutrition.</p>
 
 				<p><strong>It's based around the premise that your body was designed to run more efficiently as a fat burner than a sugar burner.</strong></p>
 
-				<h2>Fat Burner vs Sugar Burner</h2>
 
 				<p>When you eat something that is high in carbs (that yummy donut), your body will produce glucose and insulin.</p>
 
@@ -230,11 +245,11 @@
 				<li>Other fats - coconut oil, high-fat salad dressing, saturated fats, etc.</li>
 				</ul>
 
-				<p>To get the complete list of foods you can eat while on keto check out our <a href="/food">keto shopping list</a>.</p>
+				<p>To get the complete list of foods you can eat while on keto check out our <a href="/keto-shopping-list">keto shopping list</a>.</p>
 
 				<h3>Sample Recipes</h3>
 
-				<p>Here are just some of the amazing <a href="/recipe">keto recipes</a> that you can cook yourself and enjoy.</p>
+				<p>Here are just some of the amazing <a href="/recipes">keto recipes</a> that you can cook yourself and enjoy.</p>
 
 				<h2 id="macros">Keto Macros</h2>
 
