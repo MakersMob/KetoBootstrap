@@ -10641,6 +10641,13 @@ a.text-dark:focus {
   background-size: cover;
 }
 
+.welcome.food3 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(52, 56, 56, 0)), to(rgba(52, 56, 56, 0))), url("https://s3-us-west-2.amazonaws.com/ketobootstrap-blog-master/blog/wp-content/uploads/2018/10/21220025/foodie_bg1.jpg") fixed;
+  background: linear-gradient(rgba(52, 56, 56, 0), rgba(52, 56, 56, 0)), url("https://s3-us-west-2.amazonaws.com/ketobootstrap-blog-master/blog/wp-content/uploads/2018/10/21220025/foodie_bg1.jpg") fixed;
+  /* fallback for old browsers */
+  background-size: cover;
+}
+
 .welcome.bootcamp {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(52, 56, 56, 0)), to(rgba(52, 56, 56, 0))), url("https://s3-us-west-2.amazonaws.com/ketodash-master/blog/wp-content/uploads/2018/08/09171134/bootcamp2.jpg") fixed;
   background: linear-gradient(rgba(52, 56, 56, 0), rgba(52, 56, 56, 0)), url("https://s3-us-west-2.amazonaws.com/ketodash-master/blog/wp-content/uploads/2018/08/09171134/bootcamp2.jpg") fixed;
@@ -10850,7 +10857,14 @@ table tr.smoke {
 }
 
 .announcement {
-  background-color: #FF715B;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(52, 56, 56, 0.25)), to(rgba(52, 56, 56, 0.25))), url("https://s3-us-west-2.amazonaws.com/ketobootstrap-blog-master/blog/wp-content/uploads/2018/10/21220025/foodie_bg1.jpg") fixed;
+  background: linear-gradient(rgba(52, 56, 56, 0.25), rgba(52, 56, 56, 0.25)), url("https://s3-us-west-2.amazonaws.com/ketobootstrap-blog-master/blog/wp-content/uploads/2018/10/21220025/foodie_bg1.jpg") fixed;
+  /* fallback for old browsers */
+  background-size: cover;
+}
+
+.announcement h2 {
+  color: #fff;
 }
 
 .smoke {

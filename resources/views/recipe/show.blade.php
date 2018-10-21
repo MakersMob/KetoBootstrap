@@ -1,7 +1,7 @@
 @extends('layouts.app', ['title' => $recipe->name.' Keto Recipe', 'description' => strip_tags($recipe->description).' Delicious keto recipe.'])
 
 @section('content')
-<section class="welcome food">
+<section class="welcome food3">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
@@ -92,7 +92,12 @@
 </section>
 @guest
 <section class="content announcement d-print-none">
-    <p style="margin-bottom: 0;" class="text-center"><a class="btn btn-lg btn-primary" href="/join">Sign up today for the 28-Day Weight Loss Challenge!</a></p>    
+	<div class="container">
+		<div class="row">
+			<h2>Want to use this recipe to lose weight? Then take the 28-Day Weight Loss Challenge</h2>
+    		<p style="margin-bottom: 0;" class="text-center"><a class="btn btn-lg btn-primary" href="/join">Sign up today for the 28-Day Weight Loss Challenge!</a></p>
+    	</div>
+    </div>    
 </section>
 @endguest
 <section class="content">
