@@ -1,4 +1,4 @@
-@extends('layouts.app', ['title' => 'Keto Recipes: 300+ Recipes to Help You Lose Weight', 'description' => 'Being on the ketogenic diet does not mean you should lack variety in your foods. Here are 200+ Keto recipes that we make that keep food exciting.'])
+@extends('layouts.app', ['title' => 'Keto Recipes: 400+ Recipes to Help You Lose Weight', 'description' => 'Being on the ketogenic diet does not mean you should lack variety in your foods. Here are 400+ Keto recipes that we make that keep food exciting.'])
 
 @section('content')
 <section class="welcome food2">

@@ -32,6 +32,11 @@
 				</ul>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col-12">
+					<a href="/keto-diet"><img src="https://s3-us-west-2.amazonaws.com/ketobootstrap-blog-master/blog/wp-content/uploads/2018/10/21213423/1300x300_banner.png" alt="Keto Diet Guide for Everyone"></a>
+			</div>
+		</div>
 	</div>
 </section>
 @endsection
