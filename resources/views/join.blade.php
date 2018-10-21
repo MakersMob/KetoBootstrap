@@ -23,6 +23,27 @@
         </div>
     </div>
 </section>
+<section class="steps content smoke">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>The Steps</h2>
+            </div>
+            <div class="col-12 col-lg-4">
+                <h3>1. Calculate Macros</h3>
+                <p>Let's make sure you're eating the right amount of food. You want energy for the days you're going to conquer.</p>
+            </div>
+            <div class="col-12 col-lg-4">
+                <h3>2. Follow the Guide</h3>
+                <p>Once you understand the changes that are happening to your body the more you can maximize the results.</p>
+            </div>
+            <div class="col-12 col-lg-4">
+                <h3>3. Eat Great Food</h3>
+                <p>Meal plans for every type of eater filled with recipes that you'll keep on coming back to because you want more.</p>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="article">
     <div class="container">
         <div class="row">
