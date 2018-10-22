@@ -16,7 +16,7 @@ class RecipeController extends Controller
     public function index(Request $request)
     {
         $count = Recipe::count();
-        $recipes = Recipe::orderBy('id', 'DESC')->paginate(50);
+        $recipes = Recipe::orderBy('id', 'DESC')->paginate(100);
         $tags = Tag::orderBy('tag', 'ASC')->get();
         
         return view('recipe.index', compact('recipes', 'tags', 'count'));

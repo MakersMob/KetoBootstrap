@@ -16,7 +16,7 @@ get_header();
 $container   = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<header class="welcome food">
+<header class="welcome food3">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-12">
