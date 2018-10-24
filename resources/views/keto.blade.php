@@ -17,7 +17,7 @@
 			<div class="col-12">
 				<p><strong>The ketogenic diet is a low carb, moderate protein, and high fat diet which puts the body into a metabolic state known as ketosis.</strong></p>
 
-				<p>When you're body is in a state of ketosis, the liver produced ketones which become the main energy source for the body.</p>
+				<p>When your body is in a state of ketosis, the liver produces ketones which become the main energy source for the body.</p>
 
 				<p>The ketogenic diet is also referred to as keto (key-toe) diet, low carb diet, and low carb high fat (LCHF).</p>
 
