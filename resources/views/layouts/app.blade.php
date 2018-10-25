@@ -10,10 +10,10 @@
     <meta name="google-site-verification" content="UYl9xcBl6uGEb78YenOCA724Uxa-ppdMsQnFZt-B79g" />
     <meta name="google-site-verification" content="gThN8HtB6TekSYHSkIMPPdMdDryPiGFnn40Wawh2BRs" />
 
-    <title>{{ $title OR 'Keto Bootstrap: Lose Weight with the Keto Diet' }}</title>
+    <title>{{ $title OR 'Keto Bootstrap: Transform Your Body with the Keto Diet' }}</title>
     <meta name="description" content="{{ $description or 'Learn how to drop the fat and keep it off by eating delicious foods with the Ketogenic Diet.' }}"/>
     <meta property="og:type" content="{{ $type or 'article'}}" />
-    <meta property="og:title" content="{{ $title or '28-Day Weight Loss Challenge' }}" />
+    <meta property="og:title" content="{{ $title or 'Keto Bootstrap: Transform Your Body with the Keto Diet' }}" />
     <meta property="og:description" content="{{ $description or 'Learn how to drop the fat and keep it off by eating delicious foods with the Ketogenic Diet.' }}" />
     <meta property="og:url" content="{{ Request::url() }}" />
     <meta property="og:site_name" content="Keto Bootstrap" />

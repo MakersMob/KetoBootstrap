@@ -1,4 +1,4 @@
-@extends('layouts.app', ['title' => 'The Ketogenic Diet: A Beginner\'s Guide to Keto', 'description' => 'Learn about the ketogenic diet and how keto can help you lose weight quickly, boost brain activity and keep you energized.'])
+@extends('layouts.app', ['title' => 'The Ketogenic Diet: A Beginner\'s Guide to Keto for Smart People', 'description' => 'Learn about the ketogenic diet and how keto can help you lose weight quickly, boost brain activity and keep you energized.'])
 
 @section('content')
 <section class="welcome food">
