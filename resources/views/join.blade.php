@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1 class="linewrap"><span>Learn How to Lose Weight Quickly in an Enjoyable Way with the Ketogenic Diet</span></h1>
+                <h1 class="linewrap"><span>Transform How You Look With the Ketogenic Diet</span></h1>
                 <h2 class="linewrap"><span>We will guide you through the steps of losing 10 - 21 lbs. in just 4 weeks by eating great recipes, tracking your progress and getting 1-on-1 support from people that want you to succeed.</span></h2>
                 <p class="" style="margin-top: 2rem;"><a href="#payment-form" class="btn btn-lg btn-primary">Get Started for Just $47. Pay Once, Be Happy Forever.</a></p>
             </div>
