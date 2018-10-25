@@ -6,7 +6,7 @@
 		<div class="row">
 			<div class="col-12">
 				<h1 class="linewrap"><span>Ketogenic Diet: Beginner&rsquo;s Guide to Keto and Weight Loss</span></h1>
-				<h2 class="linewrap"><span>Understanding the Keto Diet So You Can Succeed With Your Weight Loss Journey</span></h2>
+				<h2 class="linewrap"><span>Understanding the Keto Diet So You Can Succeed With Your Weight Loss Transformation</span></h2>
 			</div>
 		</div>
 	</div>
