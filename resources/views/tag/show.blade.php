@@ -5,8 +5,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<h1 class="linewrap"><span>{{ ucwords($tag->tag) }}</span></h1>
-				<h2 class="linewrap"><span><a href="/recipes">Keto Recipes</a></span></h2>
+				<h1 class="linewrap"><span>{{ ucwords($tag->tag) }} Keto Recipes</span></h1>
+				<h2 class="linewrap">Back to <span><a href="/recipes">All Keto Recipes</a></span></h2>
 			</div>
 		</div>
 	</div>
