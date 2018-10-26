@@ -57,7 +57,7 @@
                                 <a class="nav-link @if(Request::is('keto-meal-plan*')) active @endif" href="/keto-meal-plan">7-Day Meal Plan</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link @if(Request::is('recipe*')) active @endif" href="/recipes">Recipes</a>
+                                <a class="nav-link @if(Request::is('recipe*')) active @endif" href="/recipe">Recipes</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link @if(Request::is('join*')) active @endif" href="/join">Join the Challenge</a>
@@ -72,7 +72,7 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link @if(Request::is('recipe*') || Request::is('keto-recipes*')) active @endif" href="/recipes">Recipes</a>
+                                <a class="nav-link @if(Request::is('recipe*') || Request::is('keto-recipes*')) active @endif" href="/recipe">Recipes</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link @if(Request::is('meal-plan*')) active @endif" href="/meal-plan">Meal Plans</a>

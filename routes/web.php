@@ -49,7 +49,6 @@ Route::post('/payment', 'PaymentController@store');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/recipes', 'RecipeController@index');
 Route::resource('recipe', 'RecipeController');
 Route::get('calculator', 'CalculatorController@index');
 Route::post('calculator', 'CalculatorController@store');
