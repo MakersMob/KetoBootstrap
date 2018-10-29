@@ -138,6 +138,7 @@ Route::get('meal/plan2', function () {
 Route::get('/meal/day/{day}', 'MealController@day');
 
 Route::group(['middleware' => 'auth'], function () {
+	Route::resource('ingredientrecipe', 'IngredientRecipeController');
 	Route::get('/admin', 'AdminController@index');
 	Route::post('goals', 'GoalController@store');
 	Route::get('/welcome', 'WelcomeController@index');
@@ -152,8 +153,6 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::resource('meal-plan', 'MealPlanController');
 	Route::get('mealplanrecipe/create', 'MealPlanRecipeController@create');
 	Route::post('mealplanrecipe', 'MealPlanRecipeController@store');	
-	Route::get('ingredientrecipe/create', 'IngredientRecipeController@create');
-	Route::post('ingredientrecipe', 'IngredientRecipeController@store');
 	Route::resource('instruction', 'InstructionController');
 	Route::get('user/recipes', 'RecipeUserController@index');
 	Route::post('recipeuser', 'RecipeUserController@store');

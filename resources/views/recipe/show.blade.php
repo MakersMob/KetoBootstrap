@@ -107,7 +107,10 @@
 				<h4>Ingredients</h4>
 				<ul class="list-unstyled ingredient-list">
 					@foreach($recipe->ingredients as $ingredient)
-						<li>@if($ingredient->pivot->item)[{{$ingredient->pivot->item}}] @endif<a href="/ingredient/{{ $ingredient->slug }}">{{ $ingredient->pivot->amount }} {{ strtolower($ingredient->pivot->measurement) }} {{ $ingredient->name }}</a> @isset($ingredient->link) [<a href="{{ $ingredient->link }}">get it here</a>]@endisset</li>
+						<li>@if($ingredient->pivot->item)[{{$ingredient->pivot->item}}] @endif<a href="/ingredient/{{ $ingredient->slug }}">{{ $ingredient->pivot->amount }} {{ strtolower($ingredient->pivot->measurement) }} {{ $ingredient->name }}</a> @isset($ingredient->link) [<a href="{{ $ingredient->link }}">get it here</a>]@endisset @role('admin') {!! Form::open(['method' => 'DELETE', 'route' => ['ingredientrecipe.destroy', $ingredient->id]]) !!}
+							<input type="hidden" name="recipe" value="{{ $recipe->id }}">
+							<button type="submit" class="btn btn-primary btn-sm btn-warning">Delete Ingredient</button>
+						{!! Form::close() !!} @endhasrole</li>
 					@endforeach
 				</ul>
 			</div>

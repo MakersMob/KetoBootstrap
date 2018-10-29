@@ -25,4 +25,13 @@ class IngredientRecipeController extends Controller
 
     	return redirect('recipe/'.$recipe->slug);
     }
+
+    public function destroy(Request $request, $id)
+    {
+        $recipe = Recipe::find($request->recipe);
+
+        $recipe->ingredients()->detach($id);
+
+        return redirect('recipe/'.$recipe->slug);
+    }
 }
