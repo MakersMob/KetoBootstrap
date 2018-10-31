@@ -49,6 +49,9 @@ Route::post('/payment', 'PaymentController@store');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/recipes', function () {
+	return redirect('/recipe');
+});
 Route::resource('recipe', 'RecipeController');
 Route::get('calculator', 'CalculatorController@index');
 Route::post('calculator', 'CalculatorController@store');
