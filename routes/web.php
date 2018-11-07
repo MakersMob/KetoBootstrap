@@ -53,6 +53,7 @@ Route::get('/recipes', function () {
 	return redirect('/recipe');
 });
 Route::resource('recipe', 'RecipeController');
+Route::resource('alcohol', 'AlcoholController');
 Route::get('calculator', 'CalculatorController@index');
 Route::post('calculator', 'CalculatorController@store');
 
