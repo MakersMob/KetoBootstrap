@@ -139,6 +139,10 @@ Route::get('meal/plan2', function () {
 		return view('meal.plan2');
 	});
 
+Route::get('privacy-policy', function () {
+	return view('privacy-policy');
+});
+
 Route::get('/meal/day/{day}', 'MealController@day');
 
 Route::group(['middleware' => 'auth'], function () {
