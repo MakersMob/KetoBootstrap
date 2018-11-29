@@ -46,6 +46,7 @@
 										<select class="form-control" name="measurement" id="measurement">
 											<option value=""></option>
 											<option value="bottles">bottles</option>
+											<option value="bunches">bunches</option>
 											<option value="cans">cans</option>
 											<option value="capsules">capsules</option>
 											<option value="chopped">chopped</option>
