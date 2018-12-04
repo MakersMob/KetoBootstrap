@@ -95,7 +95,7 @@
 	<div class="container">
 		<div class="row">
 			<h2 class="linewrap"><span>Want to use this recipe to lose weight? Then take the 28-Day Weight Loss Challenge</span></h2>
-    		<p style="margin-bottom: 0;" class="text-center"><a class="btn btn-lg btn-primary" href="/join">Sign up today for the 28-Day Weight Loss Challenge!</a></p>
+    		<p style="margin-bottom: 0;" class="text-center"><a class="btn btn-lg btn-primary" href="/join">Sign up today! &#8594;</a></p>
     	</div>
     </div>    
 </section>
