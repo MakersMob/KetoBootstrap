@@ -186,7 +186,24 @@ p.large {
 	background: linear-gradient(rgba($oil, 0.15), rgba($oil, 0.15)), url('https://s3-us-west-2.amazonaws.com/ketobootstrap-blog-master/blog/wp-content/uploads/2018/10/21220025/foodie_bg1.jpg') fixed;  /* fallback for old browsers */
 	background-size: cover;
 	h2 {
-		color: $white;
+		&.linewrap {
+			line-height: 1.4; 
+			padding: 2px 0; 
+			margin: 20px auto;
+			span {
+				background-color: $orange;
+				color: $white; 
+				display: inline;
+				padding: 0.45rem 0.45rem 0.25rem;
+				  
+				/* Needs prefixing */
+				box-decoration-break: clone;
+				-webkit-box-decoration-break: clone;
+				a {
+					color: $white;
+				}
+			}
+		}
 	}
 }
 .smoke {

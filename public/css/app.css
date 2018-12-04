@@ -10868,7 +10868,23 @@ table tr.smoke {
   background-size: cover;
 }
 
-.announcement h2 {
+.announcement h2.linewrap {
+  line-height: 1.4;
+  padding: 2px 0;
+  margin: 20px auto;
+}
+
+.announcement h2.linewrap span {
+  background-color: #FF6600;
+  color: #fff;
+  display: inline;
+  padding: 0.45rem 0.45rem 0.25rem;
+  /* Needs prefixing */
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.announcement h2.linewrap span a {
   color: #fff;
 }
 
