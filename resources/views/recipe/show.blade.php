@@ -94,8 +94,10 @@
 <section class="content announcement d-print-none">
 	<div class="container">
 		<div class="row">
-			<h2 class="linewrap"><span>Want to learn how to use this recipe and more to lose weight? Then take the 28-Day Weight Loss Challenge</span></h2>
-    		<p style="margin-bottom: 0;" class="text-center"><a class="btn btn-lg btn-primary" href="/join">Sign up today! &#8594;</a></p>
+			<div class="col-12">
+				<h2 class="linewrap"><span>Want to learn how to use this recipe and more to lose weight? Then take the 28-Day Weight Loss Challenge</span></h2>
+	    		<p style="margin-bottom: 0;" class="text-center"><a class="btn btn-lg btn-primary" href="/join">Sign up today! &#8594;</a></p>
+	    	</div>
     	</div>
     </div>    
 </section>
