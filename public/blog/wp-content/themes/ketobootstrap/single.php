@@ -52,7 +52,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 		</div><!-- #primary -->
 	</div>
 </section>
-<section class="content announcement d-print-none">
+<section class="content announcement d-print-none" style="padding-top: 3rem; padding-bottom: 3rem;">
 	<div class="container">
 		<div class="row">
 			<h2>Ready to conquer Keto? Then take the 28-Day Weight Loss Challenge with us!</h2>
