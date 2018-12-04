@@ -17,7 +17,7 @@ $container = get_theme_mod( 'understrap_container_type' );
         <div class="row">
             <div class="col-12">
                 <h2 class="linewrap"><span>Ready to conquer Keto? Then take the 28-Day Weight Loss Challenge with us!</span></h2>
-                <p style="margin-bottom: 0;" class="text-center"><a class="btn btn-lg btn-primary" href="/join">Sign up today! &#8594;</a></p>
+                <p style="margin-bottom: 0;"><a class="btn btn-lg btn-primary" href="/join">Sign up today! &#8594;</a></p>
             </div>
         </div>
     </div>    
