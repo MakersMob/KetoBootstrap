@@ -50,6 +50,18 @@ $container   = get_theme_mod( 'understrap_container_type' );
 
 			
 		</div><!-- #primary -->
+	</div>
+</section>
+<section class="content announcement d-print-none">
+	<div class="container">
+		<div class="row">
+			<h2>Ready to conquer Keto? Then take the 28-Day Weight Loss Challenge with us!</h2>
+    		<p style="margin-bottom: 0;" class="text-center"><a class="btn btn-lg btn-primary" href="/join">Sign up today for the 28-Day Weight Loss Challenge!</a></p>
+    	</div>
+    </div>    
+</section>
+<section class="content">
+	<div class="container">
 		<div class="row ">
 			<div class="col-md-9">
 				<h3>Enjoyed this post? You should Pin it!</h3>
