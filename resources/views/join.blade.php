@@ -15,9 +15,14 @@
 <section class="cta-keto">
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 col-lg-6">
+                <div class="image">
+                    <img src="https://s3-us-west-2.amazonaws.com/ketobootstrap-blog-master/blog/wp-content/uploads/2018/12/05060741/comparison1.jpg">
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
                 <h2 class="">In just 4 weeks, you can lose 10-21 lbs, drop 2-4 inches from your waistline, increase muscle tone, and more.</h2>
-                <p class="large">The Keto Bootstrap System follows the principles of the Ketogenic Diet and takes all of the guesswork out of having to figure out what to do on your own. No more lonely and confusing diets.</p>
+                <p class="large">The Keto Bootstrap System takes all of the guesswork out of having to figure out what to do to lose weight.</p>
                 <p class="" style="margin-bottom: 0;"><a href="#payment-form" class="btn btn-lg btn-primary">Start Your Weight Loss Journey Today</a></p>
             </div>
         </div>
@@ -235,7 +240,10 @@
 <section class="cta-keto">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-12 col-lg-8">
+            <div class="col-12 col-lg-10">
+                <div class="image">
+                    <img src="https://s3-us-west-2.amazonaws.com/ketobootstrap-blog-master/blog/wp-content/uploads/2018/12/05061030/comparison2.jpg">
+                </div>
                 <div class="card">
                     <div class="card-body">
                         <h2 class="text-center">Have You Ever Experienced These Things?</h2>
@@ -277,7 +285,7 @@
 </section>
 <section class="sales-break">
     <div class="container">
-        <div class="row" data-equalizer>
+        <div class="row justify-content-center">
             <div class="col-12">
                 <h2 class="text-center">What&rsquo;s Included</h2>
             </div>
@@ -301,25 +309,13 @@
                     <img src="https://s3-us-west-2.amazonaws.com/bitchafit-master/wp-content/uploads/2017/09/11202407/landing-page-workout-plan.jpg" data-pin-nopin="true">
                 </div>
             </div>
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-lg-8">
                 <div class="card" data-equalizer-watch>
                     <div class="card-body">
                         <h3 class="text-center">Private FB Group Access</h3>
                         <p>Support in the Keto Bootstrap System comes in two forms. The first is a private Facebook group where you can converse with other Keto Dasy Participants to share progress, results, recipes, and encouragement.</p>
                         <div class="image">
                             <img src="https://s3-us-west-2.amazonaws.com/bitchafit-master/wp-content/uploads/2017/09/11200811/facebook.jpg">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-6">
-                <div class="card" data-equalizer-watch>
-                    <div class="card-body">
-                        <h3 class="text-center">Slack Community</h3>
-                        <p>Sometimes you just want to have a real-time conversation or get support instantly instead of waiting around. Our Slack Community provides you with access to every Keto Bootstrap member so you can share recipes, struggles, wins, and whatever you like.</p>
-                        <p>No other program offers this level of support or community.</p>
-                        <div class="image">
-                            <img src="https://s3-us-west-2.amazonaws.com/bitchafit-master/wp-content/uploads/2017/09/11200818/slack.jpg">
                         </div>
                     </div>
                 </div>
@@ -347,6 +343,9 @@
                             <li>Make delicious treats that actually help you burn fat</li>
                         </ul>
                     </div>
+                </div>
+                <div class="image">
+                    <img src="https://s3-us-west-2.amazonaws.com/ketobootstrap-blog-master/blog/wp-content/uploads/2018/12/05061558/comparison3.jpg">
                 </div>
                 <h3 class="text-center pink">I&rsquo;ve Done All of the Work for You</h3>
                 <h2 class="text-center">Get Started Today</h2>
