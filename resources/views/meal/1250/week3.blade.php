@@ -16,45 +16,45 @@
 			<div class="col-12 col-lg-8">
 				<h2>Day 1</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/cinnamon-roll-waffle">Cinnamon Roll Waffle</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/guacamole-deviled-eggs">Guacamole Deviled Eggs</a> (eat 4)</li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/chicken-avocado-casserole">Chicken Avocado Casserole</a></li>
+					<li>Breakfast: <a href="/recipe/cinnamon-roll-waffle">Cinnamon Roll Waffle</a></li>
+					<li>Lunch: <a href="/recipe/guacamole-deviled-eggs">Guacamole Deviled Eggs</a> (eat 4)</li>
+					<li>Dinner: <a href="/recipe/chicken-avocado-casserole">Chicken Avocado Casserole</a></li>
 				</ul>
 				<h2>Day 2</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/chicharrones-con-huevos">Chicharrones con Huevos</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/buffaflower-bites">Buffalfower Bites</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/thai-peanut-shrimp-curry">Thai Peanut Shrimp Curry</a>, <a href="https://ketodash.com/recipe/cauliflower-rice">Cauliflower Rice</a></li>
+					<li>Breakfast: <a href="/recipe/chicharrones-con-huevos">Chicharrones con Huevos</a></li>
+					<li>Lunch: <a href="/recipe/buffaflower-bites">Buffalfower Bites</a></li>
+					<li>Dinner: <a href="/recipe/thai-peanut-shrimp-curry">Thai Peanut Shrimp Curry</a>, <a href="/recipe/cauliflower-rice">Cauliflower Rice</a></li>
 				</ul>
 				<h2>Day 3</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/breakfast-taco">Breakfast Taco</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/guacamole-deviled-eggs">Guacamole Deviled Eggs</a> (eat 4)</li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/chicken-avocado-casserole">Chicken Avocado Casserole</a></li>
+					<li>Breakfast: <a href="/recipe/breakfast-taco">Breakfast Taco</a></li>
+					<li>Lunch: <a href="/recipe/guacamole-deviled-eggs">Guacamole Deviled Eggs</a> (eat 4)</li>
+					<li>Dinner: <a href="/recipe/chicken-avocado-casserole">Chicken Avocado Casserole</a></li>
 				</ul>
 				<h2>Day 4</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/chicharrones-con-huevos">Chicharrones con Huevos</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/buffaflower-bites">Buffalfower Bites</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/thai-peanut-shrimp-curry">Thai Peanut Shrimp Curry</a>, <a href="https://ketodash.com/recipe/cauliflower-rice">Cauliflower Rice</a></li>
+					<li>Breakfast: <a href="/recipe/chicharrones-con-huevos">Chicharrones con Huevos</a></li>
+					<li>Lunch: <a href="/recipe/buffaflower-bites">Buffalfower Bites</a></li>
+					<li>Dinner: <a href="/recipe/thai-peanut-shrimp-curry">Thai Peanut Shrimp Curry</a>, <a href="/recipe/cauliflower-rice">Cauliflower Rice</a></li>
 				</ul>
 				<h2>Day 5</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/breakfast-taco">Breakfast Taco</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/guacamole-deviled-eggs">Guacamole Deviled Eggs</a> (eat 4)</li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/chicken-avocado-casserole">Chicken Avocado Casserole</a></li>
+					<li>Breakfast: <a href="/recipe/breakfast-taco">Breakfast Taco</a></li>
+					<li>Lunch: <a href="/recipe/guacamole-deviled-eggs">Guacamole Deviled Eggs</a> (eat 4)</li>
+					<li>Dinner: <a href="/recipe/chicken-avocado-casserole">Chicken Avocado Casserole</a></li>
 				</ul>
 				<h2>Day 6</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/chicharrones-con-huevos">Chicharrones con Huevos</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/buffaflower-bites">Buffalfower Bites</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/chicken-avocado-casserole">Chicken Avocado Casserole</a></li>
+					<li>Breakfast: <a href="/recipe/chicharrones-con-huevos">Chicharrones con Huevos</a></li>
+					<li>Lunch: <a href="/recipe/buffaflower-bites">Buffalfower Bites</a></li>
+					<li>Dinner: <a href="/recipe/chicken-avocado-casserole">Chicken Avocado Casserole</a></li>
 				</ul>
 				<h2>Day 7</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/cinnamon-roll-waffle">Cinnamon Roll Waffle</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/guacamole-deviled-eggs">Guacamole Deviled Eggs</a> (eat 4)</li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/taco-turkey-burgers">Taco Turkey Burgers</a></li>
+					<li>Breakfast: <a href="/recipe/cinnamon-roll-waffle">Cinnamon Roll Waffle</a></li>
+					<li>Lunch: <a href="/recipe/guacamole-deviled-eggs">Guacamole Deviled Eggs</a> (eat 4)</li>
+					<li>Dinner: <a href="/recipe/taco-turkey-burgers">Taco Turkey Burgers</a></li>
 				</ul>
 			</div>
 			<div class="col-12 col-lg-4">

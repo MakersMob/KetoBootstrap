@@ -16,47 +16,47 @@
 			<div class="col-12 col-lg-8">
 				<h2>Day 1</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/sausage-breakfast-cassrole">Sausage Breakfast Casserole</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/feta-and-bacon-bites">Feta Bacon Bites</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/chicken-skewers">Chicken Skewers</a>, <a href="https://ketodash.com/recipe/loaded-cauliflower-fauxtato-salad">Loaded Cauliflower Fauxtato Salad</a></li>
+					<li>Breakfast: <a href="/recipe/sausage-breakfast-cassrole">Sausage Breakfast Casserole</a></li>
+					<li>Lunch: <a href="/recipe/feta-and-bacon-bites">Feta Bacon Bites</a></li>
+					<li>Dinner: <a href="/recipe/chicken-skewers">Chicken Skewers</a>, <a href="/recipe/loaded-cauliflower-fauxtato-salad">Loaded Cauliflower Fauxtato Salad</a></li>
 				</ul>
 				<h2>Day 2</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/philly-cheesesteak-bowl">Philly Cheesesteak Breakfast Wrap</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/zucchini-goat-cheese-wraps">Zucchini Goat Cheese Wraps</a></li>
-					<li>Dinner: <a href="https://ketobootstrap.com/recipe/garlic-gusto-pancetta-stuffed-chicken-thighs">Garlic Gusto Pancetta Stuffed Chicken Thighs</a>, <a href="https://ketodash.com/recipe/cauliflower-mashed-potatoes">Cauliflower Mashed Potatoes</a></li>
+					<li>Breakfast: <a href="/recipe/philly-cheesesteak-bowl">Philly Cheesesteak Breakfast Wrap</a></li>
+					<li>Lunch: <a href="/recipe/zucchini-goat-cheese-wraps">Zucchini Goat Cheese Wraps</a></li>
+					<li>Dinner: <a href="https://ketobootstrap.com/recipe/garlic-gusto-pancetta-stuffed-chicken-thighs">Garlic Gusto Pancetta Stuffed Chicken Thighs</a>, <a href="/recipe/cauliflower-mashed-potatoes">Cauliflower Mashed Potatoes</a></li>
 				</ul>
 				<h2>Day 3</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/bacon-eggs-benedict">Bacon Eggs Benedict</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/zucchini-poppers">Zucchini Poppers</a> (eat 2)</li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/spicy-thai-peanut-chicken">Spicy Thai Peanut Chicken</a>, <a href="https://ketodash.com/recipe/cauliflower-rice">Cauliflower Rice</a></li>
-					<li>Snack: <a href="https://ketodash.com/recipe/peanut-butter-fluff-fat-bombs">Peanut Butter Fluff Fat Bombs</a></li>
+					<li>Breakfast: <a href="/recipe/bacon-eggs-benedict">Bacon Eggs Benedict</a></li>
+					<li>Lunch: <a href="/recipe/zucchini-poppers">Zucchini Poppers</a> (eat 2)</li>
+					<li>Dinner: <a href="/recipe/spicy-thai-peanut-chicken">Spicy Thai Peanut Chicken</a>, <a href="/recipe/cauliflower-rice">Cauliflower Rice</a></li>
+					<li>Snack: <a href="/recipe/peanut-butter-fluff-fat-bombs">Peanut Butter Fluff Fat Bombs</a></li>
 				</ul>
 				<h2>Day 4</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/sausage-breakfast-cassrole">Sausage Breakfast Casserole</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/feta-and-bacon-bites">Feta Bacon Bites</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/chicken-skewers">Chicken Skewers</a>, <a href="https://ketodash.com/recipe/loaded-cauliflower-fauxtato-salad">Loaded Cauliflower Fauxtato Salad</a></li>
+					<li>Breakfast: <a href="/recipe/sausage-breakfast-cassrole">Sausage Breakfast Casserole</a></li>
+					<li>Lunch: <a href="/recipe/feta-and-bacon-bites">Feta Bacon Bites</a></li>
+					<li>Dinner: <a href="/recipe/chicken-skewers">Chicken Skewers</a>, <a href="/recipe/loaded-cauliflower-fauxtato-salad">Loaded Cauliflower Fauxtato Salad</a></li>
 				</ul>
 				<h2>Day 5</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/philly-cheesesteak-bowl">Philly Cheesesteak Breakfast Wrap</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/zucchini-goat-cheese-wraps">Zucchini Goat Cheese Wraps</a></li>
-					<li>Dinner: <a href="https://ketobootstrap.com/recipe/garlic-gusto-pancetta-stuffed-chicken-thighs">Garlic Gusto Pancetta Stuffed Chicken Thighs</a>, <a href="https://ketodash.com/recipe/cauliflower-mashed-potatoes">Cauliflower Mashed Potatoes</a></li>
+					<li>Breakfast: <a href="/recipe/philly-cheesesteak-bowl">Philly Cheesesteak Breakfast Wrap</a></li>
+					<li>Lunch: <a href="/recipe/zucchini-goat-cheese-wraps">Zucchini Goat Cheese Wraps</a></li>
+					<li>Dinner: <a href="https://ketobootstrap.com/recipe/garlic-gusto-pancetta-stuffed-chicken-thighs">Garlic Gusto Pancetta Stuffed Chicken Thighs</a>, <a href="/recipe/cauliflower-mashed-potatoes">Cauliflower Mashed Potatoes</a></li>
 				</ul>
 				<h2>Day 6</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/bacon-eggs-benedict">Bacon Eggs Benedict</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/zucchini-poppers">Zucchini Poppers</a> (eat 2)</li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/spicy-thai-peanut-chicken">Spicy Thai Peanut Chicken</a>, <a href="https://ketodash.com/recipe/cauliflower-rice">Cauliflower Rice</a></li>
-					<li>Snack: <a href="https://ketodash.com/recipe/peanut-butter-fluff-fat-bombs">Peanut Butter Fluff Fat Bombs</a></li>
+					<li>Breakfast: <a href="/recipe/bacon-eggs-benedict">Bacon Eggs Benedict</a></li>
+					<li>Lunch: <a href="/recipe/zucchini-poppers">Zucchini Poppers</a> (eat 2)</li>
+					<li>Dinner: <a href="/recipe/spicy-thai-peanut-chicken">Spicy Thai Peanut Chicken</a>, <a href="/recipe/cauliflower-rice">Cauliflower Rice</a></li>
+					<li>Snack: <a href="/recipe/peanut-butter-fluff-fat-bombs">Peanut Butter Fluff Fat Bombs</a></li>
 				</ul>
 				<h2>Day 7</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/sausage-breakfast-cassrole">Sausage Breakfast Casserole</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/feta-and-bacon-bites">Feta Bacon Bites</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/chicken-skewers">Chicken Skewers</a>, <a href="https://ketodash.com/recipe/loaded-cauliflower-fauxtato-salad">Loaded Cauliflower Fauxtato Salad</a></li>
+					<li>Breakfast: <a href="/recipe/sausage-breakfast-cassrole">Sausage Breakfast Casserole</a></li>
+					<li>Lunch: <a href="/recipe/feta-and-bacon-bites">Feta Bacon Bites</a></li>
+					<li>Dinner: <a href="/recipe/chicken-skewers">Chicken Skewers</a>, <a href="/recipe/loaded-cauliflower-fauxtato-salad">Loaded Cauliflower Fauxtato Salad</a></li>
 				</ul>
 			</div>
 			<div class="col-12 col-lg-4">

@@ -16,52 +16,52 @@
 			<div class="col-12 col-lg-8">
 				<h2>Day 1</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/french-toast-muffins">French Toast Muffins</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/chicken-chili-soup">Chicken Chili Soup</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/meatball-parm-casserole">Meatball Parm Casserole</a>, <a href="https://ketodash.com/recipe/bake-spaghetti-squash">Bake Spaghetti Squash</a></li>
-					<li>Snack: <a href="https://ketodash.com/recipe/espresso-peanut-butter-mousse">Espresso Peanut Butter Mousse</a></li>
+					<li>Breakfast: <a href="/recipe/french-toast-muffins">French Toast Muffins</a></li>
+					<li>Lunch: <a href="/recipe/chicken-chili-soup">Chicken Chili Soup</a></li>
+					<li>Dinner: <a href="/recipe/meatball-parm-casserole">Meatball Parm Casserole</a>, <a href="/recipe/bake-spaghetti-squash">Bake Spaghetti Squash</a></li>
+					<li>Snack: <a href="/recipe/espresso-peanut-butter-mousse">Espresso Peanut Butter Mousse</a></li>
 				</ul>
 				<h2>Day 2</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/vegetarian-three-cheese-quiche-stuffed-peppers">Vegetarian Three Cheese Quiche Stuffed Peppers</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/thai-peanut-shrimp-curry">Thai Peanut Shrimp Curry</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/chicken-tender-lazone">Chicken Tender Lazone</a></li>
-					<li>Snack: <a href="https://ketodash.com/recipe/chocolate-strawberry-mousse">Chocolate Strawberry Mousse</a></li>
+					<li>Breakfast: <a href="/recipe/vegetarian-three-cheese-quiche-stuffed-peppers">Vegetarian Three Cheese Quiche Stuffed Peppers</a></li>
+					<li>Lunch: <a href="/recipe/thai-peanut-shrimp-curry">Thai Peanut Shrimp Curry</a></li>
+					<li>Dinner: <a href="/recipe/chicken-tender-lazone">Chicken Tender Lazone</a></li>
+					<li>Snack: <a href="/recipe/chocolate-strawberry-mousse">Chocolate Strawberry Mousse</a></li>
 				</ul>
 				<h2>Day 3</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/spinach-onion-goat-cheese-omelette">Spinach Onion Goat Cheese Omelette</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/juicy-lucy-sliders">Juicy Lucy Sliders</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/crispy-tofu-and-bok-choy-salad">Crispy Tofu and Bok Choy Salad</a></li>
-					<li>Snack: <a href="https://ketodash.com/recipe/1-minute-molten-chocolate-brownie">1 Minute Molten Chocolate Brownie</a></li>
+					<li>Breakfast: <a href="/recipe/spinach-onion-goat-cheese-omelette">Spinach Onion Goat Cheese Omelette</a></li>
+					<li>Lunch: <a href="/recipe/juicy-lucy-sliders">Juicy Lucy Sliders</a></li>
+					<li>Dinner: <a href="/recipe/crispy-tofu-and-bok-choy-salad">Crispy Tofu and Bok Choy Salad</a></li>
+					<li>Snack: <a href="/recipe/1-minute-molten-chocolate-brownie">1 Minute Molten Chocolate Brownie</a></li>
 				</ul>
 				<h2>Day 4</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/french-toast-muffins">French Toast Muffins</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/chicken-chili-soup">Chicken Chili Soup</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/meatball-parm-casserole">Meatball Parm Casserole</a>, <a href="https://ketodash.com/recipe/bake-spaghetti-squash">Bake Spaghetti Squash</a></li>
-					<li>Snack: <a href="https://ketodash.com/recipe/espresso-peanut-butter-mousse">Espresso Peanut Butter Mousse</a></li>
+					<li>Breakfast: <a href="/recipe/french-toast-muffins">French Toast Muffins</a></li>
+					<li>Lunch: <a href="/recipe/chicken-chili-soup">Chicken Chili Soup</a></li>
+					<li>Dinner: <a href="/recipe/meatball-parm-casserole">Meatball Parm Casserole</a>, <a href="/recipe/bake-spaghetti-squash">Bake Spaghetti Squash</a></li>
+					<li>Snack: <a href="/recipe/espresso-peanut-butter-mousse">Espresso Peanut Butter Mousse</a></li>
 				</ul>
 				<h2>Day 5</h2>
 				<ul>
-<li>Breakfast: <a href="https://ketodash.com/recipe/vegetarian-three-cheese-quiche-stuffed-peppers">Vegetarian Three Cheese Quiche Stuffed Peppers</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/thai-peanut-shrimp-curry">Thai Peanut Shrimp Curry</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/chicken-tender-lazone">Chicken Tender Lazone</a></li>
-					<li>Snack: <a href="https://ketodash.com/recipe/chocolate-strawberry-mousse">Chocolate Strawberry Mousse</a></li>
+<li>Breakfast: <a href="/recipe/vegetarian-three-cheese-quiche-stuffed-peppers">Vegetarian Three Cheese Quiche Stuffed Peppers</a></li>
+					<li>Lunch: <a href="/recipe/thai-peanut-shrimp-curry">Thai Peanut Shrimp Curry</a></li>
+					<li>Dinner: <a href="/recipe/chicken-tender-lazone">Chicken Tender Lazone</a></li>
+					<li>Snack: <a href="/recipe/chocolate-strawberry-mousse">Chocolate Strawberry Mousse</a></li>
 				</ul>
 				<h2>Day 6</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/spinach-onion-goat-cheese-omelette">Spinach Onion Goat Cheese Omelette</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/juicy-lucy-sliders">Juicy Lucy Sliders</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/crispy-tofu-and-bok-choy-salad">Crispy Tofu and Bok Choy Salad</a></li>
-					<li>Snack: <a href="https://ketodash.com/recipe/1-minute-molten-chocolate-brownie">1 Minute Molten Chocolate Brownie</a></li>
+					<li>Breakfast: <a href="/recipe/spinach-onion-goat-cheese-omelette">Spinach Onion Goat Cheese Omelette</a></li>
+					<li>Lunch: <a href="/recipe/juicy-lucy-sliders">Juicy Lucy Sliders</a></li>
+					<li>Dinner: <a href="/recipe/crispy-tofu-and-bok-choy-salad">Crispy Tofu and Bok Choy Salad</a></li>
+					<li>Snack: <a href="/recipe/1-minute-molten-chocolate-brownie">1 Minute Molten Chocolate Brownie</a></li>
 				</ul>
 				<h2>Day 7</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/french-toast-muffins">French Toast Muffins</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/chicken-chili-soup">Chicken Chili Soup</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/meatball-parm-casserole">Meatball Parm Casserole</a>, <a href="https://ketodash.com/recipe/bake-spaghetti-squash">Bake Spaghetti Squash</a></li>
-					<li>Snack: <a href="https://ketodash.com/recipe/espresso-peanut-butter-mousse">Espresso Peanut Butter Mousse</a></li>
+					<li>Breakfast: <a href="/recipe/french-toast-muffins">French Toast Muffins</a></li>
+					<li>Lunch: <a href="/recipe/chicken-chili-soup">Chicken Chili Soup</a></li>
+					<li>Dinner: <a href="/recipe/meatball-parm-casserole">Meatball Parm Casserole</a>, <a href="/recipe/bake-spaghetti-squash">Bake Spaghetti Squash</a></li>
+					<li>Snack: <a href="/recipe/espresso-peanut-butter-mousse">Espresso Peanut Butter Mousse</a></li>
 				</ul>
 			</div>
 			<div class="col-12 col-lg-4">

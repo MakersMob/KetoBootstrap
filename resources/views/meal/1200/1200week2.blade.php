@@ -16,47 +16,47 @@
 			<div class="col-12 col-lg-8">
 				<h2>Day 1</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/bacon-hash">Bacon Hash</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/ultimate-cheeseburger-loaf">Ultimate Cheeseburger Loaf</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/parmesan-crusted-pork-chops">Parmesan Crusted Pork Chops</a>, <a href="https://ketodash.com/recipe/cheesy-cauliflower-rice">Cheesy Cauliflower Rice</a></li>
+					<li>Breakfast: <a href="/recipe/bacon-hash">Bacon Hash</a></li>
+					<li>Lunch: <a href="/recipe/ultimate-cheeseburger-loaf">Ultimate Cheeseburger Loaf</a></li>
+					<li>Dinner: <a href="/recipe/parmesan-crusted-pork-chops">Parmesan Crusted Pork Chops</a>, <a href="/recipe/cheesy-cauliflower-rice">Cheesy Cauliflower Rice</a></li>
 				</ul>
 				<h2>Day 2</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/sausage-breakfast-cassrole">Sausage Breakfast Casserole with 2 Eggs</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/feta-and-bacon-bites">Feta and Bacon Bites</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/enchilada-skillet-chicken">Enchilada Skillet Chicken</a></li>
-					<li>Snack or Dessert: <a href="https://ketodash.com/recipe/chocolate-chip-cookie-cheesecake-bars">Chocolate Chip Cookie Cheesecake Bars</a></li>
+					<li>Breakfast: <a href="/recipe/sausage-breakfast-cassrole">Sausage Breakfast Casserole with 2 Eggs</a></li>
+					<li>Lunch: <a href="/recipe/feta-and-bacon-bites">Feta and Bacon Bites</a></li>
+					<li>Dinner: <a href="/recipe/enchilada-skillet-chicken">Enchilada Skillet Chicken</a></li>
+					<li>Snack or Dessert: <a href="/recipe/chocolate-chip-cookie-cheesecake-bars">Chocolate Chip Cookie Cheesecake Bars</a></li>
 				</ul>
 				<h2>Day 3</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/vegetarian-three-cheese-quiche-stuffed-peppers">Vegetarian Three Cheese Quiche Stuffed Peppers</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/ultimate-cheeseburger-loaf">Ultimate Cheeseburger Loaf</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/parmesan-crusted-pork-chops">Parmesan Crusted Pork Chops</a>, <a href="https://ketodash.com/recipe/cheesy-cauliflower-rice">Cheesy Cauliflower Rice</a></li>
+					<li>Breakfast: <a href="/recipe/vegetarian-three-cheese-quiche-stuffed-peppers">Vegetarian Three Cheese Quiche Stuffed Peppers</a></li>
+					<li>Lunch: <a href="/recipe/ultimate-cheeseburger-loaf">Ultimate Cheeseburger Loaf</a></li>
+					<li>Dinner: <a href="/recipe/parmesan-crusted-pork-chops">Parmesan Crusted Pork Chops</a>, <a href="/recipe/cheesy-cauliflower-rice">Cheesy Cauliflower Rice</a></li>
 				</ul>
 				<h2>Day 4</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/sausage-breakfast-cassrole">Sausage Breakfast Casserole with 2 Eggs</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/feta-and-bacon-bites">Feta and Bacon Bites</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/paprika-chicken">Paprika Chicken</a>, <a href="https://ketodash.com/recipe/au-gratin-brussels-sprouts">Au Gratin Brussels Sprouts</a></li>
+					<li>Breakfast: <a href="/recipe/sausage-breakfast-cassrole">Sausage Breakfast Casserole with 2 Eggs</a></li>
+					<li>Lunch: <a href="/recipe/feta-and-bacon-bites">Feta and Bacon Bites</a></li>
+					<li>Dinner: <a href="/recipe/paprika-chicken">Paprika Chicken</a>, <a href="/recipe/au-gratin-brussels-sprouts">Au Gratin Brussels Sprouts</a></li>
 				</ul>
 				<h2>Day 5</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/bacon-hash">Bacon Hash</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/ultimate-cheeseburger-loaf">Ultimate Cheeseburger Loaf</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/parmesan-crusted-pork-chops">Parmesan Crusted Pork Chops</a>, <a href="https://ketodash.com/recipe/cheesy-cauliflower-rice">Cheesy Cauliflower Rice</a></li>
+					<li>Breakfast: <a href="/recipe/bacon-hash">Bacon Hash</a></li>
+					<li>Lunch: <a href="/recipe/ultimate-cheeseburger-loaf">Ultimate Cheeseburger Loaf</a></li>
+					<li>Dinner: <a href="/recipe/parmesan-crusted-pork-chops">Parmesan Crusted Pork Chops</a>, <a href="/recipe/cheesy-cauliflower-rice">Cheesy Cauliflower Rice</a></li>
 				</ul>
 				<h2>Day 6</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/sausage-breakfast-cassrole">Sausage Breakfast Casserole with 2 Eggs</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/feta-and-bacon-bites">Feta and Bacon Bites</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/enchilada-skillet-chicken">Enchilada Skillet Chicken</a></li>
-					<li>Snack or Dessert: <a href="https://ketodash.com/recipe/chocolate-chip-cookie-cheesecake-bars">Chocolate Chip Cookie Cheesecake Bars</a></li>
+					<li>Breakfast: <a href="/recipe/sausage-breakfast-cassrole">Sausage Breakfast Casserole with 2 Eggs</a></li>
+					<li>Lunch: <a href="/recipe/feta-and-bacon-bites">Feta and Bacon Bites</a></li>
+					<li>Dinner: <a href="/recipe/enchilada-skillet-chicken">Enchilada Skillet Chicken</a></li>
+					<li>Snack or Dessert: <a href="/recipe/chocolate-chip-cookie-cheesecake-bars">Chocolate Chip Cookie Cheesecake Bars</a></li>
 				</ul>
 				<h2>Day 7</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/vegetarian-three-cheese-quiche-stuffed-peppers">Vegetarian Three Cheese Quiche Stuffed Peppers</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/ultimate-cheeseburger-loaf">Ultimate Cheeseburger Loaf</a></li>
-					<li>Dinner:<a href="https://ketodash.com/recipe/paprika-chicken">Paprika Chicken</a>, <a href="https://ketodash.com/recipe/au-gratin-brussels-sprouts">Au Gratin Brussels Sprouts</a></li>
+					<li>Breakfast: <a href="/recipe/vegetarian-three-cheese-quiche-stuffed-peppers">Vegetarian Three Cheese Quiche Stuffed Peppers</a></li>
+					<li>Lunch: <a href="/recipe/ultimate-cheeseburger-loaf">Ultimate Cheeseburger Loaf</a></li>
+					<li>Dinner:<a href="/recipe/paprika-chicken">Paprika Chicken</a>, <a href="/recipe/au-gratin-brussels-sprouts">Au Gratin Brussels Sprouts</a></li>
 				</ul>
 			</div>
 			<div class="col-12 col-lg-4">

@@ -16,45 +16,45 @@
 			<div class="col-12 col-lg-8">
 				<h2>Day 1</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/spinach-herb-feta-wrap-1">Spinach, Herb &amp; Feta Wrap</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/cheeseburger-muffins">Cheeseburger Muffins</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/crispy-skin-slow-roasted-pork-shoulder">Crispy Skin Slow Roasted Pork Shoulder</a>, <a href="https://ketodash.com/recipe/au-gratin-brussels-sprouts">Au Gratin Brussels Sprouts</a></li>
+					<li>Breakfast: <a href="/recipe/spinach-herb-feta-wrap-1">Spinach, Herb &amp; Feta Wrap</a></li>
+					<li>Lunch: <a href="/recipe/cheeseburger-muffins">Cheeseburger Muffins</a></li>
+					<li>Dinner: <a href="/recipe/crispy-skin-slow-roasted-pork-shoulder">Crispy Skin Slow Roasted Pork Shoulder</a>, <a href="/recipe/au-gratin-brussels-sprouts">Au Gratin Brussels Sprouts</a></li>
 				</ul>
 				<h2>Day 2</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/spicy-baked-eggs-with-cheesy-hash">Spicy Baked Eggs with Cheesy Hash</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/thai-pork-salad">Thai Pork Salad</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/sesame-chicken">Sesame Chicken</a>, <a href="https://ketodash.com/recipe/cauliflower-rice">Cauliflower Rice</a></li>
+					<li>Breakfast: <a href="/recipe/spicy-baked-eggs-with-cheesy-hash">Spicy Baked Eggs with Cheesy Hash</a></li>
+					<li>Lunch: <a href="/recipe/thai-pork-salad">Thai Pork Salad</a></li>
+					<li>Dinner: <a href="/recipe/sesame-chicken">Sesame Chicken</a>, <a href="/recipe/cauliflower-rice">Cauliflower Rice</a></li>
 				</ul>
 				<h2>Day 3</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/blueberry-banana-smoothie">Blueberry Banana Smoothie</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/bacon-burger-bombs">Bacon Burger Bombs</a> (eat 2)</li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/spicy-chicken-artichoke-dip-casserole">Spicy Artichoke Dip Casserole</a></li>
+					<li>Breakfast: <a href="/recipe/blueberry-banana-smoothie">Blueberry Banana Smoothie</a></li>
+					<li>Lunch: <a href="/recipe/bacon-burger-bombs">Bacon Burger Bombs</a> (eat 2)</li>
+					<li>Dinner: <a href="/recipe/spicy-chicken-artichoke-dip-casserole">Spicy Artichoke Dip Casserole</a></li>
 				</ul>
 				<h2>Day 4</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/bacon-hash">Bacon Hash</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/cheeseburger-muffins">Cheeseburger Muffins</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/crispy-skin-slow-roasted-pork-shoulder">Crispy Skin Slow Roasted Pork Shoulder</a>, <a href="https://ketodash.com/recipe/au-gratin-brussels-sprouts">Au Gratin Brussels Sprouts</a></li>
+					<li>Breakfast: <a href="/recipe/bacon-hash">Bacon Hash</a></li>
+					<li>Lunch: <a href="/recipe/cheeseburger-muffins">Cheeseburger Muffins</a></li>
+					<li>Dinner: <a href="/recipe/crispy-skin-slow-roasted-pork-shoulder">Crispy Skin Slow Roasted Pork Shoulder</a>, <a href="/recipe/au-gratin-brussels-sprouts">Au Gratin Brussels Sprouts</a></li>
 				</ul>
 				<h2>Day 5</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/spicy-baked-eggs-with-cheesy-hash">Spicy Baked Eggs with Cheesy Hash</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/thai-pork-salad">Thai Pork Salad</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/sesame-chicken">Sesame Chicken</a>, <a href="https://ketodash.com/recipe/cauliflower-rice">Cauliflower Rice</a></li>
+					<li>Breakfast: <a href="/recipe/spicy-baked-eggs-with-cheesy-hash">Spicy Baked Eggs with Cheesy Hash</a></li>
+					<li>Lunch: <a href="/recipe/thai-pork-salad">Thai Pork Salad</a></li>
+					<li>Dinner: <a href="/recipe/sesame-chicken">Sesame Chicken</a>, <a href="/recipe/cauliflower-rice">Cauliflower Rice</a></li>
 				</ul>
 				<h2>Day 6</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/blueberry-banana-smoothie">Blueberry Banana Smoothie</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/bacon-burger-bombs">Bacon Burger Bombs</a> (eat 2)</li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/spicy-chicken-artichoke-dip-casserole">Spicy Artichoke Dip Casserole</a></li>
+					<li>Breakfast: <a href="/recipe/blueberry-banana-smoothie">Blueberry Banana Smoothie</a></li>
+					<li>Lunch: <a href="/recipe/bacon-burger-bombs">Bacon Burger Bombs</a> (eat 2)</li>
+					<li>Dinner: <a href="/recipe/spicy-chicken-artichoke-dip-casserole">Spicy Artichoke Dip Casserole</a></li>
 				</ul>
 				<h2>Day 7</h2>
 				<ul>
-					<li>Breakfast: <a href="https://ketodash.com/recipe/bacon-hash">Bacon Hash</a></li>
-					<li>Lunch: <a href="https://ketodash.com/recipe/cheeseburger-muffins">Cheeseburger Muffins</a></li>
-					<li>Dinner: <a href="https://ketodash.com/recipe/crispy-skin-slow-roasted-pork-shoulder">Crispy Skin Slow Roasted Pork Shoulder</a>, <a href="https://ketodash.com/recipe/au-gratin-brussels-sprouts">Au Gratin Brussels Sprouts</a></li>
+					<li>Breakfast: <a href="/recipe/bacon-hash">Bacon Hash</a></li>
+					<li>Lunch: <a href="/recipe/cheeseburger-muffins">Cheeseburger Muffins</a></li>
+					<li>Dinner: <a href="/recipe/crispy-skin-slow-roasted-pork-shoulder">Crispy Skin Slow Roasted Pork Shoulder</a>, <a href="/recipe/au-gratin-brussels-sprouts">Au Gratin Brussels Sprouts</a></li>
 				</ul>
 			</div>
 			<div class="col-12 col-lg-4">
