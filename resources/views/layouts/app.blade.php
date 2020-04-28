@@ -59,9 +59,9 @@
                             <li class="nav-item">
                                 <a class="nav-link @if(Request::is('recipe*')) active @endif" href="/recipe">Recipes</a>
                             </li>
-                            <li class="nav-item">
+                            <!--<li class="nav-item">
                                 <a class="nav-link @if(Request::is('join*')) active @endif" href="/join">Join the Challenge</a>
-                            </li>
+                            </li>-->
                         @else
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle @if(Request::is('challenge*')) active @endif" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" href="#">Challenges</a>
