@@ -122,7 +122,7 @@
             @yield('content')
         </main>
         @guest
-        <section class="content announcement d-print-none">
+        <!--<section class="content announcement d-print-none">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -131,7 +131,7 @@
                     </div>
                 </div>
             </div>    
-        </section>
+        </section>-->
         @endguest
         <footer>
             <div class="container">
